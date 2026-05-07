@@ -1,0 +1,22 @@
+# Build artifacts
+*.zip
+*.tar.gz
+*.tgz
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python (if anyone runs scripts here)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log

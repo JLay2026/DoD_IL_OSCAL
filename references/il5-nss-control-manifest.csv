@@ -1,0 +1,579 @@
+srg_id,oscal_id,family,name,leveraged_from_fedramp_high,in_nist_high_baseline,profile_group,dod_param_present
+AC-1,ac-1,ACCESS CONTROL,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+AC-2,ac-2,ACCESS CONTROL,Account Management,Yes,Yes,baseline-from-nist-high,No
+AC-2(1),ac-2.1,ACCESS CONTROL,Account Management | Automated System Account Management,Yes,Yes,baseline-from-nist-high,No
+AC-2(2),ac-2.2,ACCESS CONTROL,Account Management | Automated Temporary and Emergency Account Management,Yes,Yes,baseline-from-nist-high,No
+AC-2(3),ac-2.3,ACCESS CONTROL,Account Management | Disable Accounts,Yes,Yes,baseline-from-nist-high,No
+AC-2(4),ac-2.4,ACCESS CONTROL,Account Management | Automated Audit Actions,Yes,Yes,baseline-from-nist-high,No
+AC-2(5),ac-2.5,ACCESS CONTROL,Account Management | Inactivity Logout,Yes,Yes,baseline-from-nist-high,No
+AC-2(7),ac-2.7,ACCESS CONTROL,Account Management | Privileged User Accounts,Yes,No,il5-fedramp-plus-additions,No
+AC-2(9),ac-2.9,ACCESS CONTROL,Account Management | Restrictions on Use of Shared and Group Accounts,Yes,No,il5-fedramp-plus-additions,No
+AC-2(11),ac-2.11,ACCESS CONTROL,Account Management | Usage Conditions,Yes,Yes,baseline-from-nist-high,No
+AC-2(12),ac-2.12,ACCESS CONTROL,Account Management | Account Monitoring for Atypical Usage,Yes,Yes,baseline-from-nist-high,No
+AC-2(13),ac-2.13,ACCESS CONTROL,Account Management | Disable Accounts for High-risk Individuals,Yes,Yes,baseline-from-nist-high,No
+AC-3,ac-3,ACCESS CONTROL,Access Enforcement,Yes,Yes,baseline-from-nist-high,No
+AC-3(4),ac-3.4,ACCESS CONTROL,Access Enforcement | Discretionary Access Control,No,No,il5-nss-overlay,No
+AC-4,ac-4,ACCESS CONTROL,Information Flow Enforcement,Yes,Yes,baseline-from-nist-high,No
+AC-4(4),ac-4.4,ACCESS CONTROL,Information Flow Enforcement | Flow Control of Encrypted Information,Yes,Yes,baseline-from-nist-high,No
+AC-4(21),ac-4.21,ACCESS CONTROL,Information Flow Enforcement | Physical or Logical Separation of Information Flows,Yes,No,il5-fedramp-plus-additions,No
+AC-5,ac-5,ACCESS CONTROL,Separation of Duties,Yes,Yes,baseline-from-nist-high,No
+AC-6,ac-6,ACCESS CONTROL,Least Privilege,Yes,Yes,baseline-from-nist-high,No
+AC-6(1),ac-6.1,ACCESS CONTROL,Least Privilege | Authorize Access to Security Functions,Yes,Yes,baseline-from-nist-high,No
+AC-6(2),ac-6.2,ACCESS CONTROL,Least Privilege | Non-privileged Access for Nonsecurity Functions,Yes,Yes,baseline-from-nist-high,No
+AC-6(3),ac-6.3,ACCESS CONTROL,Least Privilege | Network Access to Privileged Commands,Yes,Yes,baseline-from-nist-high,No
+AC-6(5),ac-6.5,ACCESS CONTROL,Least Privilege | Privileged Accounts,Yes,Yes,baseline-from-nist-high,No
+AC-6(7),ac-6.7,ACCESS CONTROL,Least Privilege | Review of User Privileges,Yes,Yes,baseline-from-nist-high,No
+AC-6(8),ac-6.8,ACCESS CONTROL,Least Privilege | Privilege Levels for Code Execution,Yes,No,il5-fedramp-plus-additions,No
+AC-6(9),ac-6.9,ACCESS CONTROL,Least Privilege | Log Use of Privileged Functions,Yes,Yes,baseline-from-nist-high,No
+AC-6(10),ac-6.10,ACCESS CONTROL,Least Privilege | Prohibit Non-privileged Users from Executing Privileged Functions,Yes,Yes,baseline-from-nist-high,No
+AC-7,ac-7,ACCESS CONTROL,Unsuccessful Logon Attempts,No,Yes,il5-nss-overlay,Yes
+AC-8,ac-8,ACCESS CONTROL,System Use Notification,Yes,Yes,baseline-from-nist-high,No
+AC-10,ac-10,ACCESS CONTROL,Concurrent Session Control,Yes,Yes,baseline-from-nist-high,No
+AC-11,ac-11,ACCESS CONTROL,Device Lock,Yes,Yes,baseline-from-nist-high,No
+AC-11(1),ac-11.1,ACCESS CONTROL,Device Lock | Pattern-hiding Displays,Yes,Yes,baseline-from-nist-high,No
+AC-12,ac-12,ACCESS CONTROL,Session Termination,Yes,Yes,baseline-from-nist-high,No
+AC-12(1),ac-12.1,ACCESS CONTROL,Session Termination | User-initiated Logouts,No,No,il5-nss-overlay,No
+AC-12(2),ac-12.2,ACCESS CONTROL,Session Termination | Termination Message,No,No,il5-nss-overlay,No
+AC-14,ac-14,ACCESS CONTROL,Permitted Actions Without Identification or Authentication,Yes,Yes,baseline-from-nist-high,No
+AC-16,ac-16,ACCESS CONTROL,Security and Privacy Attributes,No,No,il5-nss-overlay,No
+AC-16(6),ac-16.6,ACCESS CONTROL,Security and Privacy Attributes | Maintenance of Attribute Association,No,No,il5-nss-overlay,No
+AC-16(7),ac-16.7,ACCESS CONTROL,Security and Privacy Attributes | Consistent Attribute Interpretation,No,No,il5-nss-overlay,No
+AC-17,ac-17,ACCESS CONTROL,Remote Access,Yes,Yes,baseline-from-nist-high,No
+AC-17(1),ac-17.1,ACCESS CONTROL,Remote Access | Monitoring and Control,Yes,Yes,baseline-from-nist-high,No
+AC-17(2),ac-17.2,ACCESS CONTROL,Remote Access | Protection of Confidentiality and Integrity Using Encryption,Yes,Yes,baseline-from-nist-high,No
+AC-17(3),ac-17.3,ACCESS CONTROL,Remote Access | Managed Access Control Points,Yes,Yes,baseline-from-nist-high,No
+AC-17(4),ac-17.4,ACCESS CONTROL,Remote Access | Privileged Commands and Access,Yes,Yes,baseline-from-nist-high,No
+AC-17(6),ac-17.6,ACCESS CONTROL,Remote Access | Protection of Mechanism Information,No,No,il5-nss-overlay,No
+AC-17(9),ac-17.9,ACCESS CONTROL,Remote Access | Disconnect or Disable Access,No,No,il5-nss-overlay,No
+AC-17(10),ac-17.10,ACCESS CONTROL,Remote Access | Authenticate Remote Commands,No,No,il5-nss-overlay,No
+AC-18,ac-18,ACCESS CONTROL,Wireless Access,Yes,Yes,baseline-from-nist-high,No
+AC-18(1),ac-18.1,ACCESS CONTROL,Wireless Access | Authentication and Encryption,Yes,Yes,baseline-from-nist-high,No
+AC-18(3),ac-18.3,ACCESS CONTROL,Wireless Access | Disable Wireless Networking,Yes,Yes,baseline-from-nist-high,No
+AC-18(4),ac-18.4,ACCESS CONTROL,Wireless Access | Restrict Configurations by Users,Yes,Yes,baseline-from-nist-high,No
+AC-18(5),ac-18.5,ACCESS CONTROL,Wireless Access | Antennas and Transmission Power Levels,Yes,Yes,baseline-from-nist-high,No
+AC-19,ac-19,ACCESS CONTROL,Access Control for Mobile Devices,Yes,Yes,baseline-from-nist-high,No
+AC-19(5),ac-19.5,ACCESS CONTROL,Access Control for Mobile Devices | Full Device or Container-based Encryption,Yes,Yes,baseline-from-nist-high,No
+AC-20,ac-20,ACCESS CONTROL,Use of External Systems,Yes,Yes,baseline-from-nist-high,No
+AC-20(1),ac-20.1,ACCESS CONTROL,Use of External Systems | Limits on Authorized Use,Yes,Yes,baseline-from-nist-high,No
+AC-20(2),ac-20.2,ACCESS CONTROL,Use of External Systems | Portable Storage Devices — Restricted Use,Yes,Yes,baseline-from-nist-high,No
+AC-20(3),ac-20.3,ACCESS CONTROL,Use of External Systems | Non-organizationally Owned Systems — Restricted Use,No,No,il5-nss-overlay,No
+AC-21,ac-21,ACCESS CONTROL,Information Sharing,Yes,Yes,baseline-from-nist-high,No
+AC-22,ac-22,ACCESS CONTROL,Publicly Accessible Content,Yes,Yes,baseline-from-nist-high,No
+AC-23,ac-23,ACCESS CONTROL,Data Mining Protection,No,No,il5-nss-overlay,No
+AT-1,at-1,AWARENESS AND TRAINING,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+AT-2,at-2,AWARENESS AND TRAINING,Literacy Training and Awareness,Yes,Yes,baseline-from-nist-high,No
+AT-2(2),at-2.2,AWARENESS AND TRAINING,Literacy Training and Awareness | Insider Threat,Yes,Yes,baseline-from-nist-high,No
+AT-2(3),at-2.3,AWARENESS AND TRAINING,Literacy Training and Awareness | Social Engineering and Mining,Yes,Yes,baseline-from-nist-high,No
+AT-2(4),at-2.4,AWARENESS AND TRAINING,Literacy Training and Awareness | Suspicious Communications and Anomalous System Behavior,No,No,il5-nss-overlay,No
+AT-2(5),at-2.5,AWARENESS AND TRAINING,Literacy Training and Awareness | Advanced Persistent Threat,No,No,il5-nss-overlay,No
+AT-2(6),at-2.6,AWARENESS AND TRAINING,Literacy Training and Awareness | Cyber Threat Environment,No,No,il5-nss-overlay,No
+AT-3,at-3,AWARENESS AND TRAINING,Role-based Training,Yes,Yes,baseline-from-nist-high,No
+AT-3(1),at-3.1,AWARENESS AND TRAINING,Role-based Training | Environmental Controls,No,No,il5-nss-overlay,No
+AT-3(2),at-3.2,AWARENESS AND TRAINING,Role-based Training | Physical Security Controls,No,No,il5-nss-overlay,No
+AT-4,at-4,AWARENESS AND TRAINING,Training Records,Yes,Yes,baseline-from-nist-high,No
+AT-6,at-6,AWARENESS AND TRAINING,Training Feedback,No,No,il5-nss-overlay,No
+AU-1,au-1,AUDIT AND ACCOUNTABILITY,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+AU-2,au-2,AUDIT AND ACCOUNTABILITY,Event Logging,Yes,Yes,baseline-from-nist-high,No
+AU-3,au-3,AUDIT AND ACCOUNTABILITY,Content of Audit Records,Yes,Yes,baseline-from-nist-high,No
+AU-3(1),au-3.1,AUDIT AND ACCOUNTABILITY,Content of Audit Records | Additional Audit Information,Yes,Yes,baseline-from-nist-high,No
+AU-4,au-4,AUDIT AND ACCOUNTABILITY,Audit Log Storage Capacity,Yes,Yes,baseline-from-nist-high,No
+AU-5,au-5,AUDIT AND ACCOUNTABILITY,Response to Audit Logging Process Failures,Yes,Yes,baseline-from-nist-high,No
+AU-5(1),au-5.1,AUDIT AND ACCOUNTABILITY,Response to Audit Logging Process Failures | Storage Capacity Warning,Yes,Yes,baseline-from-nist-high,Yes
+AU-5(2),au-5.2,AUDIT AND ACCOUNTABILITY,Response to Audit Logging Process Failures | Real-time Alerts,Yes,Yes,baseline-from-nist-high,No
+AU-6,au-6,AUDIT AND ACCOUNTABILITY,"Audit Record Review, Analysis, and Reporting",Yes,Yes,baseline-from-nist-high,No
+AU-6(1),au-6.1,AUDIT AND ACCOUNTABILITY,"Audit Record Review, Analysis, and Reporting | Automated Process Integration",Yes,Yes,baseline-from-nist-high,No
+AU-6(3),au-6.3,AUDIT AND ACCOUNTABILITY,"Audit Record Review, Analysis, and Reporting | Correlate Audit Record Repositories",Yes,Yes,baseline-from-nist-high,No
+AU-6(4),au-6.4,AUDIT AND ACCOUNTABILITY,"Audit Record Review, Analysis, and Reporting | Central Review and Analysis",Yes,No,il5-fedramp-plus-additions,No
+AU-6(5),au-6.5,AUDIT AND ACCOUNTABILITY,"Audit Record Review, Analysis, and Reporting | Integrated Analysis of Audit Records",Yes,Yes,baseline-from-nist-high,No
+AU-6(6),au-6.6,AUDIT AND ACCOUNTABILITY,"Audit Record Review, Analysis, and Reporting | Correlation with Physical Monitoring",Yes,Yes,baseline-from-nist-high,No
+AU-6(7),au-6.7,AUDIT AND ACCOUNTABILITY,"Audit Record Review, Analysis, and Reporting | Permitted Actions",Yes,No,il5-fedramp-plus-additions,No
+AU-7,au-7,AUDIT AND ACCOUNTABILITY,Audit Record Reduction and Report Generation,Yes,Yes,baseline-from-nist-high,No
+AU-7(1),au-7.1,AUDIT AND ACCOUNTABILITY,Audit Record Reduction and Report Generation | Automatic Processing,Yes,Yes,baseline-from-nist-high,No
+AU-8,au-8,AUDIT AND ACCOUNTABILITY,Time Stamps,Yes,Yes,baseline-from-nist-high,No
+AU-9,au-9,AUDIT AND ACCOUNTABILITY,Protection of Audit Information,Yes,Yes,baseline-from-nist-high,No
+AU-9(2),au-9.2,AUDIT AND ACCOUNTABILITY,Protection of Audit Information | Store on Separate Physical Systems or Components,Yes,Yes,baseline-from-nist-high,No
+AU-9(3),au-9.3,AUDIT AND ACCOUNTABILITY,Protection of Audit Information | Cryptographic Protection,Yes,Yes,baseline-from-nist-high,No
+AU-9(4),au-9.4,AUDIT AND ACCOUNTABILITY,Protection of Audit Information | Access by Subset of Privileged Users,Yes,Yes,baseline-from-nist-high,No
+AU-9(5),au-9.5,AUDIT AND ACCOUNTABILITY,Protection of Audit Information | Dual Authorization,No,No,il5-nss-overlay,No
+AU-9(6),au-9.6,AUDIT AND ACCOUNTABILITY,Protection of Audit Information | Read-only Access,No,No,il5-nss-overlay,No
+AU-10,au-10,AUDIT AND ACCOUNTABILITY,Non-repudiation,Yes,Yes,baseline-from-nist-high,No
+AU-11,au-11,AUDIT AND ACCOUNTABILITY,Audit Record Retention,Yes,Yes,baseline-from-nist-high,No
+AU-12,au-12,AUDIT AND ACCOUNTABILITY,Audit Record Generation,Yes,Yes,baseline-from-nist-high,No
+AU-12(1),au-12.1,AUDIT AND ACCOUNTABILITY,Audit Record Generation | System-wide and Time-correlated Audit Trail,Yes,Yes,baseline-from-nist-high,No
+AU-12(3),au-12.3,AUDIT AND ACCOUNTABILITY,Audit Record Generation | Changes by Authorized Individuals,Yes,Yes,baseline-from-nist-high,No
+AU-14,au-14,AUDIT AND ACCOUNTABILITY,Session Audit,No,No,il5-nss-overlay,No
+AU-14(1),au-14.1,AUDIT AND ACCOUNTABILITY,Session Audit | System Start-up,No,No,il5-nss-overlay,No
+AU-14(3),au-14.3,AUDIT AND ACCOUNTABILITY,Session Audit | Remote Viewing and Listening,No,No,il5-nss-overlay,No
+AU-16,au-16,AUDIT AND ACCOUNTABILITY,Cross-organizational Audit Logging,No,No,il5-nss-overlay,No
+AU-16(1),au-16.1,AUDIT AND ACCOUNTABILITY,Cross-organizational Audit Logging | Identity Preservation,No,No,il5-nss-overlay,No
+AU-16(2),au-16.2,AUDIT AND ACCOUNTABILITY,Cross-organizational Audit Logging | Sharing of Audit Information,No,No,il5-nss-overlay,No
+CA-1,ca-1,SECURITY ASSESSMENT AND AUTHORIZATION,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+CA-2,ca-2,SECURITY ASSESSMENT AND AUTHORIZATION,Control Assessments,Yes,Yes,baseline-from-nist-high,No
+CA-2(1),ca-2.1,SECURITY ASSESSMENT AND AUTHORIZATION,Control Assessments | Independent Assessors,Yes,Yes,baseline-from-nist-high,No
+CA-2(2),ca-2.2,SECURITY ASSESSMENT AND AUTHORIZATION,Control Assessments | Specialized Assessments,Yes,Yes,baseline-from-nist-high,No
+CA-2(3),ca-2.3,SECURITY ASSESSMENT AND AUTHORIZATION,Control Assessments | Leveraging Results from External Organizations,Yes,No,il5-fedramp-plus-additions,No
+CA-3,ca-3,SECURITY ASSESSMENT AND AUTHORIZATION,Information Exchange,Yes,Yes,baseline-from-nist-high,No
+CA-3(6),ca-3.6,SECURITY ASSESSMENT AND AUTHORIZATION,Information Exchange | Transfer Authorizations,Yes,Yes,baseline-from-nist-high,No
+CA-5,ca-5,SECURITY ASSESSMENT AND AUTHORIZATION,Plan of Action and Milestones,Yes,Yes,baseline-from-nist-high,No
+CA-6,ca-6,SECURITY ASSESSMENT AND AUTHORIZATION,Authorization,Yes,Yes,baseline-from-nist-high,No
+CA-7,ca-7,SECURITY ASSESSMENT AND AUTHORIZATION,Continuous Monitoring,Yes,Yes,baseline-from-nist-high,No
+CA-7(1),ca-7.1,SECURITY ASSESSMENT AND AUTHORIZATION,Continuous Monitoring | Independent Assessment,Yes,Yes,baseline-from-nist-high,No
+CA-7(3),ca-7.3,SECURITY ASSESSMENT AND AUTHORIZATION,Continuous Monitoring | Trend Analyses,No,No,il5-nss-overlay,No
+CA-7(4),ca-7.4,SECURITY ASSESSMENT AND AUTHORIZATION,Continuous Monitoring | Risk Monitoring,Yes,Yes,baseline-from-nist-high,No
+CA-7(5),ca-7.5,SECURITY ASSESSMENT AND AUTHORIZATION,Continuous Monitoring | Consistency Analysis,No,No,il5-nss-overlay,No
+CA-7(6),ca-7.6,SECURITY ASSESSMENT AND AUTHORIZATION,Continuous Monitoring | Automation Support for Monitoring,No,No,il5-nss-overlay,No
+CA-8,ca-8,SECURITY ASSESSMENT AND AUTHORIZATION,Penetration Testing,Yes,Yes,baseline-from-nist-high,No
+CA-8(1),ca-8.1,SECURITY ASSESSMENT AND AUTHORIZATION,Penetration Testing | Independent Penetration Testing Agent or Team,Yes,Yes,baseline-from-nist-high,No
+CA-8(2),ca-8.2,SECURITY ASSESSMENT AND AUTHORIZATION,Penetration Testing | Red Team Exercises,Yes,No,il5-fedramp-plus-additions,No
+CA-8(3),ca-8.3,SECURITY ASSESSMENT AND AUTHORIZATION,Penetration Testing | Facility Penetration Testing,No,No,il5-nss-overlay,No
+CA-9,ca-9,SECURITY ASSESSMENT AND AUTHORIZATION,Internal System Connections,Yes,Yes,baseline-from-nist-high,No
+CM-1,cm-1,CONFIGURATION MANAGEMENT,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+CM-2,cm-2,CONFIGURATION MANAGEMENT,Baseline Configuration,Yes,Yes,baseline-from-nist-high,No
+CM-2(2),cm-2.2,CONFIGURATION MANAGEMENT,Baseline Configuration | Automation Support for Accuracy and Currency,Yes,Yes,baseline-from-nist-high,No
+CM-2(3),cm-2.3,CONFIGURATION MANAGEMENT,Baseline Configuration | Retention of Previous Configurations,Yes,Yes,baseline-from-nist-high,No
+CM-2(7),cm-2.7,CONFIGURATION MANAGEMENT,Baseline Configuration | Configure Systems and Components for High-risk Areas,Yes,Yes,baseline-from-nist-high,No
+CM-3,cm-3,CONFIGURATION MANAGEMENT,Configuration Change Control,Yes,Yes,baseline-from-nist-high,No
+CM-3(1),cm-3.1,CONFIGURATION MANAGEMENT,"Configuration Change Control | Automated Documentation, Notification, and Prohibition of Changes",Yes,Yes,baseline-from-nist-high,No
+CM-3(2),cm-3.2,CONFIGURATION MANAGEMENT,"Configuration Change Control | Testing, Validation, and Documentation of Changes",Yes,Yes,baseline-from-nist-high,No
+CM-3(4),cm-3.4,CONFIGURATION MANAGEMENT,Configuration Change Control | Security and Privacy Representatives,Yes,Yes,baseline-from-nist-high,No
+CM-3(5),cm-3.5,CONFIGURATION MANAGEMENT,Configuration Change Control | Automated Security Response,No,No,il5-nss-overlay,No
+CM-3(6),cm-3.6,CONFIGURATION MANAGEMENT,Configuration Change Control | Cryptography Management,Yes,Yes,baseline-from-nist-high,No
+CM-3(7),cm-3.7,CONFIGURATION MANAGEMENT,Configuration Change Control | Review System Changes,No,No,il5-nss-overlay,No
+CM-3(8),cm-3.8,CONFIGURATION MANAGEMENT,Configuration Change Control | Prevent or Restrict Configuration Changes,No,No,il5-nss-overlay,No
+CM-4,cm-4,CONFIGURATION MANAGEMENT,Impact Analyses,Yes,Yes,baseline-from-nist-high,No
+CM-4(1),cm-4.1,CONFIGURATION MANAGEMENT,Impact Analyses | Separate Test Environments,Yes,Yes,baseline-from-nist-high,No
+CM-4(2),cm-4.2,CONFIGURATION MANAGEMENT,Impact Analyses | Verification of Controls,Yes,Yes,baseline-from-nist-high,No
+CM-5,cm-5,CONFIGURATION MANAGEMENT,Access Restrictions for Change,Yes,Yes,baseline-from-nist-high,No
+CM-5(1),cm-5.1,CONFIGURATION MANAGEMENT,Access Restrictions for Change | Automated Access Enforcement and Audit Records,Yes,Yes,baseline-from-nist-high,No
+CM-5(5),cm-5.5,CONFIGURATION MANAGEMENT,Access Restrictions for Change | Privilege Limitation for Production and Operation,Yes,No,il5-fedramp-plus-additions,No
+CM-5(6),cm-5.6,CONFIGURATION MANAGEMENT,Access Restrictions for Change | Limit Library Privileges,No,No,il5-nss-overlay,No
+CM-6,cm-6,CONFIGURATION MANAGEMENT,Configuration Settings,Yes,Yes,baseline-from-nist-high,No
+CM-6(1),cm-6.1,CONFIGURATION MANAGEMENT,"Configuration Settings | Automated Management, Application, and Verification",Yes,Yes,baseline-from-nist-high,No
+CM-6(2),cm-6.2,CONFIGURATION MANAGEMENT,Configuration Settings | Respond to Unauthorized Changes,Yes,Yes,baseline-from-nist-high,No
+CM-7,cm-7,CONFIGURATION MANAGEMENT,Least Functionality,Yes,Yes,baseline-from-nist-high,No
+CM-7(1),cm-7.1,CONFIGURATION MANAGEMENT,Least Functionality | Periodic Review,Yes,Yes,baseline-from-nist-high,No
+CM-7(2),cm-7.2,CONFIGURATION MANAGEMENT,Least Functionality | Prevent Program Execution,Yes,Yes,baseline-from-nist-high,No
+CM-7(3),cm-7.3,CONFIGURATION MANAGEMENT,Least Functionality | Registration Compliance,No,No,il5-nss-overlay,No
+CM-7(5),cm-7.5,CONFIGURATION MANAGEMENT,Least Functionality | Authorized Software — Allow-by-exception,No,Yes,il5-nss-overlay,Yes
+CM-7(8),cm-7.8,CONFIGURATION MANAGEMENT,Least Functionality | Binary or Machine Executable Code,No,No,il5-nss-overlay,No
+CM-7(9),cm-7.9,CONFIGURATION MANAGEMENT,Least Functionality | Prohibiting The Use of Unauthorized Hardware,No,No,il5-nss-overlay,No
+CM-8,cm-8,CONFIGURATION MANAGEMENT,System Component Inventory,Yes,Yes,baseline-from-nist-high,No
+CM-8(1),cm-8.1,CONFIGURATION MANAGEMENT,System Component Inventory | Updates During Installation and Removal,Yes,Yes,baseline-from-nist-high,No
+CM-8(2),cm-8.2,CONFIGURATION MANAGEMENT,System Component Inventory | Automated Maintenance,Yes,Yes,baseline-from-nist-high,No
+CM-8(3),cm-8.3,CONFIGURATION MANAGEMENT,System Component Inventory | Automated Unauthorized Component Detection,Yes,Yes,baseline-from-nist-high,No
+CM-8(4),cm-8.4,CONFIGURATION MANAGEMENT,System Component Inventory | Accountability Information,Yes,Yes,baseline-from-nist-high,No
+CM-9,cm-9,CONFIGURATION MANAGEMENT,Configuration Management Plan,Yes,Yes,baseline-from-nist-high,No
+CM-10,cm-10,CONFIGURATION MANAGEMENT,Software Usage Restrictions,Yes,Yes,baseline-from-nist-high,No
+CM-10(1),cm-10.1,CONFIGURATION MANAGEMENT,Software Usage Restrictions | Open-source Software,No,No,il5-nss-overlay,No
+CM-11,cm-11,CONFIGURATION MANAGEMENT,User-installed Software,Yes,Yes,baseline-from-nist-high,No
+CM-11(2),cm-11.2,CONFIGURATION MANAGEMENT,User-installed Software | Software Installation with Privileged Status,No,No,il5-nss-overlay,No
+CM-12,cm-12,CONFIGURATION MANAGEMENT,Information Location,Yes,Yes,baseline-from-nist-high,No
+CM-12(1),cm-12.1,CONFIGURATION MANAGEMENT,Information Location | Automated Tools to Support Information Location,Yes,Yes,baseline-from-nist-high,No
+CM-14,cm-14,CONFIGURATION MANAGEMENT,Signed Components,Yes,No,il5-fedramp-plus-additions,No
+CP-1,cp-1,CONTINGENCY PLANNING,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+CP-2,cp-2,CONTINGENCY PLANNING,Contingency Plan,Yes,Yes,baseline-from-nist-high,No
+CP-2(1),cp-2.1,CONTINGENCY PLANNING,Contingency Plan | Coordinate with Related Plans,Yes,Yes,baseline-from-nist-high,No
+CP-2(2),cp-2.2,CONTINGENCY PLANNING,Contingency Plan | Capacity Planning,Yes,Yes,baseline-from-nist-high,No
+CP-2(3),cp-2.3,CONTINGENCY PLANNING,Contingency Plan | Resume Mission and Business Functions,Yes,Yes,baseline-from-nist-high,No
+CP-2(5),cp-2.5,CONTINGENCY PLANNING,Contingency Plan | Continue Mission and Business Functions,Yes,Yes,baseline-from-nist-high,No
+CP-2(8),cp-2.8,CONTINGENCY PLANNING,Contingency Plan | Identify Critical Assets,Yes,Yes,baseline-from-nist-high,No
+CP-3,cp-3,CONTINGENCY PLANNING,Contingency Training,Yes,Yes,baseline-from-nist-high,No
+CP-3(1),cp-3.1,CONTINGENCY PLANNING,Contingency Training | Simulated Events,Yes,Yes,baseline-from-nist-high,No
+CP-4,cp-4,CONTINGENCY PLANNING,Contingency Plan Testing,Yes,Yes,baseline-from-nist-high,No
+CP-4(1),cp-4.1,CONTINGENCY PLANNING,Contingency Plan Testing | Coordinate with Related Plans,Yes,Yes,baseline-from-nist-high,No
+CP-4(2),cp-4.2,CONTINGENCY PLANNING,Contingency Plan Testing | Alternate Processing Site,Yes,Yes,baseline-from-nist-high,No
+CP-6,cp-6,CONTINGENCY PLANNING,Alternate Storage Site,Yes,Yes,baseline-from-nist-high,No
+CP-6(1),cp-6.1,CONTINGENCY PLANNING,Alternate Storage Site | Separation from Primary Site,Yes,Yes,baseline-from-nist-high,No
+CP-6(2),cp-6.2,CONTINGENCY PLANNING,Alternate Storage Site | Recovery Time and Recovery Point Objectives,Yes,Yes,baseline-from-nist-high,No
+CP-6(3),cp-6.3,CONTINGENCY PLANNING,Alternate Storage Site | Accessibility,Yes,Yes,baseline-from-nist-high,No
+CP-7,cp-7,CONTINGENCY PLANNING,Alternate Processing Site,Yes,Yes,baseline-from-nist-high,No
+CP-7(1),cp-7.1,CONTINGENCY PLANNING,Alternate Processing Site | Separation from Primary Site,Yes,Yes,baseline-from-nist-high,No
+CP-7(2),cp-7.2,CONTINGENCY PLANNING,Alternate Processing Site | Accessibility,Yes,Yes,baseline-from-nist-high,No
+CP-7(3),cp-7.3,CONTINGENCY PLANNING,Alternate Processing Site | Priority of Service,Yes,Yes,baseline-from-nist-high,No
+CP-7(4),cp-7.4,CONTINGENCY PLANNING,Alternate Processing Site | Preparation for Use,Yes,Yes,baseline-from-nist-high,No
+CP-8,cp-8,CONTINGENCY PLANNING,Telecommunications Services,Yes,Yes,baseline-from-nist-high,No
+CP-8(1),cp-8.1,CONTINGENCY PLANNING,Telecommunications Services | Priority of Service Provisions,Yes,Yes,baseline-from-nist-high,No
+CP-8(2),cp-8.2,CONTINGENCY PLANNING,Telecommunications Services | Single Points of Failure,Yes,Yes,baseline-from-nist-high,No
+CP-8(3),cp-8.3,CONTINGENCY PLANNING,Telecommunications Services | Separation of Primary and Alternate Providers,Yes,Yes,baseline-from-nist-high,No
+CP-8(4),cp-8.4,CONTINGENCY PLANNING,Telecommunications Services | Provider Contingency Plan,Yes,Yes,baseline-from-nist-high,No
+CP-9,cp-9,CONTINGENCY PLANNING,System Backup,Yes,Yes,baseline-from-nist-high,No
+CP-9(1),cp-9.1,CONTINGENCY PLANNING,System Backup | Testing for Reliability and Integrity,Yes,Yes,baseline-from-nist-high,No
+CP-9(2),cp-9.2,CONTINGENCY PLANNING,System Backup | Test Restoration Using Sampling,Yes,Yes,baseline-from-nist-high,No
+CP-9(3),cp-9.3,CONTINGENCY PLANNING,System Backup | Separate Storage for Critical Information,Yes,Yes,baseline-from-nist-high,No
+CP-9(5),cp-9.5,CONTINGENCY PLANNING,System Backup | Transfer to Alternate Storage Site,Yes,Yes,baseline-from-nist-high,No
+CP-9(8),cp-9.8,CONTINGENCY PLANNING,System Backup | Cryptographic Protection,Yes,Yes,baseline-from-nist-high,No
+CP-10,cp-10,CONTINGENCY PLANNING,System Recovery and Reconstitution,Yes,Yes,baseline-from-nist-high,No
+CP-10(2),cp-10.2,CONTINGENCY PLANNING,System Recovery and Reconstitution | Transaction Recovery,Yes,Yes,baseline-from-nist-high,No
+CP-10(4),cp-10.4,CONTINGENCY PLANNING,System Recovery and Reconstitution | Restore Within Time Period,Yes,Yes,baseline-from-nist-high,No
+IA-1,ia-1,IDENTIFICATION AND AUTHENTICATION,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+IA-2,ia-2,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (organizational Users),Yes,Yes,baseline-from-nist-high,No
+IA-2(1),ia-2.1,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (organizational Users) | Multi-factor Authentication to Privileged Accounts,Yes,Yes,baseline-from-nist-high,No
+IA-2(2),ia-2.2,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (organizational Users) | Multi-factor Authentication to Non-privileged Accounts,Yes,Yes,baseline-from-nist-high,No
+IA-2(5),ia-2.5,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (organizational Users) | Individual Authentication with Group Authentication,Yes,Yes,baseline-from-nist-high,No
+IA-2(6),ia-2.6,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (organizational Users) | Access to Accounts —separate Device,Yes,No,il5-fedramp-plus-additions,No
+IA-2(8),ia-2.8,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (organizational Users) | Access to Accounts — Replay Resistant,Yes,Yes,baseline-from-nist-high,No
+IA-2(12),ia-2.12,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (organizational Users) | Acceptance of PIV Credentials,Yes,Yes,baseline-from-nist-high,No
+IA-3,ia-3,IDENTIFICATION AND AUTHENTICATION,Device Identification and Authentication,Yes,Yes,baseline-from-nist-high,No
+IA-3(1),ia-3.1,IDENTIFICATION AND AUTHENTICATION,Device Identification and Authentication | Cryptographic Bidirectional Authentication,No,No,il5-nss-overlay,No
+IA-4,ia-4,IDENTIFICATION AND AUTHENTICATION,Identifier Management,Yes,Yes,baseline-from-nist-high,No
+IA-4(4),ia-4.4,IDENTIFICATION AND AUTHENTICATION,Identifier Management | Identify User Status,Yes,Yes,baseline-from-nist-high,No
+IA-4(9),ia-4.9,IDENTIFICATION AND AUTHENTICATION,Identifier Management | Attribute Maintenance and Protection,No,No,il5-nss-overlay,No
+IA-5,ia-5,IDENTIFICATION AND AUTHENTICATION,Authenticator Management,Yes,Yes,baseline-from-nist-high,No
+IA-5(1),ia-5.1,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | Password-based Authentication,No,Yes,il5-nss-overlay,Yes
+IA-5(2),ia-5.2,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | Public Key-based Authentication,Yes,Yes,baseline-from-nist-high,No
+IA-5(6),ia-5.6,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | Protection of Authenticators,Yes,Yes,baseline-from-nist-high,No
+IA-5(7),ia-5.7,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | No Embedded Unencrypted Static Authenticators,Yes,No,il5-fedramp-plus-additions,No
+IA-5(8),ia-5.8,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | Multiple System Accounts,Yes,No,il5-fedramp-plus-additions,No
+IA-5(13),ia-5.13,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | Expiration of Cached Authenticators,Yes,No,il5-fedramp-plus-additions,No
+IA-5(14),ia-5.14,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | Managing Content of PKI Trust Stores,No,No,il5-nss-overlay,No
+IA-5(16),ia-5.16,IDENTIFICATION AND AUTHENTICATION,Authenticator Management | In-person or Trusted External Party Authenticator Issuance,No,No,il5-nss-overlay,No
+IA-6,ia-6,IDENTIFICATION AND AUTHENTICATION,Authentication Feedback,Yes,Yes,baseline-from-nist-high,No
+IA-7,ia-7,IDENTIFICATION AND AUTHENTICATION,Cryptographic Module Authentication,Yes,Yes,baseline-from-nist-high,No
+IA-8,ia-8,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (non-organizational Users),Yes,Yes,baseline-from-nist-high,No
+IA-8(1),ia-8.1,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (non-organizational Users) | Acceptance of PIV Credentials from Other Agencies,Yes,Yes,baseline-from-nist-high,No
+IA-8(2),ia-8.2,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (non-organizational Users) | Acceptance of External Authenticators,Yes,Yes,baseline-from-nist-high,No
+IA-8(4),ia-8.4,IDENTIFICATION AND AUTHENTICATION,Identification and Authentication (non-organizational Users) | Use of Defined Profiles,Yes,Yes,baseline-from-nist-high,No
+IA-9,ia-9,IDENTIFICATION AND AUTHENTICATION,Service Identification and Authentication,No,No,il5-nss-overlay,No
+IA-10,ia-10,IDENTIFICATION AND AUTHENTICATION,Adaptive Authentication,No,No,il5-nss-overlay,No
+IA-11,ia-11,IDENTIFICATION AND AUTHENTICATION,Re-authentication,Yes,Yes,baseline-from-nist-high,No
+IA-12,ia-12,IDENTIFICATION AND AUTHENTICATION,Identity Proofing,Yes,Yes,baseline-from-nist-high,No
+IA-12(1),ia-12.1,IDENTIFICATION AND AUTHENTICATION,Identity Proofing | Supervisor Authorization,No,No,il5-nss-overlay,No
+IA-12(2),ia-12.2,IDENTIFICATION AND AUTHENTICATION,Identity Proofing | Identity Evidence,Yes,Yes,baseline-from-nist-high,No
+IA-12(3),ia-12.3,IDENTIFICATION AND AUTHENTICATION,Identity Proofing | Identity Evidence Validation and Verification,Yes,Yes,baseline-from-nist-high,No
+IA-12(4),ia-12.4,IDENTIFICATION AND AUTHENTICATION,Identity Proofing | In-person Validation and Verification,Yes,Yes,baseline-from-nist-high,No
+IA-12(5),ia-12.5,IDENTIFICATION AND AUTHENTICATION,Identity Proofing | Address Confirmation,Yes,Yes,baseline-from-nist-high,No
+IR-1,ir-1,INCIDENT RESPONSE,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+IR-2,ir-2,INCIDENT RESPONSE,Incident Response Training,Yes,Yes,baseline-from-nist-high,No
+IR-2(1),ir-2.1,INCIDENT RESPONSE,Incident Response Training | Simulated Events,Yes,Yes,baseline-from-nist-high,No
+IR-2(2),ir-2.2,INCIDENT RESPONSE,Incident Response Training | Automated Training Environments,Yes,Yes,baseline-from-nist-high,No
+IR-3,ir-3,INCIDENT RESPONSE,Incident Response Testing,Yes,Yes,baseline-from-nist-high,No
+IR-3(2),ir-3.2,INCIDENT RESPONSE,Incident Response Testing | Coordination with Related Plans,Yes,Yes,baseline-from-nist-high,No
+IR-4,ir-4,INCIDENT RESPONSE,Incident Handling,Yes,Yes,baseline-from-nist-high,No
+IR-4(1),ir-4.1,INCIDENT RESPONSE,Incident Handling | Automated Incident Handling Processes,Yes,Yes,baseline-from-nist-high,No
+IR-4(2),ir-4.2,INCIDENT RESPONSE,Incident Handling | Dynamic Reconfiguration,Yes,No,il5-fedramp-plus-additions,No
+IR-4(3),ir-4.3,INCIDENT RESPONSE,Incident Handling | Continuity of Operations,No,No,il5-nss-overlay,No
+IR-4(4),ir-4.4,INCIDENT RESPONSE,Incident Handling | Information Correlation,Yes,Yes,baseline-from-nist-high,No
+IR-4(6),ir-4.6,INCIDENT RESPONSE,Incident Handling | Insider Threats,Yes,No,il5-fedramp-plus-additions,No
+IR-4(7),ir-4.7,INCIDENT RESPONSE,Incident Handling | Insider Threats — Intra-organization Coordination,No,No,il5-nss-overlay,No
+IR-4(8),ir-4.8,INCIDENT RESPONSE,Incident Handling | Correlation with External Organizations,No,No,il5-nss-overlay,No
+IR-4(10),ir-4.10,INCIDENT RESPONSE,Incident Handling | Supply Chain Coordination,No,No,il5-nss-overlay,No
+IR-4(11),ir-4.11,INCIDENT RESPONSE,Incident Handling | Integrated Incident Response Team,Yes,Yes,baseline-from-nist-high,No
+IR-4(12),ir-4.12,INCIDENT RESPONSE,Incident Handling | Malicious Code and Forensic Analysis,No,No,il5-nss-overlay,No
+IR-4(13),ir-4.13,INCIDENT RESPONSE,Incident Handling | Behavior Analysis,No,No,il5-nss-overlay,No
+IR-4(14),ir-4.14,INCIDENT RESPONSE,Incident Handling | Security Operations Center,No,No,il5-nss-overlay,No
+IR-5,ir-5,INCIDENT RESPONSE,Incident Monitoring,Yes,Yes,baseline-from-nist-high,No
+IR-5(1),ir-5.1,INCIDENT RESPONSE,"Incident Monitoring | Automated Tracking, Data Collection, and Analysis",Yes,Yes,baseline-from-nist-high,No
+IR-6,ir-6,INCIDENT RESPONSE,Incident Reporting,Yes,Yes,baseline-from-nist-high,No
+IR-6(1),ir-6.1,INCIDENT RESPONSE,Incident Reporting | Automated Reporting,Yes,Yes,baseline-from-nist-high,No
+IR-6(2),ir-6.2,INCIDENT RESPONSE,Incident Reporting | Vulnerabilities Related to Incidents,No,No,il5-nss-overlay,No
+IR-6(3),ir-6.3,INCIDENT RESPONSE,Incident Reporting | Supply Chain Coordination,Yes,Yes,baseline-from-nist-high,No
+IR-7,ir-7,INCIDENT RESPONSE,Incident Response Assistance,Yes,Yes,baseline-from-nist-high,No
+IR-7(1),ir-7.1,INCIDENT RESPONSE,Incident Response Assistance | Automation Support for Availability of Information and Support,Yes,Yes,baseline-from-nist-high,No
+IR-7(2),ir-7.2,INCIDENT RESPONSE,Incident Response Assistance | Coordination with External Providers,No,No,il5-nss-overlay,No
+IR-8,ir-8,INCIDENT RESPONSE,Incident Response Plan,Yes,Yes,baseline-from-nist-high,No
+IR-9,ir-9,INCIDENT RESPONSE,Information Spillage Response,Yes,No,il5-fedramp-plus-additions,No
+IR-9(2),ir-9.2,INCIDENT RESPONSE,Information Spillage Response | Training,Yes,No,il5-fedramp-plus-additions,No
+IR-9(3),ir-9.3,INCIDENT RESPONSE,Information Spillage Response | Post-spill Operations,Yes,No,il5-fedramp-plus-additions,No
+IR-9(4),ir-9.4,INCIDENT RESPONSE,Information Spillage Response | Exposure to Unauthorized Personnel,Yes,No,il5-fedramp-plus-additions,No
+MA-1,ma-1,MAINTENANCE,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+MA-2,ma-2,MAINTENANCE,Controlled Maintenance,Yes,Yes,baseline-from-nist-high,No
+MA-2(2),ma-2.2,MAINTENANCE,Controlled Maintenance | Automated Maintenance Activities,Yes,Yes,baseline-from-nist-high,No
+MA-3,ma-3,MAINTENANCE,Maintenance Tools,Yes,Yes,baseline-from-nist-high,No
+MA-3(1),ma-3.1,MAINTENANCE,Maintenance Tools | Inspect Tools,Yes,Yes,baseline-from-nist-high,No
+MA-3(2),ma-3.2,MAINTENANCE,Maintenance Tools | Inspect Media,Yes,Yes,baseline-from-nist-high,No
+MA-3(3),ma-3.3,MAINTENANCE,Maintenance Tools | Prevent Unauthorized Removal,Yes,Yes,baseline-from-nist-high,No
+MA-3(4),ma-3.4,MAINTENANCE,Maintenance Tools | Restricted Tool Use,No,No,il5-nss-overlay,No
+MA-3(5),ma-3.5,MAINTENANCE,Maintenance Tools | Execution with Privilege,No,No,il5-nss-overlay,No
+MA-3(6),ma-3.6,MAINTENANCE,Maintenance Tools | Software Updates and Patches,No,No,il5-nss-overlay,No
+MA-4,ma-4,MAINTENANCE,Nonlocal Maintenance,Yes,Yes,baseline-from-nist-high,No
+MA-4(1),ma-4.1,MAINTENANCE,Nonlocal Maintenance | Logging and Review,No,No,il5-nss-overlay,No
+MA-4(3),ma-4.3,MAINTENANCE,Nonlocal Maintenance | Comparable Security and Sanitization,Yes,Yes,baseline-from-nist-high,No
+MA-4(4),ma-4.4,MAINTENANCE,Nonlocal Maintenance | Authentication and Separation of Maintenance Sessions,No,No,il5-nss-overlay,No
+MA-4(6),ma-4.6,MAINTENANCE,Nonlocal Maintenance | Cryptographic Protection,No,No,il5-nss-overlay,No
+MA-4(7),ma-4.7,MAINTENANCE,Nonlocal Maintenance | Disconnect Verification,No,No,il5-nss-overlay,No
+MA-5,ma-5,MAINTENANCE,Maintenance Personnel,Yes,Yes,baseline-from-nist-high,No
+MA-5(1),ma-5.1,MAINTENANCE,Maintenance Personnel | Individuals Without Appropriate Access,No,Yes,il5-nss-overlay,Yes
+MA-5(5),ma-5.5,MAINTENANCE,Maintenance Personnel | Non-system Maintenance,No,No,il5-nss-overlay,No
+MA-6,ma-6,MAINTENANCE,Timely Maintenance,Yes,Yes,baseline-from-nist-high,Yes
+MP-1,mp-1,MEDIA PROTECTION,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+MP-2,mp-2,MEDIA PROTECTION,Media Access,Yes,Yes,baseline-from-nist-high,No
+MP-3,mp-3,MEDIA PROTECTION,Media Marking,Yes,Yes,baseline-from-nist-high,No
+MP-4,mp-4,MEDIA PROTECTION,Media Storage,Yes,Yes,baseline-from-nist-high,No
+MP-5,mp-5,MEDIA PROTECTION,Media Transport,Yes,Yes,baseline-from-nist-high,No
+MP-6,mp-6,MEDIA PROTECTION,Media Sanitization,Yes,Yes,baseline-from-nist-high,No
+MP-6(1),mp-6.1,MEDIA PROTECTION,"Media Sanitization | Review, Approve, Track, Document, and Verify",Yes,Yes,baseline-from-nist-high,No
+MP-6(2),mp-6.2,MEDIA PROTECTION,Media Sanitization | Equipment Testing,Yes,Yes,baseline-from-nist-high,No
+MP-6(3),mp-6.3,MEDIA PROTECTION,Media Sanitization | Nondestructive Techniques,Yes,Yes,baseline-from-nist-high,No
+MP-7,mp-7,MEDIA PROTECTION,Media Use,Yes,Yes,baseline-from-nist-high,No
+PE-1,pe-1,PHYSICAL AND ENVIRONMENTAL PROTECTION,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+PE-2,pe-2,PHYSICAL AND ENVIRONMENTAL PROTECTION,Physical Access Authorizations,Yes,Yes,baseline-from-nist-high,No
+PE-3,pe-3,PHYSICAL AND ENVIRONMENTAL PROTECTION,Physical Access Control,Yes,Yes,baseline-from-nist-high,No
+PE-3(1),pe-3.1,PHYSICAL AND ENVIRONMENTAL PROTECTION,Physical Access Control | System Access,Yes,Yes,baseline-from-nist-high,No
+PE-4,pe-4,PHYSICAL AND ENVIRONMENTAL PROTECTION,Access Control for Transmission,Yes,Yes,baseline-from-nist-high,No
+PE-5,pe-5,PHYSICAL AND ENVIRONMENTAL PROTECTION,Access Control for Output Devices,Yes,Yes,baseline-from-nist-high,No
+PE-6,pe-6,PHYSICAL AND ENVIRONMENTAL PROTECTION,Monitoring Physical Access,Yes,Yes,baseline-from-nist-high,No
+PE-6(1),pe-6.1,PHYSICAL AND ENVIRONMENTAL PROTECTION,Monitoring Physical Access | Intrusion Alarms and Surveillance Equipment,Yes,Yes,baseline-from-nist-high,No
+PE-6(4),pe-6.4,PHYSICAL AND ENVIRONMENTAL PROTECTION,Monitoring Physical Access | Monitoring Physical Access to Systems,Yes,Yes,baseline-from-nist-high,No
+PE-8,pe-8,PHYSICAL AND ENVIRONMENTAL PROTECTION,Visitor Access Records,Yes,Yes,baseline-from-nist-high,No
+PE-8(1),pe-8.1,PHYSICAL AND ENVIRONMENTAL PROTECTION,Visitor Access Records | Automated Records Maintenance and Review,Yes,Yes,baseline-from-nist-high,No
+PE-8(3),pe-8.3,PHYSICAL AND ENVIRONMENTAL PROTECTION,Visitor Access Records | Limit Personally Identifiable Information Elements,No,No,il5-nss-overlay,No
+PE-9,pe-9,PHYSICAL AND ENVIRONMENTAL PROTECTION,Power Equipment and Cabling,Yes,Yes,baseline-from-nist-high,No
+PE-10,pe-10,PHYSICAL AND ENVIRONMENTAL PROTECTION,Emergency Shutoff,Yes,Yes,baseline-from-nist-high,No
+PE-11,pe-11,PHYSICAL AND ENVIRONMENTAL PROTECTION,Emergency Power,Yes,Yes,baseline-from-nist-high,No
+PE-11(1),pe-11.1,PHYSICAL AND ENVIRONMENTAL PROTECTION,Emergency Power | Alternate Power Supply — Minimal Operational Capability,Yes,Yes,baseline-from-nist-high,No
+PE-12,pe-12,PHYSICAL AND ENVIRONMENTAL PROTECTION,Emergency Lighting,Yes,Yes,baseline-from-nist-high,No
+PE-13,pe-13,PHYSICAL AND ENVIRONMENTAL PROTECTION,Fire Protection,Yes,Yes,baseline-from-nist-high,No
+PE-13(1),pe-13.1,PHYSICAL AND ENVIRONMENTAL PROTECTION,Fire Protection | Detection Systems — Automatic Activation and Notification,Yes,Yes,baseline-from-nist-high,No
+PE-13(2),pe-13.2,PHYSICAL AND ENVIRONMENTAL PROTECTION,Fire Protection | Suppression Systems — Automatic Activation and Notification,Yes,Yes,baseline-from-nist-high,No
+PE-14,pe-14,PHYSICAL AND ENVIRONMENTAL PROTECTION,Environmental Controls,Yes,Yes,baseline-from-nist-high,No
+PE-14(2),pe-14.2,PHYSICAL AND ENVIRONMENTAL PROTECTION,Environmental Controls | Monitoring with Alarms and Notifications,Yes,No,il5-fedramp-plus-additions,No
+PE-15,pe-15,PHYSICAL AND ENVIRONMENTAL PROTECTION,Water Damage Protection,No,Yes,il5-nss-overlay,Yes
+PE-15(1),pe-15.1,PHYSICAL AND ENVIRONMENTAL PROTECTION,Water Damage Protection | Automation Support,Yes,Yes,baseline-from-nist-high,No
+PE-16,pe-16,PHYSICAL AND ENVIRONMENTAL PROTECTION,Delivery and Removal,Yes,Yes,baseline-from-nist-high,No
+PE-17,pe-17,PHYSICAL AND ENVIRONMENTAL PROTECTION,Alternate Work Site,Yes,Yes,baseline-from-nist-high,No
+PE-18,pe-18,PHYSICAL AND ENVIRONMENTAL PROTECTION,Location of System Components,Yes,Yes,baseline-from-nist-high,No
+PE-22,pe-22,PHYSICAL AND ENVIRONMENTAL PROTECTION,Component Marking,No,No,il5-nss-overlay,No
+PL-1,pl-1,PLANNING,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+PL-2,pl-2,PLANNING,System Security and Privacy Plans,Yes,Yes,baseline-from-nist-high,No
+PL-4,pl-4,PLANNING,Rules of Behavior,Yes,Yes,baseline-from-nist-high,No
+PL-4(1),pl-4.1,PLANNING,Rules of Behavior | Social Media and External Site/application Usage Restrictions,Yes,Yes,baseline-from-nist-high,No
+PL-7,pl-7,PLANNING,Concept of Operations,No,No,il5-nss-overlay,No
+PL-8,pl-8,PLANNING,Security and Privacy Architectures,Yes,Yes,baseline-from-nist-high,No
+PL-8(1),pl-8.1,PLANNING,Security and Privacy Architectures | Defense in Depth,No,No,il5-nss-overlay,No
+PL-8(2),pl-8.2,PLANNING,Security and Privacy Architectures | Supplier Diversity,No,No,il5-nss-overlay,No
+PL-9,pl-9,PLANNING,Central Management,No,No,il5-nss-overlay,No
+PL-10,pl-10,PLANNING,Baseline Selection,Yes,Yes,baseline-from-nist-high,No
+PL-11,pl-11,PLANNING,Baseline Tailoring,Yes,Yes,baseline-from-nist-high,No
+PS-1,ps-1,PERSONNEL SECURITY,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+PS-2,ps-2,PERSONNEL SECURITY,Position Risk Designation,Yes,Yes,baseline-from-nist-high,No
+PS-3,ps-3,PERSONNEL SECURITY,Personnel Screening,Yes,Yes,baseline-from-nist-high,No
+PS-3(3),ps-3.3,PERSONNEL SECURITY,Personnel Screening | Information Requiring Special Protective Measures,Yes,No,il5-fedramp-plus-additions,No
+PS-3(4),ps-3.4,PERSONNEL SECURITY,Personnel Screening | Citizenship Requirements,No,No,il5-nss-overlay,Yes
+PS-4,ps-4,PERSONNEL SECURITY,Personnel Termination,Yes,Yes,baseline-from-nist-high,Yes
+PS-4(1),ps-4.1,PERSONNEL SECURITY,Personnel Termination | Post-employment Requirements,No,No,il5-nss-overlay,No
+PS-4(2),ps-4.2,PERSONNEL SECURITY,Personnel Termination | Automated Actions,Yes,Yes,baseline-from-nist-high,No
+PS-5,ps-5,PERSONNEL SECURITY,Personnel Transfer,Yes,Yes,baseline-from-nist-high,No
+PS-6,ps-6,PERSONNEL SECURITY,Access Agreements,Yes,Yes,baseline-from-nist-high,No
+PS-6(3),ps-6.3,PERSONNEL SECURITY,Access Agreements | Post-employment Requirements,No,No,il5-nss-overlay,No
+PS-7,ps-7,PERSONNEL SECURITY,External Personnel Security,Yes,Yes,baseline-from-nist-high,No
+PS-8,ps-8,PERSONNEL SECURITY,Personnel Sanctions,Yes,Yes,baseline-from-nist-high,No
+PS-9,ps-9,PERSONNEL SECURITY,Position Descriptions,Yes,Yes,baseline-from-nist-high,No
+RA-1,ra-1,RISK ASSESSMENT,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+RA-2,ra-2,RISK ASSESSMENT,Security Categorization,Yes,Yes,baseline-from-nist-high,No
+RA-3,ra-3,RISK ASSESSMENT,Risk Assessment,Yes,Yes,baseline-from-nist-high,No
+RA-3(1),ra-3.1,RISK ASSESSMENT,Risk Assessment | Supply Chain Risk Assessment,Yes,Yes,baseline-from-nist-high,No
+RA-3(2),ra-3.2,RISK ASSESSMENT,Risk Assessment | Use of All-source Intelligence,No,No,il5-nss-overlay,No
+RA-3(3),ra-3.3,RISK ASSESSMENT,Risk Assessment | Dynamic Threat Awareness,No,No,il5-nss-overlay,No
+RA-5,ra-5,RISK ASSESSMENT,Vulnerability Monitoring and Scanning,Yes,Yes,baseline-from-nist-high,No
+RA-5(2),ra-5.2,RISK ASSESSMENT,Vulnerability Monitoring and Scanning | Update Vulnerabilities to Be Scanned,Yes,Yes,baseline-from-nist-high,No
+RA-5(3),ra-5.3,RISK ASSESSMENT,Vulnerability Monitoring and Scanning | Breadth and Depth of Coverage,Yes,No,il5-fedramp-plus-additions,No
+RA-5(4),ra-5.4,RISK ASSESSMENT,Vulnerability Monitoring and Scanning | Discoverable Information,Yes,Yes,baseline-from-nist-high,No
+RA-5(5),ra-5.5,RISK ASSESSMENT,Vulnerability Monitoring and Scanning | Privileged Access,Yes,Yes,baseline-from-nist-high,No
+RA-5(8),ra-5.8,RISK ASSESSMENT,Vulnerability Monitoring and Scanning | Review Historic Audit Logs,Yes,No,il5-fedramp-plus-additions,No
+RA-5(10),ra-5.10,RISK ASSESSMENT,Vulnerability Monitoring and Scanning | Correlate Scanning Information,No,No,il5-nss-overlay,No
+RA-5(11),ra-5.11,RISK ASSESSMENT,Vulnerability Monitoring and Scanning | Public Disclosure Program,Yes,Yes,baseline-from-nist-high,No
+RA-7,ra-7,RISK ASSESSMENT,Risk Response,Yes,Yes,baseline-from-nist-high,No
+RA-9,ra-9,RISK ASSESSMENT,Criticality Analysis,Yes,Yes,baseline-from-nist-high,No
+RA-10,ra-10,RISK ASSESSMENT,Threat Hunting,No,No,il5-nss-overlay,No
+SA-1,sa-1,SYSTEM AND SERVICES ACQUISITION,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+SA-2,sa-2,SYSTEM AND SERVICES ACQUISITION,Allocation of Resources,Yes,Yes,baseline-from-nist-high,No
+SA-3,sa-3,SYSTEM AND SERVICES ACQUISITION,System Development Life Cycle,Yes,Yes,baseline-from-nist-high,No
+SA-3(1),sa-3.1,SYSTEM AND SERVICES ACQUISITION,System Development Life Cycle | Manage Preproduction Environment,No,No,il5-nss-overlay,No
+SA-3(2),sa-3.2,SYSTEM AND SERVICES ACQUISITION,System Development Life Cycle | Use of Live or Operational Data,No,No,il5-nss-overlay,No
+SA-4,sa-4,SYSTEM AND SERVICES ACQUISITION,Acquisition Process,Yes,Yes,baseline-from-nist-high,No
+SA-4(1),sa-4.1,SYSTEM AND SERVICES ACQUISITION,Acquisition Process | Functional Properties of Controls,Yes,Yes,baseline-from-nist-high,No
+SA-4(2),sa-4.2,SYSTEM AND SERVICES ACQUISITION,Acquisition Process | Design and Implementation Information for Controls,Yes,Yes,baseline-from-nist-high,No
+SA-4(3),sa-4.3,SYSTEM AND SERVICES ACQUISITION,"Acquisition Process | Development Methods, Techniques, and Practices",No,No,il5-nss-overlay,No
+SA-4(5),sa-4.5,SYSTEM AND SERVICES ACQUISITION,"Acquisition Process | System, Component, and Service Configurations",No,Yes,il5-nss-overlay,Yes
+SA-4(7),sa-4.7,SYSTEM AND SERVICES ACQUISITION,Acquisition Process | NIAP-approved Protection Profiles,No,No,il5-nss-overlay,No
+SA-4(9),sa-4.9,SYSTEM AND SERVICES ACQUISITION,"Acquisition Process | Functions, Ports, Protocols, and Services in Use",Yes,Yes,baseline-from-nist-high,No
+SA-4(10),sa-4.10,SYSTEM AND SERVICES ACQUISITION,Acquisition Process | Use of Approved PIV Products,Yes,Yes,baseline-from-nist-high,No
+SA-5,sa-5,SYSTEM AND SERVICES ACQUISITION,System Documentation,Yes,Yes,baseline-from-nist-high,No
+SA-8,sa-8,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles,Yes,Yes,baseline-from-nist-high,No
+SA-8(1),sa-8.1,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Clear Abstractions,No,No,il5-nss-overlay,No
+SA-8(2),sa-8.2,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Least Common Mechanism,No,No,il5-nss-overlay,No
+SA-8(3),sa-8.3,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Modularity and Layering,No,No,il5-nss-overlay,No
+SA-8(4),sa-8.4,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Partially Ordered Dependencies,No,No,il5-nss-overlay,No
+SA-8(5),sa-8.5,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Efficiently Mediated Access,No,No,il5-nss-overlay,No
+SA-8(6),sa-8.6,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Minimized Sharing,No,No,il5-nss-overlay,No
+SA-8(7),sa-8.7,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Reduced Complexity,No,No,il5-nss-overlay,No
+SA-8(8),sa-8.8,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Secure Evolvability,No,No,il5-nss-overlay,No
+SA-8(9),sa-8.9,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Trusted Components,No,No,il5-nss-overlay,No
+SA-8(10),sa-8.10,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Hierarchical Trust,No,No,il5-nss-overlay,No
+SA-8(11),sa-8.11,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Inverse Modification Threshold,No,No,il5-nss-overlay,No
+SA-8(12),sa-8.12,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Hierarchical Protection,No,No,il5-nss-overlay,No
+SA-8(13),sa-8.13,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Minimized Security Elements,No,No,il5-nss-overlay,No
+SA-8(14),sa-8.14,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Least Privilege,No,No,il5-nss-overlay,No
+SA-8(15),sa-8.15,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Predicate Permission,No,No,il5-nss-overlay,No
+SA-8(16),sa-8.16,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Self-reliant Trustworthiness,No,No,il5-nss-overlay,No
+SA-8(17),sa-8.17,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Secure Distributed Composition,No,No,il5-nss-overlay,No
+SA-8(18),sa-8.18,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Trusted Communications Channels,No,No,il5-nss-overlay,No
+SA-8(19),sa-8.19,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Continuous Protection,No,No,il5-nss-overlay,No
+SA-8(20),sa-8.20,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Secure Metadata Management,No,No,il5-nss-overlay,No
+SA-8(21),sa-8.21,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Self-analysis,No,No,il5-nss-overlay,No
+SA-8(22),sa-8.22,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Accountability and Traceability,No,No,il5-nss-overlay,No
+SA-8(23),sa-8.23,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Secure Defaults,No,No,il5-nss-overlay,No
+SA-8(24),sa-8.24,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Secure Failure and Recovery,No,No,il5-nss-overlay,No
+SA-8(25),sa-8.25,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Economic Security,No,No,il5-nss-overlay,No
+SA-8(26),sa-8.26,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Performance Security,No,No,il5-nss-overlay,No
+SA-8(27),sa-8.27,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Human Factored Security,No,No,il5-nss-overlay,No
+SA-8(28),sa-8.28,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Acceptable Security,No,No,il5-nss-overlay,No
+SA-8(29),sa-8.29,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Repeatable and Documented Procedures,No,No,il5-nss-overlay,No
+SA-8(30),sa-8.30,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Procedural Rigor,No,No,il5-nss-overlay,No
+SA-8(31),sa-8.31,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Secure System Modification,No,No,il5-nss-overlay,No
+SA-8(32),sa-8.32,SYSTEM AND SERVICES ACQUISITION,Security and Privacy Engineering Principles | Sufficient Documentation,No,No,il5-nss-overlay,No
+SA-9,sa-9,SYSTEM AND SERVICES ACQUISITION,External System Services,Yes,Yes,baseline-from-nist-high,No
+SA-9(1),sa-9.1,SYSTEM AND SERVICES ACQUISITION,External System Services | Risk Assessments and Organizational Approvals,No,No,il5-nss-overlay,Yes
+SA-9(2),sa-9.2,SYSTEM AND SERVICES ACQUISITION,"External System Services | Identification of Functions, Ports, Protocols, and Services",Yes,Yes,baseline-from-nist-high,No
+SA-9(3),sa-9.3,SYSTEM AND SERVICES ACQUISITION,External System Services | Establish and Maintain Trust Relationship with Providers,No,No,il5-nss-overlay,Yes
+SA-9(5),sa-9.5,SYSTEM AND SERVICES ACQUISITION,"External System Services | Processing, Storage, and Service Location",No,No,il5-nss-overlay,Yes
+SA-9(6),sa-9.6,SYSTEM AND SERVICES ACQUISITION,External System Services | Organization-controlled Cryptographic Keys,No,No,il5-nss-overlay,No
+SA-9(7),sa-9.7,SYSTEM AND SERVICES ACQUISITION,External System Services | Organization-controlled Integrity Checking,No,No,il5-nss-overlay,No
+SA-9(8),sa-9.8,SYSTEM AND SERVICES ACQUISITION,External System Services | Processing and Storage Location — U.S. Jurisdiction,No,No,il5-nss-overlay,No
+SA-10,sa-10,SYSTEM AND SERVICES ACQUISITION,Developer Configuration Management,Yes,Yes,baseline-from-nist-high,No
+SA-10(1),sa-10.1,SYSTEM AND SERVICES ACQUISITION,Developer Configuration Management | Software and Firmware Integrity Verification,No,No,il5-nss-overlay,No
+SA-10(3),sa-10.3,SYSTEM AND SERVICES ACQUISITION,Developer Configuration Management | Hardware Integrity Verification,No,No,il5-nss-overlay,No
+SA-10(7),sa-10.7,SYSTEM AND SERVICES ACQUISITION,Developer Configuration Management | Security and Privacy Representatives,No,No,il5-nss-overlay,No
+SA-11,sa-11,SYSTEM AND SERVICES ACQUISITION,Developer Testing and Evaluation,Yes,Yes,baseline-from-nist-high,No
+SA-11(1),sa-11.1,SYSTEM AND SERVICES ACQUISITION,Developer Testing and Evaluation | Static Code Analysis,Yes,No,il5-fedramp-plus-additions,No
+SA-11(2),sa-11.2,SYSTEM AND SERVICES ACQUISITION,Developer Testing and Evaluation | Threat Modeling and Vulnerability Analyses,Yes,No,il5-fedramp-plus-additions,No
+SA-15,sa-15,SYSTEM AND SERVICES ACQUISITION,"Development Process, Standards, and Tools",Yes,Yes,baseline-from-nist-high,No
+SA-15(3),sa-15.3,SYSTEM AND SERVICES ACQUISITION,"Development Process, Standards, and Tools | Criticality Analysis",Yes,Yes,baseline-from-nist-high,No
+SA-15(7),sa-15.7,SYSTEM AND SERVICES ACQUISITION,"Development Process, Standards, and Tools | Automated Vulnerability Analysis",No,No,il5-nss-overlay,No
+SA-16,sa-16,SYSTEM AND SERVICES ACQUISITION,Developer-provided Training,Yes,Yes,baseline-from-nist-high,No
+SA-17,sa-17,SYSTEM AND SERVICES ACQUISITION,Developer Security and Privacy Architecture and Design,Yes,Yes,baseline-from-nist-high,No
+SA-21,sa-21,SYSTEM AND SERVICES ACQUISITION,Developer Screening,Yes,Yes,baseline-from-nist-high,No
+SA-22,sa-22,SYSTEM AND SERVICES ACQUISITION,Unsupported System Components,Yes,Yes,baseline-from-nist-high,No
+SC-1,sc-1,SYSTEM AND COMMUNICATIONS PROTECTION,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+SC-2,sc-2,SYSTEM AND COMMUNICATIONS PROTECTION,Separation of System and User Functionality,Yes,Yes,baseline-from-nist-high,No
+SC-3,sc-3,SYSTEM AND COMMUNICATIONS PROTECTION,Security Function Isolation,Yes,Yes,baseline-from-nist-high,No
+SC-4,sc-4,SYSTEM AND COMMUNICATIONS PROTECTION,Information in Shared System Resources,Yes,Yes,baseline-from-nist-high,No
+SC-5,sc-5,SYSTEM AND COMMUNICATIONS PROTECTION,Denial-of-service Protection,Yes,Yes,baseline-from-nist-high,No
+SC-7,sc-7,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection,Yes,Yes,baseline-from-nist-high,No
+SC-7(3),sc-7.3,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Access Points,Yes,Yes,baseline-from-nist-high,No
+SC-7(4),sc-7.4,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | External Telecommunications Services,Yes,Yes,baseline-from-nist-high,No
+SC-7(5),sc-7.5,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Deny by Default — Allow by Exception,Yes,Yes,baseline-from-nist-high,No
+SC-7(7),sc-7.7,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Split Tunneling for Remote Devices,Yes,Yes,baseline-from-nist-high,No
+SC-7(8),sc-7.8,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Route Traffic to Authenticated Proxy Servers,Yes,Yes,baseline-from-nist-high,No
+SC-7(9),sc-7.9,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Restrict Threatening Outgoing Communications Traffic,No,No,il5-nss-overlay,No
+SC-7(10),sc-7.10,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Prevent Exfiltration,Yes,No,il5-fedramp-plus-additions,No
+SC-7(11),sc-7.11,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Restrict Incoming Communications Traffic,No,No,il5-nss-overlay,No
+SC-7(12),sc-7.12,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Host-based Protection,Yes,No,il5-fedramp-plus-additions,No
+SC-7(13),sc-7.13,SYSTEM AND COMMUNICATIONS PROTECTION,"Boundary Protection | Isolation of Security Tools, Mechanisms, and Support Components",No,No,il5-nss-overlay,No
+SC-7(14),sc-7.14,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Protect Against Unauthorized Physical Connections,No,No,il5-nss-overlay,No
+SC-7(15),sc-7.15,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Networked Privileged Accesses,No,No,il5-nss-overlay,No
+SC-7(18),sc-7.18,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Fail Secure,Yes,Yes,baseline-from-nist-high,No
+SC-7(20),sc-7.20,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Dynamic Isolation and Segregation,Yes,No,il5-fedramp-plus-additions,No
+SC-7(21),sc-7.21,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Isolation of System Components,Yes,Yes,baseline-from-nist-high,No
+SC-7(25),sc-7.25,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Unclassified National Security System Connections,No,No,il5-nss-overlay,No
+SC-7(28),sc-7.28,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Connections to Public Networks,No,No,il5-nss-overlay,No
+SC-7(29),sc-7.29,SYSTEM AND COMMUNICATIONS PROTECTION,Boundary Protection | Separate Subnets to Isolate Functions,No,No,il5-nss-overlay,No
+SC-8,sc-8,SYSTEM AND COMMUNICATIONS PROTECTION,Transmission Confidentiality and Integrity,Yes,Yes,baseline-from-nist-high,No
+SC-8(1),sc-8.1,SYSTEM AND COMMUNICATIONS PROTECTION,Transmission Confidentiality and Integrity | Cryptographic Protection,Yes,Yes,baseline-from-nist-high,No
+SC-8(2),sc-8.2,SYSTEM AND COMMUNICATIONS PROTECTION,Transmission Confidentiality and Integrity | Pre- and Post-transmission Handling,No,No,il5-nss-overlay,No
+SC-10,sc-10,SYSTEM AND COMMUNICATIONS PROTECTION,Network Disconnect,Yes,Yes,baseline-from-nist-high,No
+SC-12,sc-12,SYSTEM AND COMMUNICATIONS PROTECTION,Cryptographic Key Establishment and Management,Yes,Yes,baseline-from-nist-high,No
+SC-12(1),sc-12.1,SYSTEM AND COMMUNICATIONS PROTECTION,Cryptographic Key Establishment and Management | Availability,Yes,Yes,baseline-from-nist-high,No
+SC-12(6),sc-12.6,SYSTEM AND COMMUNICATIONS PROTECTION,Cryptographic Key Establishment and Management | Physical Control of Keys,No,No,il5-nss-overlay,No
+SC-13,sc-13,SYSTEM AND COMMUNICATIONS PROTECTION,Cryptographic Protection,Yes,Yes,baseline-from-nist-high,No
+SC-15,sc-15,SYSTEM AND COMMUNICATIONS PROTECTION,Collaborative Computing Devices and Applications,Yes,Yes,baseline-from-nist-high,No
+SC-16,sc-16,SYSTEM AND COMMUNICATIONS PROTECTION,Transmission of Security and Privacy Attributes,No,No,il5-nss-overlay,No
+SC-16(1),sc-16.1,SYSTEM AND COMMUNICATIONS PROTECTION,Transmission of Security and Privacy Attributes | Integrity Verification,No,No,il5-nss-overlay,No
+SC-16(2),sc-16.2,SYSTEM AND COMMUNICATIONS PROTECTION,Transmission of Security and Privacy Attributes | Anti-spoofing Mechanisms,No,No,il5-nss-overlay,No
+SC-16(3),sc-16.3,SYSTEM AND COMMUNICATIONS PROTECTION,Transmission of Security and Privacy Attributes | Cryptographic Binding,No,No,il5-nss-overlay,No
+SC-17,sc-17,SYSTEM AND COMMUNICATIONS PROTECTION,Public Key Infrastructure Certificates,No,Yes,il5-nss-overlay,Yes
+SC-18,sc-18,SYSTEM AND COMMUNICATIONS PROTECTION,Mobile Code,Yes,Yes,baseline-from-nist-high,No
+SC-18(1),sc-18.1,SYSTEM AND COMMUNICATIONS PROTECTION,Mobile Code | Identify Unacceptable Code and Take Corrective Actions,No,No,il5-nss-overlay,No
+SC-18(2),sc-18.2,SYSTEM AND COMMUNICATIONS PROTECTION,"Mobile Code | Acquisition, Development, and Use",No,No,il5-nss-overlay,Yes
+SC-18(3),sc-18.3,SYSTEM AND COMMUNICATIONS PROTECTION,Mobile Code | Prevent Downloading and Execution,No,No,il5-nss-overlay,Yes
+SC-18(4),sc-18.4,SYSTEM AND COMMUNICATIONS PROTECTION,Mobile Code | Prevent Automatic Execution,No,No,il5-nss-overlay,Yes
+SC-20,sc-20,SYSTEM AND COMMUNICATIONS PROTECTION,Secure Name/address Resolution Service (authoritative Source),Yes,Yes,baseline-from-nist-high,No
+SC-21,sc-21,SYSTEM AND COMMUNICATIONS PROTECTION,Secure Name/address Resolution Service (recursive or Caching Resolver),Yes,Yes,baseline-from-nist-high,No
+SC-22,sc-22,SYSTEM AND COMMUNICATIONS PROTECTION,Architecture and Provisioning for Name/address Resolution Service,Yes,Yes,baseline-from-nist-high,No
+SC-23,sc-23,SYSTEM AND COMMUNICATIONS PROTECTION,Session Authenticity,Yes,Yes,baseline-from-nist-high,No
+SC-23(1),sc-23.1,SYSTEM AND COMMUNICATIONS PROTECTION,Session Authenticity | Invalidate Session Identifiers at Logout,No,No,il5-nss-overlay,No
+SC-23(3),sc-23.3,SYSTEM AND COMMUNICATIONS PROTECTION,Session Authenticity | Unique System-generated Session Identifiers,No,No,il5-nss-overlay,No
+SC-23(5),sc-23.5,SYSTEM AND COMMUNICATIONS PROTECTION,Session Authenticity | Allowed Certificate Authorities,No,No,il5-nss-overlay,No
+SC-24,sc-24,SYSTEM AND COMMUNICATIONS PROTECTION,Fail in Known State,No,Yes,il5-nss-overlay,Yes
+SC-28,sc-28,SYSTEM AND COMMUNICATIONS PROTECTION,Protection of Information at Rest,Yes,Yes,baseline-from-nist-high,No
+SC-28(1),sc-28.1,SYSTEM AND COMMUNICATIONS PROTECTION,Protection of Information at Rest | Cryptographic Protection,Yes,Yes,baseline-from-nist-high,No
+SC-28(3),sc-28.3,SYSTEM AND COMMUNICATIONS PROTECTION,Protection of Information at Rest | Cryptographic Keys,No,No,il5-nss-overlay,No
+SC-38,sc-38,SYSTEM AND COMMUNICATIONS PROTECTION,Operations Security,No,No,il5-nss-overlay,No
+SC-39,sc-39,SYSTEM AND COMMUNICATIONS PROTECTION,Process Isolation,Yes,Yes,baseline-from-nist-high,No
+SC-45,sc-45,SYSTEM AND COMMUNICATIONS PROTECTION,System Time Synchronization,Yes,No,il5-fedramp-plus-additions,No
+SC-45(1),sc-45.1,SYSTEM AND COMMUNICATIONS PROTECTION,System Time Synchronization | Synchronization with Authoritative Time Source,Yes,No,il5-fedramp-plus-additions,No
+SC-46,sc-46,SYSTEM AND COMMUNICATIONS PROTECTION,Cross Domain Policy Enforcement,No,No,il5-nss-overlay,Yes
+SI-1,si-1,SYSTEM AND INFORMATION INTEGRITY,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+SI-2,si-2,SYSTEM AND INFORMATION INTEGRITY,Flaw Remediation,Yes,Yes,baseline-from-nist-high,No
+SI-2(2),si-2.2,SYSTEM AND INFORMATION INTEGRITY,Flaw Remediation | Automated Flaw Remediation Status,Yes,Yes,baseline-from-nist-high,No
+SI-2(3),si-2.3,SYSTEM AND INFORMATION INTEGRITY,Flaw Remediation | Time to Remediate Flaws and Benchmarks for Corrective Actions,Yes,No,il5-fedramp-plus-additions,No
+SI-2(4),si-2.4,SYSTEM AND INFORMATION INTEGRITY,Flaw Remediation | Automated Patch Management Tools,No,No,il5-nss-overlay,No
+SI-2(6),si-2.6,SYSTEM AND INFORMATION INTEGRITY,Flaw Remediation | Removal of Previous Versions of Software and Firmware,No,No,il5-nss-overlay,No
+SI-3,si-3,SYSTEM AND INFORMATION INTEGRITY,Malicious Code Protection,Yes,Yes,baseline-from-nist-high,No
+SI-3(10),si-3.10,SYSTEM AND INFORMATION INTEGRITY,Malicious Code Protection | Malicious Code Analysis,No,No,il5-nss-overlay,No
+SI-4,si-4,SYSTEM AND INFORMATION INTEGRITY,System Monitoring,Yes,Yes,baseline-from-nist-high,No
+SI-4(1),si-4.1,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | System-wide Intrusion Detection System,Yes,No,il5-fedramp-plus-additions,No
+SI-4(2),si-4.2,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Automated Tools and Mechanisms for Real-time Analysis,Yes,Yes,baseline-from-nist-high,No
+SI-4(4),si-4.4,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Inbound and Outbound Communications Traffic,Yes,Yes,baseline-from-nist-high,No
+SI-4(5),si-4.5,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | System-generated Alerts,Yes,Yes,baseline-from-nist-high,No
+SI-4(10),si-4.10,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Visibility of Encrypted Communications,Yes,Yes,baseline-from-nist-high,No
+SI-4(11),si-4.11,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Analyze Communications Traffic Anomalies,Yes,No,il5-fedramp-plus-additions,No
+SI-4(12),si-4.12,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Automated Organization-generated Alerts,Yes,Yes,baseline-from-nist-high,No
+SI-4(14),si-4.14,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Wireless Intrusion Detection,Yes,Yes,baseline-from-nist-high,No
+SI-4(15),si-4.15,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Wireless to Wireline Communications,No,No,il5-nss-overlay,No
+SI-4(16),si-4.16,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Correlate Monitoring Information,Yes,No,il5-fedramp-plus-additions,No
+SI-4(18),si-4.18,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Analyze Traffic and Covert Exfiltration,Yes,No,il5-fedramp-plus-additions,No
+SI-4(19),si-4.19,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Risk for Individuals,Yes,No,il5-fedramp-plus-additions,No
+SI-4(20),si-4.20,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Privileged Users,Yes,Yes,baseline-from-nist-high,No
+SI-4(22),si-4.22,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Unauthorized Network Services,Yes,Yes,baseline-from-nist-high,No
+SI-4(23),si-4.23,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Host-based Devices,Yes,No,il5-fedramp-plus-additions,No
+SI-4(24),si-4.24,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Indicators of Compromise,No,No,il5-nss-overlay,No
+SI-4(25),si-4.25,SYSTEM AND INFORMATION INTEGRITY,System Monitoring | Optimize Network Traffic Analysis,No,No,il5-nss-overlay,No
+SI-5,si-5,SYSTEM AND INFORMATION INTEGRITY,"Security Alerts, Advisories, and Directives",Yes,Yes,baseline-from-nist-high,No
+SI-5(1),si-5.1,SYSTEM AND INFORMATION INTEGRITY,"Security Alerts, Advisories, and Directives | Automated Alerts and Advisories",Yes,Yes,baseline-from-nist-high,No
+SI-6,si-6,SYSTEM AND INFORMATION INTEGRITY,Security and Privacy Function Verification,Yes,Yes,baseline-from-nist-high,No
+SI-6(3),si-6.3,SYSTEM AND INFORMATION INTEGRITY,Security and Privacy Function Verification | Report Verification Results,No,No,il5-nss-overlay,No
+SI-7,si-7,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity",Yes,Yes,baseline-from-nist-high,No
+SI-7(1),si-7.1,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Integrity Checks",Yes,Yes,baseline-from-nist-high,No
+SI-7(2),si-7.2,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Automated Notifications of Integrity Violations",Yes,Yes,baseline-from-nist-high,No
+SI-7(5),si-7.5,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Automated Response to Integrity Violations",Yes,Yes,baseline-from-nist-high,No
+SI-7(7),si-7.7,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Integration of Detection and Response",Yes,Yes,baseline-from-nist-high,No
+SI-7(8),si-7.8,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Auditing Capability for Significant Events",No,No,il5-nss-overlay,No
+SI-7(9),si-7.9,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Verify Boot Process",No,No,il5-nss-overlay,No
+SI-7(10),si-7.10,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Protection of Boot Firmware",No,No,il5-nss-overlay,No
+SI-7(15),si-7.15,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Code Authentication",Yes,Yes,baseline-from-nist-high,No
+SI-7(17),si-7.17,SYSTEM AND INFORMATION INTEGRITY,"Software, Firmware, and Information Integrity | Runtime Application Self-protection",No,No,il5-nss-overlay,No
+SI-8,si-8,SYSTEM AND INFORMATION INTEGRITY,Spam Protection,Yes,Yes,baseline-from-nist-high,No
+SI-8(2),si-8.2,SYSTEM AND INFORMATION INTEGRITY,Spam Protection | Automatic Updates,Yes,Yes,baseline-from-nist-high,No
+SI-10,si-10,SYSTEM AND INFORMATION INTEGRITY,Information Input Validation,Yes,Yes,baseline-from-nist-high,No
+SI-10(3),si-10.3,SYSTEM AND INFORMATION INTEGRITY,Information Input Validation | Predictable Behavior,No,No,il5-nss-overlay,No
+SI-10(5),si-10.5,SYSTEM AND INFORMATION INTEGRITY,Information Input Validation | Restrict Inputs to Trusted Sources and Approved Formats,No,No,il5-nss-overlay,No
+SI-10(6),si-10.6,SYSTEM AND INFORMATION INTEGRITY,Information Input Validation | Injection Prevention,No,No,il5-nss-overlay,No
+SI-11,si-11,SYSTEM AND INFORMATION INTEGRITY,Error Handling,Yes,Yes,baseline-from-nist-high,No
+SI-12,si-12,SYSTEM AND INFORMATION INTEGRITY,Information Management and Retention,Yes,Yes,baseline-from-nist-high,No
+SI-12(3),si-12.3,SYSTEM AND INFORMATION INTEGRITY,Information Management and Retention | Information Disposal,No,No,il5-nss-overlay,No
+SI-15,si-15,SYSTEM AND INFORMATION INTEGRITY,Information Output Filtering,No,No,il5-nss-overlay,No
+SI-16,si-16,SYSTEM AND INFORMATION INTEGRITY,Memory Protection,Yes,Yes,baseline-from-nist-high,No
+SI-21,si-21,SYSTEM AND INFORMATION INTEGRITY,Information Refresh,No,No,il5-nss-overlay,No
+SR-1,sr-1,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Policy and Procedures,Yes,Yes,baseline-from-nist-high,No
+SR-2,sr-2,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supply Chain Risk Management Plan,Yes,Yes,baseline-from-nist-high,No
+SR-2(1),sr-2.1,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supply Chain Risk Management Plan | Establish SCRM Team,Yes,Yes,baseline-from-nist-high,No
+SR-3,sr-3,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supply Chain Controls and Processes,Yes,Yes,baseline-from-nist-high,No
+SR-3(1),sr-3.1,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supply Chain Controls and Processes | Diverse Supply Base,No,No,il5-nss-overlay,No
+SR-3(2),sr-3.2,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supply Chain Controls and Processes | Limitation of Harm,No,No,il5-nss-overlay,No
+SR-3(3),sr-3.3,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supply Chain Controls and Processes | Sub-tier Flow Down,No,No,il5-nss-overlay,No
+SR-4,sr-4,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Provenance,No,No,il5-nss-overlay,No
+SR-5,sr-5,SUPPLY CHAIN RISK MANAGEMENT FAMILY,"Acquisition Strategies, Tools, and Methods",Yes,Yes,baseline-from-nist-high,No
+SR-5(1),sr-5.1,SUPPLY CHAIN RISK MANAGEMENT FAMILY,"Acquisition Strategies, Tools, and Methods | Adequate Supply",No,No,il5-nss-overlay,No
+SR-5(2),sr-5.2,SUPPLY CHAIN RISK MANAGEMENT FAMILY,"Acquisition Strategies, Tools, and Methods | Assessments Prior to Selection, Acceptance, Modification, or Update",No,No,il5-nss-overlay,No
+SR-6,sr-6,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supplier Assessments and Reviews,Yes,Yes,baseline-from-nist-high,No
+SR-6(1),sr-6.1,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supplier Assessments and Reviews | Testing and Analysis,No,No,il5-nss-overlay,No
+SR-7,sr-7,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Supply Chain Operations Security,No,No,il5-nss-overlay,No
+SR-8,sr-8,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Notification Agreements,Yes,Yes,baseline-from-nist-high,No
+SR-9,sr-9,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Tamper Resistance and Detection,Yes,Yes,baseline-from-nist-high,No
+SR-9(1),sr-9.1,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Tamper Resistance and Detection | Multiple Stages of System Development Life Cycle,Yes,Yes,baseline-from-nist-high,No
+SR-10,sr-10,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Inspection of Systems or Components,Yes,Yes,baseline-from-nist-high,No
+SR-11,sr-11,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Component Authenticity,Yes,Yes,baseline-from-nist-high,No
+SR-11(1),sr-11.1,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Component Authenticity | Anti-counterfeit Training,Yes,Yes,baseline-from-nist-high,No
+SR-11(2),sr-11.2,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Component Authenticity | Configuration Control for Component Service and Repair,Yes,Yes,baseline-from-nist-high,No
+SR-12,sr-12,SUPPLY CHAIN RISK MANAGEMENT FAMILY,Component Disposal,Yes,Yes,baseline-from-nist-high,No

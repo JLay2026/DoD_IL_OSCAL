@@ -1,0 +1,18 @@
+{
+  "profileOwner": "Layman, Jason",
+  "createdBy": "Layman, Jason",
+  "lastUpdatedBy": "Layman, Jason",
+  "id": 2,
+  "uuid": "d538d5ac-0cbb-5d67-b2c6-ee5569cc58d6",
+  "name": "dod_ccsrg_il4_high",
+  "confidentiality": "High",
+  "integrity": "High",
+  "availability": "Moderate",
+  "category": "High",
+  "profileOwnerId": "a4e18cf5-c387-4327-8bb7-39e21c2d2d72",
+  "createdById": "a4e18cf5-c387-4327-8bb7-39e21c2d2d72",
+  "dateCreated": "2026-05-07T21:04:36.515523",
+  "lastUpdatedById": "a4e18cf5-c387-4327-8bb7-39e21c2d2d72",
+  "dateLastUpdated": "2026-05-07T21:09:51.633325",
+  "isPublic": true
+}
