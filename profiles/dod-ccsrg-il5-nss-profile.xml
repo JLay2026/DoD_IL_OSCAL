@@ -3,9 +3,16 @@
 <profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="e2f099ec-75a3-4ce1-bb8d-4b469410f937" xmlns="http://csrc.nist.gov/ns/oscal/1.0">
   <metadata>
     <title>DoD IL5 w/ NSS Overlay</title>
-    <last-modified>2026-05-12T17:39:48.320+00:00</last-modified>
+    <last-modified>2026-05-12T18:19:43.317+00:00</last-modified>
     <version>1.0.1</version>
     <oscal-version>1.1.3</oscal-version>
+    <prop name="marking" value="Controlled Unclassified Information // National Security System"/>
+    <prop name="keywords" value="DoD; DISA; Cloud Computing SRG; Impact Level 5; IL5; NSS Overlay; NIST SP 800-53 Rev 5"/>
+    <prop name="resolution-tool" ns="https://public.cyber.mil/dccs/ns/oscal" value="RegScale"/>
+    <prop name="profile-type" ns="https://public.cyber.mil/dccs/ns/oscal" value="baseline"/>
+    <prop name="impact-level" ns="https://public.cyber.mil/dccs/ns/oscal" value="il5"/>
+    <prop name="sensitivity-level" ns="https://public.cyber.mil/dccs/ns/oscal" value="high"/>
+    <prop name="nss" ns="https://public.cyber.mil/dccs/ns/oscal" value="true"/>
     <role id="creator">
       <title>Document Creator</title>
     </role>

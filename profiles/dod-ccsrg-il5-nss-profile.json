@@ -3,9 +3,44 @@
     "uuid": "e2f099ec-75a3-4ce1-bb8d-4b469410f937",
     "metadata": {
       "title": "DoD IL5 w/ NSS Overlay",
-      "last-modified": "2026-05-12T17:39:48.320+00:00",
+      "last-modified": "2026-05-12T18:19:43.316+00:00",
       "version": "1.0.1",
       "oscal-version": "1.1.3",
+      "props": [
+        {
+          "name": "marking",
+          "value": "Controlled Unclassified Information // National Security System"
+        },
+        {
+          "name": "keywords",
+          "value": "DoD; DISA; Cloud Computing SRG; Impact Level 5; IL5; NSS Overlay; NIST SP 800-53 Rev 5"
+        },
+        {
+          "name": "resolution-tool",
+          "ns": "https://public.cyber.mil/dccs/ns/oscal",
+          "value": "RegScale"
+        },
+        {
+          "name": "profile-type",
+          "ns": "https://public.cyber.mil/dccs/ns/oscal",
+          "value": "baseline"
+        },
+        {
+          "name": "impact-level",
+          "ns": "https://public.cyber.mil/dccs/ns/oscal",
+          "value": "il5"
+        },
+        {
+          "name": "sensitivity-level",
+          "ns": "https://public.cyber.mil/dccs/ns/oscal",
+          "value": "high"
+        },
+        {
+          "name": "nss",
+          "ns": "https://public.cyber.mil/dccs/ns/oscal",
+          "value": "true"
+        }
+      ],
       "roles": [
         {
           "id": "creator",
