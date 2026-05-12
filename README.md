@@ -1,8 +1,8 @@
 # DoD IL OSCAL Catalogs and Profiles (NIST SP 800-53 Rev 5)
 
-**Version 1.0.1**
+**Version 1.1.0**
 
-OSCAL 1.1.3 catalogs and profiles for the **DoD Cloud Computing SRG Impact Levels IL4 (Moderate), IL4 (High), IL5 (NSS), and IL6 (NSS)**, plus parallel RegScale-format catalogs and profiles. All content is reconciled directly to the official [DoD Rev 5 SSP Addendum spreadsheet](https://dl.dod.cyber.mil/wp-content/uploads/cloud/xls/rev5_ssp_addendum_controls.xlsx) and the [DoD Cloud Computing SRG](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html).
+OSCAL 1.1.3 catalogs and profiles for the **DoD Cloud Computing SRG Impact Levels IL4 (Moderate), IL4 (High), IL5 (NSS), and IL6 (NSS)** and the **FedRAMP Rev 5 High Baseline**, plus parallel RegScale-format catalogs and profiles. All DoD content is reconciled directly to the official [DoD Rev 5 SSP Addendum spreadsheet](https://dl.dod.cyber.mil/wp-content/uploads/cloud/xls/rev5_ssp_addendum_controls.xlsx) and the [DoD Cloud Computing SRG](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html). FedRAMP content is derived from the RegScale-published FedRAMP R5 High OSCAL-compliant catalog (dated 2024-07-31).
 
 > **Status: community release.** Not an official DISA or DoD publication. The control selection and DoD parameter values are taken verbatim from the addendum spreadsheet, but should still be cross-checked against the current SRG release before any authorization use.
 
@@ -66,11 +66,14 @@ DoD_IL_OSCAL/
 │   ├── dod-ccsrg-il6-nss-profile.json                  # OSCAL 1.1.3 JSON profile, 612 controls
 │   ├── dod-il5-nss-manifest-profile.xml                # OSCAL 1.1.3 XML profile, 578 controls
 │   ├── dod-il5-nss-manifest-profile.json               # OSCAL 1.1.3 JSON profile, 578 controls
+│   ├── fedramp-rev5-high-profile.xml                   # OSCAL 1.1.3 XML profile, 410 controls
+│   ├── fedramp-rev5-high-profile.json                  # OSCAL 1.1.3 JSON profile, 410 controls
 │   ├── dod_ccsrg_il4_moderate-regscale-profile.json    # RegScale-native profile + mappings
 │   ├── dod_ccsrg_il4_high-regscale-profile.json        # RegScale-native profile + mappings
 │   ├── dod_ccsrg_il5_nss-regscale-profile.json         # RegScale-native profile + mappings
 │   ├── dod_ccsrg_il6_nss-regscale-profile.json         # RegScale-native profile + mappings
 │   ├── dod_il5_nss_manifest-regscale-profile.json      # RegScale-native profile + mappings
+│   ├── fedramp_rev5_high-regscale-profile.json         # RegScale-native profile + mappings
 │   └── dod-ccsrg-regscale-profiles.json                # Combined RegScale export (5 profiles, 2,522 mappings)
 ├── catalogs/                                           # OSCAL + RegScale catalogs derived from the addendum
 │   ├── dod-ccsrg-il4-moderate-catalog.json             # 335 controls, 18 families (OSCAL 1.1.3)
@@ -78,11 +81,13 @@ DoD_IL_OSCAL/
 │   ├── dod-ccsrg-il5-nss-catalog.json                  # 578 controls, 18 families (OSCAL 1.1.3)
 │   ├── dod-ccsrg-il6-nss-catalog.json                  # 612 controls, 19 families (OSCAL 1.1.3)
 │   ├── dod-il5-nss-manifest-catalog.json               # 578 slim metadata-only (OSCAL 1.1.3)
+│   ├── fedramp-rev5-high-catalog.json                  # 410 controls, 18 families (OSCAL 1.1.3)
 │   ├── dod-ccsrg-il4-moderate-catalog-regscale.json    # 335 controls (RegScale)
 │   ├── dod-ccsrg-il4-high-catalog-regscale.json        # 419 controls (RegScale)
 │   ├── dod-ccsrg-il5-nss-catalog-regscale.json         # 578 controls (RegScale)
 │   ├── dod-ccsrg-il6-nss-catalog-regscale.json         # 612 controls (RegScale)
-│   └── dod-il5-nss-manifest-catalog-regscale.json      # 578 slim metadata-only (RegScale)
+│   ├── dod-il5-nss-manifest-catalog-regscale.json      # 578 slim metadata-only (RegScale)
+│   └── fedramp-rev5-high-catalog-regscale.json         # 410 controls (RegScale)
 ├── references/
 │   ├── NIST_SP-800-53_rev5_HIGH-baseline_profile.json  # Upstream NIST profile
 │   ├── rev5_ssp_addendum_controls.xlsx                 # DoD authoritative XLSX
@@ -239,6 +244,8 @@ This profile represents the **IL5 with NSS overlay** baseline. For a non-NSS IL5
 | DoD CC SRG | https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html |
 | NIST 800-53 Rev 5 catalog (OSCAL) | https://github.com/usnistgov/oscal-content |
 | NIST 800-53 Rev 5 HIGH baseline (OSCAL) | https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_HIGH-baseline_profile.json |
+| FedRAMP Rev 5 Baselines (program page) | https://www.fedramp.gov/rev5/baselines/ |
+| FedRAMP R5 High catalog (RegScale OSCAL-compliant copy, 2024-07-31) | https://regscaleblob.blob.core.windows.net/catalogs/fedramp_r5_high_oscal_compliant.json |
 | CNSSI No. 1253 | https://www.cnss.gov/CNSS/issuances/Instructions.cfm |
 
 ## Versioning
@@ -255,7 +262,8 @@ This profile represents the **IL5 with NSS overlay** baseline. For a non-NSS IL5
 | 0.8.0-draft | Added 5 OSCAL 1.1.3 profile files (one per catalog) with relative-href catalog imports, DoD-namespaced impact-level props, and back-matter resources. |
 | 0.9.0-draft | Re-added RegScale-format profile files (6 JSON + 6 XLSX) alongside the OSCAL profiles. Both formats coexist in `profiles/`. |
 | 1.0.0 | First stable release. All catalogs and profiles bumped to version 1.0.0. Repository renamed to `DoD_IL_OSCAL` and published to GitHub. |
-| **1.0.1** | **Profile generators rewritten to match actual RegScale 6.x export format. OSCAL profiles now emit both XML and JSON (XML matches RegScale's exported shape verbatim — minimal metadata with `creator`/`contact` roles, RegScale party, fragment-style `import.href`, sorted `with-id` elements). RegScale-native profile JSON files use the wrapped `{profile, mappings, exportDate, exportVersion}` envelope verified against a live export. Combined RegScale file (`dod-ccsrg-regscale-profiles.json`) aggregates 5 profiles + 2,522 mappings. Legacy `dod-il5-rev5-profile.json` and per-baseline `*-regscale-profile.xlsx` files removed.** |
+| 1.0.1 | Profile generators rewritten to match actual RegScale 6.x export format. OSCAL profiles now emit both XML and JSON (XML matches RegScale's exported shape verbatim — minimal metadata with `creator`/`contact` roles, RegScale party, fragment-style `import.href`, sorted `with-id` elements). RegScale-native profile JSON files use the wrapped `{profile, mappings, exportDate, exportVersion}` envelope verified against a live export. Combined RegScale file (`dod-ccsrg-regscale-profiles.json`) aggregates 5 profiles + 2,522 mappings. Legacy `dod-il5-rev5-profile.json` and per-baseline `*-regscale-profile.xlsx` files removed. |
+| **1.1.0** | **Added FedRAMP Rev 5 HIGH Baseline catalog and profile in both OSCAL 1.1.3 (XML + JSON) and RegScale-native formats. 410 controls (191 base + 219 enhancements) across 18 families, derived from the RegScale-published FedRAMP R5 High OSCAL-compliant catalog (2024-07-31). All artifacts share UUID `0ef6e235-dee5-4c19-b8f0-d360e5d8f611` for cross-linking. Full parameter values, control objectives, assessment tests, and related-control links preserved.** |
 
 ## License
 
