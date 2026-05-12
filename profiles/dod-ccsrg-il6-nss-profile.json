@@ -1,96 +1,61 @@
 {
   "profile": {
-    "uuid": "d307261b-0e18-5004-9940-09ce13ace260",
+    "uuid": "f3a1b8d5-86b4-4df2-cc9e-5c5a7b6d8e9f",
     "metadata": {
-      "title": "DoD Cloud Computing SRG Impact Level 6 (IL6) NSS - OSCAL Profile (NIST SP 800-53 Rev 5)",
-      "last-modified": "2026-05-07T21:09:50+00:00",
-      "version": "1.0.0",
+      "title": "DoD IL6 w/ NSS Overlay",
+      "last-modified": "2026-05-12T17:39:48.320+00:00",
+      "version": "1.0.1",
       "oscal-version": "1.1.3",
-      "props": [
-        {
-          "name": "marking",
-          "value": "CUI//SP-CTI"
-        },
-        {
-          "name": "keywords",
-          "value": "DoD Cloud Computing SRG; FedRAMP+; NSS; CNSSI 1253; NIST SP 800-53 Rev 5; OSCAL"
-        },
-        {
-          "name": "impact-level",
-          "ns": "https://dod.cyber.mil/ns/oscal",
-          "value": "IL6"
-        },
-        {
-          "name": "categorization",
-          "ns": "https://dod.cyber.mil/ns/oscal",
-          "value": "High"
-        },
-        {
-          "name": "confidentiality-impact",
-          "ns": "https://dod.cyber.mil/ns/oscal",
-          "value": "high"
-        },
-        {
-          "name": "integrity-impact",
-          "ns": "https://dod.cyber.mil/ns/oscal",
-          "value": "high"
-        },
-        {
-          "name": "availability-impact",
-          "ns": "https://dod.cyber.mil/ns/oscal",
-          "value": "high"
-        },
-        {
-          "name": "leveraged-from",
-          "ns": "https://dod.cyber.mil/ns/oscal",
-          "value": "DoD Cloud Computing SRG v1r4 / Rev 5 SSP Addendum"
-        }
-      ],
-      "links": [
-        {
-          "href": "https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html",
-          "rel": "reference",
-          "text": "DoD Cloud Computing Security Requirements Guide"
-        },
-        {
-          "href": "https://dl.dod.cyber.mil/wp-content/uploads/cloud/xls/rev5_ssp_addendum_controls.xlsx",
-          "rel": "source",
-          "text": "DoD Rev 5 SSP Addendum (authoritative XLSX)"
-        }
-      ],
       "roles": [
         {
-          "id": "profile-author",
-          "title": "Profile Author"
+          "id": "creator",
+          "title": "Document Creator"
+        },
+        {
+          "id": "contact",
+          "title": "Document Creator"
         }
       ],
       "parties": [
         {
-          "uuid": "22303f85-50fd-5b0b-8fa6-79f790a2a59f",
+          "uuid": "0b8c6deb-6a14-4aa6-8657-102506b420e5",
           "type": "organization",
-          "name": "U.S. Department of Defense - Office of the CIO",
-          "short-name": "DoD CIO",
-          "links": [
+          "name": "RegScale, Inc.",
+          "email-addresses": [
+            "thowerton@regscale.com"
+          ],
+          "addresses": [
             {
-              "href": "https://dodcio.defense.gov/",
-              "rel": "homepage"
+              "addr-lines": [
+                "RegScale, Inc.",
+                "1775 Tysons Blvd",
+                "Floor 5"
+              ],
+              "city": "Tysons Corner",
+              "state": "VA",
+              "postal-code": "22102"
             }
           ]
         }
       ],
       "responsible-parties": [
         {
-          "role-id": "profile-author",
+          "role-id": "creator",
           "party-uuids": [
-            "22303f85-50fd-5b0b-8fa6-79f790a2a59f"
+            "0b8c6deb-6a14-4aa6-8657-102506b420e5"
+          ]
+        },
+        {
+          "role-id": "contact",
+          "party-uuids": [
+            "0b8c6deb-6a14-4aa6-8657-102506b420e5"
           ]
         }
-      ],
-      "remarks": "Controls applied to CSOs categorized at DoD Cloud Computing SRG Impact Level 6 (classified up to Secret) with NSS overlay. Sourced from sheet 'IL6 (NSS)' of the DoD Rev 5 SSP Addendum."
+      ]
     },
     "imports": [
       {
-        "href": "../catalogs/dod-ccsrg-il6-nss-catalog.json",
+        "href": "#cf0f227d-30a8-cc29-fb4c-a9e740402f47",
         "include-controls": [
           {
             "with-ids": [
@@ -710,45 +675,6 @@
           }
         ]
       }
-    ],
-    "merge": {
-      "as-is": true
-    },
-    "back-matter": {
-      "resources": [
-        {
-          "uuid": "a7e81390-855c-5004-8a6c-395e2b5a4685",
-          "title": "DoD Rev 5 SSP Addendum (XLSX)",
-          "description": "Authoritative spreadsheet listing CC SRG impact-level controls.",
-          "rlinks": [
-            {
-              "href": "https://dl.dod.cyber.mil/wp-content/uploads/cloud/xls/rev5_ssp_addendum_controls.xlsx",
-              "media-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-            }
-          ]
-        },
-        {
-          "uuid": "a6003f7e-e3ea-5be3-be19-2d546d8810c1",
-          "title": "DoD Cloud Computing Security Requirements Guide (CC SRG)",
-          "rlinks": [
-            {
-              "href": "https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html",
-              "media-type": "text/html"
-            }
-          ]
-        },
-        {
-          "uuid": "4d813144-093d-551b-b73f-030b5b60bcc8",
-          "title": "OSCAL Catalog: dod-ccsrg-il6-nss-catalog.json",
-          "description": "The OSCAL catalog that this profile imports (sibling file in catalogs/).",
-          "rlinks": [
-            {
-              "href": "../catalogs/dod-ccsrg-il6-nss-catalog.json",
-              "media-type": "application/oscal.catalog+json"
-            }
-          ]
-        }
-      ]
-    }
+    ]
   }
 }
