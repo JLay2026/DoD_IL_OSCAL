@@ -21,7 +21,7 @@
     {
       "profileMappingId": 1001,
       "controlId": 1015,
-      "controlIdentifier": "AC-1",
+      "controlIdentifier": "AC-01",
       "controlGuid": "4bed009e-58d4-4ea1-9ffd-e6f2afaf2c5f",
       "controlTitle": "AC-01 - Policy and Procedures",
       "catalogId": 219,
@@ -32,7 +32,7 @@
     {
       "profileMappingId": 1002,
       "controlId": 1016,
-      "controlIdentifier": "AC-2",
+      "controlIdentifier": "AC-02",
       "controlGuid": "3bf56e40-566c-4668-8b84-78ccea8f70ae",
       "controlTitle": "AC-02 - Account Management",
       "catalogId": 219,
@@ -43,7 +43,7 @@
     {
       "profileMappingId": 1003,
       "controlId": 1017,
-      "controlIdentifier": "AC-2(1)",
+      "controlIdentifier": "AC-02(01)",
       "controlGuid": "5ce4dcb4-c2fc-4e5a-9d75-4e30db383c2c",
       "controlTitle": "AC-02(01) - Automated System Account Management",
       "catalogId": 219,
@@ -54,7 +54,7 @@
     {
       "profileMappingId": 1004,
       "controlId": 1018,
-      "controlIdentifier": "AC-2(2)",
+      "controlIdentifier": "AC-02(02)",
       "controlGuid": "5067ed85-b661-4a2e-8b11-3a1b35bfe53a",
       "controlTitle": "AC-02(02) - Automated Temporary and Emergency Account Management",
       "catalogId": 219,
@@ -65,7 +65,7 @@
     {
       "profileMappingId": 1005,
       "controlId": 1019,
-      "controlIdentifier": "AC-2(3)",
+      "controlIdentifier": "AC-02(03)",
       "controlGuid": "ff454a97-e8af-4e76-afe7-5ce8c7910843",
       "controlTitle": "AC-02(03) - Disable Accounts",
       "catalogId": 219,
@@ -76,7 +76,7 @@
     {
       "profileMappingId": 1006,
       "controlId": 1020,
-      "controlIdentifier": "AC-2(4)",
+      "controlIdentifier": "AC-02(04)",
       "controlGuid": "6c032d15-fa97-41c1-b7bd-d70a9d6536c0",
       "controlTitle": "AC-02(04) - Automated Audit Actions",
       "catalogId": 219,
@@ -87,7 +87,7 @@
     {
       "profileMappingId": 1007,
       "controlId": 1021,
-      "controlIdentifier": "AC-2(5)",
+      "controlIdentifier": "AC-02(05)",
       "controlGuid": "b9ca8400-d2b9-47e9-8c92-d982def37117",
       "controlTitle": "AC-02(05) - Inactivity Logout",
       "catalogId": 219,
@@ -98,7 +98,7 @@
     {
       "profileMappingId": 1008,
       "controlId": 1023,
-      "controlIdentifier": "AC-2(7)",
+      "controlIdentifier": "AC-02(07)",
       "controlGuid": "4fc2f471-bbbd-4a17-b51d-f417026cdd89",
       "controlTitle": "AC-02(07) - Privileged User Accounts",
       "catalogId": 219,
@@ -109,7 +109,7 @@
     {
       "profileMappingId": 1009,
       "controlId": 1025,
-      "controlIdentifier": "AC-2(9)",
+      "controlIdentifier": "AC-02(09)",
       "controlGuid": "92487bae-6d33-4efc-a4cb-167dd76728e4",
       "controlTitle": "AC-02(09) - Restrictions on Use of Shared and Group Accounts",
       "catalogId": 219,
@@ -120,7 +120,7 @@
     {
       "profileMappingId": 1010,
       "controlId": 1026,
-      "controlIdentifier": "AC-2(11)",
+      "controlIdentifier": "AC-02(11)",
       "controlGuid": "352d1440-62d9-4053-86f8-26825859a83f",
       "controlTitle": "AC-02(11) - Usage Conditions",
       "catalogId": 219,
@@ -131,7 +131,7 @@
     {
       "profileMappingId": 1011,
       "controlId": 1027,
-      "controlIdentifier": "AC-2(12)",
+      "controlIdentifier": "AC-02(12)",
       "controlGuid": "8597ce22-74a9-42cb-82f5-f70995aaf3ea",
       "controlTitle": "AC-02(12) - Account Monitoring for Atypical Usage",
       "catalogId": 219,
@@ -142,7 +142,7 @@
     {
       "profileMappingId": 1012,
       "controlId": 1028,
-      "controlIdentifier": "AC-2(13)",
+      "controlIdentifier": "AC-02(13)",
       "controlGuid": "0c98623b-36ff-407a-9f76-173582176cfe",
       "controlTitle": "AC-02(13) - Disable Accounts for High-risk Individuals",
       "catalogId": 219,
@@ -153,7 +153,7 @@
     {
       "profileMappingId": 1013,
       "controlId": 1029,
-      "controlIdentifier": "AC-3",
+      "controlIdentifier": "AC-03",
       "controlGuid": "54997391-a313-4b30-ad1c-ad8c20df4460",
       "controlTitle": "AC-03 - Access Enforcement",
       "catalogId": 219,
@@ -164,7 +164,7 @@
     {
       "profileMappingId": 1014,
       "controlId": 1043,
-      "controlIdentifier": "AC-4",
+      "controlIdentifier": "AC-04",
       "controlGuid": "21e32903-8ca1-4e9d-95ea-58c1bd5c88d3",
       "controlTitle": "AC-04 - Information Flow Enforcement",
       "catalogId": 219,
@@ -175,7 +175,7 @@
     {
       "profileMappingId": 1015,
       "controlId": 1047,
-      "controlIdentifier": "AC-4(4)",
+      "controlIdentifier": "AC-04(04)",
       "controlGuid": "6160d238-226b-4fb3-9f4b-43f91253c766",
       "controlTitle": "AC-04(04) - Flow Control of Encrypted Information",
       "catalogId": 219,
@@ -186,7 +186,7 @@
     {
       "profileMappingId": 1016,
       "controlId": 1062,
-      "controlIdentifier": "AC-4(21)",
+      "controlIdentifier": "AC-04(21)",
       "controlGuid": "fca44c33-3f88-452e-b720-bd138145e46f",
       "controlTitle": "AC-04(21) - Physical or Logical Separation of Information Flows",
       "catalogId": 219,
@@ -197,7 +197,7 @@
     {
       "profileMappingId": 1017,
       "controlId": 1074,
-      "controlIdentifier": "AC-5",
+      "controlIdentifier": "AC-05",
       "controlGuid": "ee62dfba-7714-42ae-ae21-bc399eeec8c4",
       "controlTitle": "AC-05 - Separation of Duties",
       "catalogId": 219,
@@ -208,7 +208,7 @@
     {
       "profileMappingId": 1018,
       "controlId": 1075,
-      "controlIdentifier": "AC-6",
+      "controlIdentifier": "AC-06",
       "controlGuid": "1bb6a83c-ed4d-40ce-9bd9-3334f0833351",
       "controlTitle": "AC-06 - Least Privilege",
       "catalogId": 219,
@@ -219,7 +219,7 @@
     {
       "profileMappingId": 1019,
       "controlId": 1076,
-      "controlIdentifier": "AC-6(1)",
+      "controlIdentifier": "AC-06(01)",
       "controlGuid": "01fc50e1-a59e-4110-8bc3-65442d41088e",
       "controlTitle": "AC-06(01) - Authorize Access to Security Functions",
       "catalogId": 219,
@@ -230,7 +230,7 @@
     {
       "profileMappingId": 1020,
       "controlId": 1077,
-      "controlIdentifier": "AC-6(2)",
+      "controlIdentifier": "AC-06(02)",
       "controlGuid": "dd5bc0e9-bb78-4096-87ee-462462fa385c",
       "controlTitle": "AC-06(02) - Non-privileged Access for Nonsecurity Functions",
       "catalogId": 219,
@@ -241,7 +241,7 @@
     {
       "profileMappingId": 1021,
       "controlId": 1078,
-      "controlIdentifier": "AC-6(3)",
+      "controlIdentifier": "AC-06(03)",
       "controlGuid": "7e22a820-4d84-4d59-b211-83691ed20acd",
       "controlTitle": "AC-06(03) - Network Access to Privileged Commands",
       "catalogId": 219,
@@ -252,7 +252,7 @@
     {
       "profileMappingId": 1022,
       "controlId": 1080,
-      "controlIdentifier": "AC-6(5)",
+      "controlIdentifier": "AC-06(05)",
       "controlGuid": "85bae3e7-d913-426c-b905-31451a7575fc",
       "controlTitle": "AC-06(05) - Privileged Accounts",
       "catalogId": 219,
@@ -263,7 +263,7 @@
     {
       "profileMappingId": 1023,
       "controlId": 1082,
-      "controlIdentifier": "AC-6(7)",
+      "controlIdentifier": "AC-06(07)",
       "controlGuid": "e8c77026-b82c-47c0-ad3a-46e29be52284",
       "controlTitle": "AC-06(07) - Review of User Privileges",
       "catalogId": 219,
@@ -274,7 +274,7 @@
     {
       "profileMappingId": 1024,
       "controlId": 1083,
-      "controlIdentifier": "AC-6(8)",
+      "controlIdentifier": "AC-06(08)",
       "controlGuid": "ca8e8798-b215-455d-8cac-67204718adf2",
       "controlTitle": "AC-06(08) - Privilege Levels for Code Execution",
       "catalogId": 219,
@@ -285,7 +285,7 @@
     {
       "profileMappingId": 1025,
       "controlId": 1084,
-      "controlIdentifier": "AC-6(9)",
+      "controlIdentifier": "AC-06(09)",
       "controlGuid": "2de20ad2-4729-41b0-88ee-4742d8bb3aec",
       "controlTitle": "AC-06(09) - Log Use of Privileged Functions",
       "catalogId": 219,
@@ -296,7 +296,7 @@
     {
       "profileMappingId": 1026,
       "controlId": 1085,
-      "controlIdentifier": "AC-6(10)",
+      "controlIdentifier": "AC-06(10)",
       "controlGuid": "deb191be-c698-410c-b44c-a5a739e95532",
       "controlTitle": "AC-06(10) - Prohibit Non-privileged Users from Executing Privileged Functions",
       "catalogId": 219,
@@ -307,7 +307,7 @@
     {
       "profileMappingId": 1027,
       "controlId": 1086,
-      "controlIdentifier": "AC-7",
+      "controlIdentifier": "AC-07",
       "controlGuid": "d65e47b0-6b57-4e02-baae-2b7c8b01afe8",
       "controlTitle": "AC-07 - Unsuccessful Logon Attempts",
       "catalogId": 219,
@@ -318,7 +318,7 @@
     {
       "profileMappingId": 1028,
       "controlId": 1090,
-      "controlIdentifier": "AC-8",
+      "controlIdentifier": "AC-08",
       "controlGuid": "f00986fa-d094-4772-9c2d-06b5f2393dc9",
       "controlTitle": "AC-08 - System Use Notification",
       "catalogId": 219,
@@ -351,7 +351,7 @@
     {
       "profileMappingId": 1031,
       "controlId": 1098,
-      "controlIdentifier": "AC-11(1)",
+      "controlIdentifier": "AC-11(01)",
       "controlGuid": "d3633df8-3f2b-400d-91b5-4531d40aa246",
       "controlTitle": "AC-11(01) - Pattern-hiding Displays",
       "catalogId": 219,
@@ -395,7 +395,7 @@
     {
       "profileMappingId": 1035,
       "controlId": 1116,
-      "controlIdentifier": "AC-17(1)",
+      "controlIdentifier": "AC-17(01)",
       "controlGuid": "ec1b48a0-7e64-458c-b68e-025bc5ed1af2",
       "controlTitle": "AC-17(01) - Monitoring and Control",
       "catalogId": 219,
@@ -406,7 +406,7 @@
     {
       "profileMappingId": 1036,
       "controlId": 1117,
-      "controlIdentifier": "AC-17(2)",
+      "controlIdentifier": "AC-17(02)",
       "controlGuid": "d7d6effd-153f-4d2f-96d8-7bbb9824c4c5",
       "controlTitle": "AC-17(02) - Protection of Confidentiality and Integrity Using Encryption",
       "catalogId": 219,
@@ -417,7 +417,7 @@
     {
       "profileMappingId": 1037,
       "controlId": 1118,
-      "controlIdentifier": "AC-17(3)",
+      "controlIdentifier": "AC-17(03)",
       "controlGuid": "d8b0af00-5724-45d9-a6ef-c03ee7813373",
       "controlTitle": "AC-17(03) - Managed Access Control Points",
       "catalogId": 219,
@@ -428,7 +428,7 @@
     {
       "profileMappingId": 1038,
       "controlId": 1119,
-      "controlIdentifier": "AC-17(4)",
+      "controlIdentifier": "AC-17(04)",
       "controlGuid": "b408dfe2-9549-407e-b7dd-795997839cc0",
       "controlTitle": "AC-17(04) - Privileged Commands and Access",
       "catalogId": 219,
@@ -450,7 +450,7 @@
     {
       "profileMappingId": 1040,
       "controlId": 1124,
-      "controlIdentifier": "AC-18(1)",
+      "controlIdentifier": "AC-18(01)",
       "controlGuid": "0b4db29b-a497-4d6d-8149-a4880e205c8b",
       "controlTitle": "AC-18(01) - Authentication and Encryption",
       "catalogId": 219,
@@ -461,7 +461,7 @@
     {
       "profileMappingId": 1041,
       "controlId": 1125,
-      "controlIdentifier": "AC-18(3)",
+      "controlIdentifier": "AC-18(03)",
       "controlGuid": "4e004c25-6e63-4daa-a71d-ee4cd1ffbf74",
       "controlTitle": "AC-18(03) - Disable Wireless Networking",
       "catalogId": 219,
@@ -472,7 +472,7 @@
     {
       "profileMappingId": 1042,
       "controlId": 1126,
-      "controlIdentifier": "AC-18(4)",
+      "controlIdentifier": "AC-18(04)",
       "controlGuid": "72583612-bb27-466b-85dd-09504ab862d5",
       "controlTitle": "AC-18(04) - Restrict Configurations by Users",
       "catalogId": 219,
@@ -483,7 +483,7 @@
     {
       "profileMappingId": 1043,
       "controlId": 1127,
-      "controlIdentifier": "AC-18(5)",
+      "controlIdentifier": "AC-18(05)",
       "controlGuid": "d8758aa5-10d5-46a0-9217-a1d26ddc43ea",
       "controlTitle": "AC-18(05) - Antennas and Transmission Power Levels",
       "catalogId": 219,
@@ -505,7 +505,7 @@
     {
       "profileMappingId": 1045,
       "controlId": 1130,
-      "controlIdentifier": "AC-19(5)",
+      "controlIdentifier": "AC-19(05)",
       "controlGuid": "30c88970-e2ac-45b3-aae2-8bb3a3d29fc2",
       "controlTitle": "AC-19(05) - Full Device or Container-based Encryption",
       "catalogId": 219,
@@ -527,7 +527,7 @@
     {
       "profileMappingId": 1047,
       "controlId": 1132,
-      "controlIdentifier": "AC-20(1)",
+      "controlIdentifier": "AC-20(01)",
       "controlGuid": "9ec44b37-8a6b-49b9-9019-0736eb59a8ba",
       "controlTitle": "AC-20(01) - Limits on Authorized Use",
       "catalogId": 219,
@@ -538,7 +538,7 @@
     {
       "profileMappingId": 1048,
       "controlId": 1133,
-      "controlIdentifier": "AC-20(2)",
+      "controlIdentifier": "AC-20(02)",
       "controlGuid": "8b4df750-754a-4b63-bc17-846688507c58",
       "controlTitle": "AC-20(02) - Portable Storage Devices \u2014 Restricted Use",
       "catalogId": 219,
@@ -571,7 +571,7 @@
     {
       "profileMappingId": 1051,
       "controlId": 1146,
-      "controlIdentifier": "AT-1",
+      "controlIdentifier": "AT-01",
       "controlGuid": "3d841ba1-d352-4e4b-888f-3bc6ff4a7334",
       "controlTitle": "AT-01 - Policy and Procedures",
       "catalogId": 219,
@@ -582,7 +582,7 @@
     {
       "profileMappingId": 1052,
       "controlId": 1147,
-      "controlIdentifier": "AT-2",
+      "controlIdentifier": "AT-02",
       "controlGuid": "f1c9c5da-1e28-4592-a066-4e3c61675e45",
       "controlTitle": "AT-02 - Literacy Training and Awareness",
       "catalogId": 219,
@@ -593,7 +593,7 @@
     {
       "profileMappingId": 1053,
       "controlId": 1149,
-      "controlIdentifier": "AT-2(2)",
+      "controlIdentifier": "AT-02(02)",
       "controlGuid": "cc67cd52-6089-48b7-a026-c7b738c902df",
       "controlTitle": "AT-02(02) - Insider Threat",
       "catalogId": 219,
@@ -604,7 +604,7 @@
     {
       "profileMappingId": 1054,
       "controlId": 1150,
-      "controlIdentifier": "AT-2(3)",
+      "controlIdentifier": "AT-02(03)",
       "controlGuid": "d2e287b7-e35a-4ac3-96d6-6687ccfd69ad",
       "controlTitle": "AT-02(03) - Social Engineering and Mining",
       "catalogId": 219,
@@ -615,7 +615,7 @@
     {
       "profileMappingId": 1055,
       "controlId": 1154,
-      "controlIdentifier": "AT-3",
+      "controlIdentifier": "AT-03",
       "controlGuid": "987ec548-e631-4b4d-ae8e-985c8d75e570",
       "controlTitle": "AT-03 - Role-based Training",
       "catalogId": 219,
@@ -626,7 +626,7 @@
     {
       "profileMappingId": 1056,
       "controlId": 1159,
-      "controlIdentifier": "AT-4",
+      "controlIdentifier": "AT-04",
       "controlGuid": "7b044f40-f2a9-4be0-997f-a3173d6b0f0a",
       "controlTitle": "AT-04 - Training Records",
       "catalogId": 219,
@@ -637,7 +637,7 @@
     {
       "profileMappingId": 1057,
       "controlId": 1161,
-      "controlIdentifier": "AU-1",
+      "controlIdentifier": "AU-01",
       "controlGuid": "14fd7cc4-fed6-48d2-b39e-8a0bb1f0adb4",
       "controlTitle": "AU-01 - Policy and Procedures",
       "catalogId": 219,
@@ -648,7 +648,7 @@
     {
       "profileMappingId": 1058,
       "controlId": 1162,
-      "controlIdentifier": "AU-2",
+      "controlIdentifier": "AU-02",
       "controlGuid": "37050ea6-0ddb-4bef-bdd7-fef7a3e1729b",
       "controlTitle": "AU-02 - Event Logging",
       "catalogId": 219,
@@ -659,7 +659,7 @@
     {
       "profileMappingId": 1059,
       "controlId": 1163,
-      "controlIdentifier": "AU-3",
+      "controlIdentifier": "AU-03",
       "controlGuid": "b9a1bcce-f973-44f7-a6ec-2dd0ffaf6b33",
       "controlTitle": "AU-03 - Content of Audit Records",
       "catalogId": 219,
@@ -670,7 +670,7 @@
     {
       "profileMappingId": 1060,
       "controlId": 1164,
-      "controlIdentifier": "AU-3(1)",
+      "controlIdentifier": "AU-03(01)",
       "controlGuid": "e7e249b2-97a5-4dc3-9ab0-ec591dddb2a1",
       "controlTitle": "AU-03(01) - Additional Audit Information",
       "catalogId": 219,
@@ -681,7 +681,7 @@
     {
       "profileMappingId": 1061,
       "controlId": 1166,
-      "controlIdentifier": "AU-4",
+      "controlIdentifier": "AU-04",
       "controlGuid": "9ab6c014-61cf-403e-b6e9-850dc92da53c",
       "controlTitle": "AU-04 - Audit Log Storage Capacity",
       "catalogId": 219,
@@ -692,7 +692,7 @@
     {
       "profileMappingId": 1062,
       "controlId": 1168,
-      "controlIdentifier": "AU-5",
+      "controlIdentifier": "AU-05",
       "controlGuid": "5874b466-1edd-4fd7-906a-92cc592dfae1",
       "controlTitle": "AU-05 - Response to Audit Logging Process Failures",
       "catalogId": 219,
@@ -703,7 +703,7 @@
     {
       "profileMappingId": 1063,
       "controlId": 1169,
-      "controlIdentifier": "AU-5(1)",
+      "controlIdentifier": "AU-05(01)",
       "controlGuid": "31f56fd6-7f45-46a2-8ebd-cfdb6242cb4e",
       "controlTitle": "AU-05(01) - Storage Capacity Warning",
       "catalogId": 219,
@@ -714,7 +714,7 @@
     {
       "profileMappingId": 1064,
       "controlId": 1170,
-      "controlIdentifier": "AU-5(2)",
+      "controlIdentifier": "AU-05(02)",
       "controlGuid": "3fb66af7-f14c-4ddc-b13c-a0a495a5a102",
       "controlTitle": "AU-05(02) - Real-time Alerts",
       "catalogId": 219,
@@ -725,7 +725,7 @@
     {
       "profileMappingId": 1065,
       "controlId": 1174,
-      "controlIdentifier": "AU-6",
+      "controlIdentifier": "AU-06",
       "controlGuid": "cb0ca32a-d487-4d59-b241-fbdf359e3d4b",
       "controlTitle": "AU-06 - Audit Record Review, Analysis, and Reporting",
       "catalogId": 219,
@@ -736,7 +736,7 @@
     {
       "profileMappingId": 1066,
       "controlId": 1175,
-      "controlIdentifier": "AU-6(1)",
+      "controlIdentifier": "AU-06(01)",
       "controlGuid": "fe805ed6-14dc-4dc5-8ed2-a755607d5167",
       "controlTitle": "AU-06(01) - Automated Process Integration",
       "catalogId": 219,
@@ -747,7 +747,7 @@
     {
       "profileMappingId": 1067,
       "controlId": 1176,
-      "controlIdentifier": "AU-6(3)",
+      "controlIdentifier": "AU-06(03)",
       "controlGuid": "5136b680-36b1-446c-9bc2-46891122d593",
       "controlTitle": "AU-06(03) - Correlate Audit Record Repositories",
       "catalogId": 219,
@@ -758,7 +758,7 @@
     {
       "profileMappingId": 1068,
       "controlId": 1177,
-      "controlIdentifier": "AU-6(4)",
+      "controlIdentifier": "AU-06(04)",
       "controlGuid": "6e5b5f71-a8df-432b-af01-7b9f379940d5",
       "controlTitle": "AU-06(04) - Central Review and Analysis",
       "catalogId": 219,
@@ -769,7 +769,7 @@
     {
       "profileMappingId": 1069,
       "controlId": 1178,
-      "controlIdentifier": "AU-6(5)",
+      "controlIdentifier": "AU-06(05)",
       "controlGuid": "fe84b0cc-12e2-4a61-85a6-f908181f19e7",
       "controlTitle": "AU-06(05) - Integrated Analysis of Audit Records",
       "catalogId": 219,
@@ -780,7 +780,7 @@
     {
       "profileMappingId": 1070,
       "controlId": 1179,
-      "controlIdentifier": "AU-6(6)",
+      "controlIdentifier": "AU-06(06)",
       "controlGuid": "9be9ca11-826e-46e3-a170-321194918fe3",
       "controlTitle": "AU-06(06) - Correlation with Physical Monitoring",
       "catalogId": 219,
@@ -791,7 +791,7 @@
     {
       "profileMappingId": 1071,
       "controlId": 1180,
-      "controlIdentifier": "AU-6(7)",
+      "controlIdentifier": "AU-06(07)",
       "controlGuid": "dd24bdea-9c7d-4425-9eba-b21591c2fac6",
       "controlTitle": "AU-06(07) - Permitted Actions",
       "catalogId": 219,
@@ -802,7 +802,7 @@
     {
       "profileMappingId": 1072,
       "controlId": 1183,
-      "controlIdentifier": "AU-7",
+      "controlIdentifier": "AU-07",
       "controlGuid": "7d6a5172-ccf4-4986-b898-166791feb4ee",
       "controlTitle": "AU-07 - Audit Record Reduction and Report Generation",
       "catalogId": 219,
@@ -813,7 +813,7 @@
     {
       "profileMappingId": 1073,
       "controlId": 1184,
-      "controlIdentifier": "AU-7(1)",
+      "controlIdentifier": "AU-07(01)",
       "controlGuid": "1f21ca3d-38ed-4008-933a-23cc65904f30",
       "controlTitle": "AU-07(01) - Automatic Processing",
       "catalogId": 219,
@@ -824,7 +824,7 @@
     {
       "profileMappingId": 1074,
       "controlId": 1185,
-      "controlIdentifier": "AU-8",
+      "controlIdentifier": "AU-08",
       "controlGuid": "6996754f-e2ff-423a-bdf8-354cbf2228d7",
       "controlTitle": "AU-08 - Time Stamps",
       "catalogId": 219,
@@ -835,7 +835,7 @@
     {
       "profileMappingId": 1075,
       "controlId": 1186,
-      "controlIdentifier": "AU-9",
+      "controlIdentifier": "AU-09",
       "controlGuid": "08d41295-c083-4e2c-bba9-c778c3b5ea50",
       "controlTitle": "AU-09 - Protection of Audit Information",
       "catalogId": 219,
@@ -846,7 +846,7 @@
     {
       "profileMappingId": 1076,
       "controlId": 1188,
-      "controlIdentifier": "AU-9(2)",
+      "controlIdentifier": "AU-09(02)",
       "controlGuid": "e2439cea-3453-4f16-8863-b318f8d052a9",
       "controlTitle": "AU-09(02) - Store on Separate Physical Systems or Components",
       "catalogId": 219,
@@ -857,7 +857,7 @@
     {
       "profileMappingId": 1077,
       "controlId": 1189,
-      "controlIdentifier": "AU-9(3)",
+      "controlIdentifier": "AU-09(03)",
       "controlGuid": "aaeb9440-ed28-40e2-aa71-0f7999694805",
       "controlTitle": "AU-09(03) - Cryptographic Protection",
       "catalogId": 219,
@@ -868,7 +868,7 @@
     {
       "profileMappingId": 1078,
       "controlId": 1190,
-      "controlIdentifier": "AU-9(4)",
+      "controlIdentifier": "AU-09(04)",
       "controlGuid": "54f5a49c-becd-4308-ba92-7f88bb0ced88",
       "controlTitle": "AU-09(04) - Access by Subset of Privileged Users",
       "catalogId": 219,
@@ -912,7 +912,7 @@
     {
       "profileMappingId": 1082,
       "controlId": 1202,
-      "controlIdentifier": "AU-12(1)",
+      "controlIdentifier": "AU-12(01)",
       "controlGuid": "2b4fe077-4ee3-4f1a-8bb8-f4d29372bd12",
       "controlTitle": "AU-12(01) - System-wide and Time-correlated Audit Trail",
       "catalogId": 219,
@@ -923,7 +923,7 @@
     {
       "profileMappingId": 1083,
       "controlId": 1204,
-      "controlIdentifier": "AU-12(3)",
+      "controlIdentifier": "AU-12(03)",
       "controlGuid": "987ce2c6-c0d8-423a-ac6d-d420b410655f",
       "controlTitle": "AU-12(03) - Changes by Authorized Individuals",
       "catalogId": 219,
@@ -934,7 +934,7 @@
     {
       "profileMappingId": 1084,
       "controlId": 1217,
-      "controlIdentifier": "CA-1",
+      "controlIdentifier": "CA-01",
       "controlGuid": "1ebd928e-6042-4f3e-a366-4ba005043961",
       "controlTitle": "CA-01 - Policy and Procedures",
       "catalogId": 219,
@@ -945,7 +945,7 @@
     {
       "profileMappingId": 1085,
       "controlId": 1218,
-      "controlIdentifier": "CA-2",
+      "controlIdentifier": "CA-02",
       "controlGuid": "91ad01c7-58d1-484b-b963-9f8992154462",
       "controlTitle": "CA-02 - Control Assessments",
       "catalogId": 219,
@@ -956,7 +956,7 @@
     {
       "profileMappingId": 1086,
       "controlId": 1219,
-      "controlIdentifier": "CA-2(1)",
+      "controlIdentifier": "CA-02(01)",
       "controlGuid": "de9180ed-40d5-48a6-8090-8de3cdd4005d",
       "controlTitle": "CA-02(01) - Independent Assessors",
       "catalogId": 219,
@@ -967,7 +967,7 @@
     {
       "profileMappingId": 1087,
       "controlId": 1220,
-      "controlIdentifier": "CA-2(2)",
+      "controlIdentifier": "CA-02(02)",
       "controlGuid": "64618033-1a49-493e-be2f-7bdb220b4a7f",
       "controlTitle": "CA-02(02) - Specialized Assessments",
       "catalogId": 219,
@@ -978,7 +978,7 @@
     {
       "profileMappingId": 1088,
       "controlId": 1221,
-      "controlIdentifier": "CA-2(3)",
+      "controlIdentifier": "CA-02(03)",
       "controlGuid": "df58312b-ed12-420f-9649-71707cd994d1",
       "controlTitle": "CA-02(03) - Leveraging Results from External Organizations",
       "catalogId": 219,
@@ -989,7 +989,7 @@
     {
       "profileMappingId": 1089,
       "controlId": 1222,
-      "controlIdentifier": "CA-3",
+      "controlIdentifier": "CA-03",
       "controlGuid": "a4f751d7-a1b6-4e1b-92ad-c5ec701306c8",
       "controlTitle": "CA-03 - Information Exchange",
       "catalogId": 219,
@@ -1000,7 +1000,7 @@
     {
       "profileMappingId": 1090,
       "controlId": 1223,
-      "controlIdentifier": "CA-3(6)",
+      "controlIdentifier": "CA-03(06)",
       "controlGuid": "a9b6b5c7-9d7c-47e7-a3ef-4660ba2b8722",
       "controlTitle": "CA-03(06) - Transfer Authorizations",
       "catalogId": 219,
@@ -1011,7 +1011,7 @@
     {
       "profileMappingId": 1091,
       "controlId": 1225,
-      "controlIdentifier": "CA-5",
+      "controlIdentifier": "CA-05",
       "controlGuid": "60858b00-4e8e-4c86-887e-fa6b0254b363",
       "controlTitle": "CA-05 - Plan of Action and Milestones",
       "catalogId": 219,
@@ -1022,7 +1022,7 @@
     {
       "profileMappingId": 1092,
       "controlId": 1227,
-      "controlIdentifier": "CA-6",
+      "controlIdentifier": "CA-06",
       "controlGuid": "a1ed517b-93b6-4efa-9249-4478c705925b",
       "controlTitle": "CA-06 - Authorization",
       "catalogId": 219,
@@ -1033,7 +1033,7 @@
     {
       "profileMappingId": 1093,
       "controlId": 1230,
-      "controlIdentifier": "CA-7",
+      "controlIdentifier": "CA-07",
       "controlGuid": "1ca28af9-ebd7-47cb-ae46-b7b2016e7ff3",
       "controlTitle": "CA-07 - Continuous Monitoring",
       "catalogId": 219,
@@ -1044,7 +1044,7 @@
     {
       "profileMappingId": 1094,
       "controlId": 1231,
-      "controlIdentifier": "CA-7(1)",
+      "controlIdentifier": "CA-07(01)",
       "controlGuid": "fbbdaee9-5589-40d5-9c5b-c453f4860a41",
       "controlTitle": "CA-07(01) - Independent Assessment",
       "catalogId": 219,
@@ -1055,7 +1055,7 @@
     {
       "profileMappingId": 1095,
       "controlId": 1233,
-      "controlIdentifier": "CA-7(4)",
+      "controlIdentifier": "CA-07(04)",
       "controlGuid": "e430bcf8-3a3b-4f00-b06c-e7c7c4d0df21",
       "controlTitle": "CA-07(04) - Risk Monitoring",
       "catalogId": 219,
@@ -1066,7 +1066,7 @@
     {
       "profileMappingId": 1096,
       "controlId": 1236,
-      "controlIdentifier": "CA-8",
+      "controlIdentifier": "CA-08",
       "controlGuid": "c2c10d2c-fb99-4511-8271-580a8af89dc8",
       "controlTitle": "CA-08 - Penetration Testing",
       "catalogId": 219,
@@ -1077,7 +1077,7 @@
     {
       "profileMappingId": 1097,
       "controlId": 1237,
-      "controlIdentifier": "CA-8(1)",
+      "controlIdentifier": "CA-08(01)",
       "controlGuid": "b9c1a128-5b85-4932-9ade-c523ff0526f5",
       "controlTitle": "CA-08(01) - Independent Penetration Testing Agent or Team",
       "catalogId": 219,
@@ -1088,7 +1088,7 @@
     {
       "profileMappingId": 1098,
       "controlId": 1238,
-      "controlIdentifier": "CA-8(2)",
+      "controlIdentifier": "CA-08(02)",
       "controlGuid": "330db6ec-eb45-4968-9269-9236e10be929",
       "controlTitle": "CA-08(02) - Red Team Exercises",
       "catalogId": 219,
@@ -1099,7 +1099,7 @@
     {
       "profileMappingId": 1099,
       "controlId": 1240,
-      "controlIdentifier": "CA-9",
+      "controlIdentifier": "CA-09",
       "controlGuid": "a429b05c-abfd-45ab-9a19-7f2bcf49a9ee",
       "controlTitle": "CA-09 - Internal System Connections",
       "catalogId": 219,
@@ -1110,7 +1110,7 @@
     {
       "profileMappingId": 1100,
       "controlId": 1242,
-      "controlIdentifier": "CM-1",
+      "controlIdentifier": "CM-01",
       "controlGuid": "f097d423-23d2-4e81-a3a2-98a5fda8cfdb",
       "controlTitle": "CM-01 - Policy and Procedures",
       "catalogId": 219,
@@ -1121,7 +1121,7 @@
     {
       "profileMappingId": 1101,
       "controlId": 1243,
-      "controlIdentifier": "CM-2",
+      "controlIdentifier": "CM-02",
       "controlGuid": "9dfd5fe8-c8b9-4c2e-b77a-a6397dc6c267",
       "controlTitle": "CM-02 - Baseline Configuration",
       "catalogId": 219,
@@ -1132,7 +1132,7 @@
     {
       "profileMappingId": 1102,
       "controlId": 1244,
-      "controlIdentifier": "CM-2(2)",
+      "controlIdentifier": "CM-02(02)",
       "controlGuid": "39f124bb-cf07-4649-8edf-16d98ff942eb",
       "controlTitle": "CM-02(02) - Automation Support for Accuracy and Currency",
       "catalogId": 219,
@@ -1143,7 +1143,7 @@
     {
       "profileMappingId": 1103,
       "controlId": 1245,
-      "controlIdentifier": "CM-2(3)",
+      "controlIdentifier": "CM-02(03)",
       "controlGuid": "1d362f7a-6c40-44a1-97ce-9e687bbb293a",
       "controlTitle": "CM-02(03) - Retention of Previous Configurations",
       "catalogId": 219,
@@ -1154,7 +1154,7 @@
     {
       "profileMappingId": 1104,
       "controlId": 1247,
-      "controlIdentifier": "CM-2(7)",
+      "controlIdentifier": "CM-02(07)",
       "controlGuid": "ff9ec102-b96b-4478-873a-3d75dbbd1bd0",
       "controlTitle": "CM-02(07) - Configure Systems and Components for High-risk Areas",
       "catalogId": 219,
@@ -1165,7 +1165,7 @@
     {
       "profileMappingId": 1105,
       "controlId": 1248,
-      "controlIdentifier": "CM-3",
+      "controlIdentifier": "CM-03",
       "controlGuid": "e72253ae-b64a-4ce9-a758-f4e5099dfd35",
       "controlTitle": "CM-03 - Configuration Change Control",
       "catalogId": 219,
@@ -1176,7 +1176,7 @@
     {
       "profileMappingId": 1106,
       "controlId": 1249,
-      "controlIdentifier": "CM-3(1)",
+      "controlIdentifier": "CM-03(01)",
       "controlGuid": "a953507a-a328-4302-8807-f8f4726f1ac0",
       "controlTitle": "CM-03(01) - Automated Documentation, Notification, and Prohibition of Changes",
       "catalogId": 219,
@@ -1187,7 +1187,7 @@
     {
       "profileMappingId": 1107,
       "controlId": 1250,
-      "controlIdentifier": "CM-3(2)",
+      "controlIdentifier": "CM-03(02)",
       "controlGuid": "153a4f49-e308-4050-803c-5e194ca0feec",
       "controlTitle": "CM-03(02) - Testing, Validation, and Documentation of Changes",
       "catalogId": 219,
@@ -1198,7 +1198,7 @@
     {
       "profileMappingId": 1108,
       "controlId": 1252,
-      "controlIdentifier": "CM-3(4)",
+      "controlIdentifier": "CM-03(04)",
       "controlGuid": "e8953e87-ed5f-4192-8b85-be0aa4f17192",
       "controlTitle": "CM-03(04) - Security and Privacy Representatives",
       "catalogId": 219,
@@ -1209,7 +1209,7 @@
     {
       "profileMappingId": 1109,
       "controlId": 1254,
-      "controlIdentifier": "CM-3(6)",
+      "controlIdentifier": "CM-03(06)",
       "controlGuid": "bbab459e-fb73-4aa7-a4a2-09b0b3453c0e",
       "controlTitle": "CM-03(06) - Cryptography Management",
       "catalogId": 219,
@@ -1220,7 +1220,7 @@
     {
       "profileMappingId": 1110,
       "controlId": 1257,
-      "controlIdentifier": "CM-4",
+      "controlIdentifier": "CM-04",
       "controlGuid": "85977594-8bf0-4848-94eb-9f56ea57564c",
       "controlTitle": "CM-04 - Impact Analyses",
       "catalogId": 219,
@@ -1231,7 +1231,7 @@
     {
       "profileMappingId": 1111,
       "controlId": 1258,
-      "controlIdentifier": "CM-4(1)",
+      "controlIdentifier": "CM-04(01)",
       "controlGuid": "a02638a8-f51f-4be7-a79c-b43973ebe247",
       "controlTitle": "CM-04(01) - Separate Test Environments",
       "catalogId": 219,
@@ -1242,7 +1242,7 @@
     {
       "profileMappingId": 1112,
       "controlId": 1259,
-      "controlIdentifier": "CM-4(2)",
+      "controlIdentifier": "CM-04(02)",
       "controlGuid": "f8806a09-0e08-4ad5-b174-87166874b768",
       "controlTitle": "CM-04(02) - Verification of Controls",
       "catalogId": 219,
@@ -1253,7 +1253,7 @@
     {
       "profileMappingId": 1113,
       "controlId": 1260,
-      "controlIdentifier": "CM-5",
+      "controlIdentifier": "CM-05",
       "controlGuid": "dc31434a-9349-48f1-8db1-d009bffb55d9",
       "controlTitle": "CM-05 - Access Restrictions for Change",
       "catalogId": 219,
@@ -1264,7 +1264,7 @@
     {
       "profileMappingId": 1114,
       "controlId": 1261,
-      "controlIdentifier": "CM-5(1)",
+      "controlIdentifier": "CM-05(01)",
       "controlGuid": "b41f6ee1-f8f5-4e89-beca-aa210944c166",
       "controlTitle": "CM-05(01) - Automated Access Enforcement and Audit Records",
       "catalogId": 219,
@@ -1275,7 +1275,7 @@
     {
       "profileMappingId": 1115,
       "controlId": 1263,
-      "controlIdentifier": "CM-5(5)",
+      "controlIdentifier": "CM-05(05)",
       "controlGuid": "4c68cd52-8aee-4254-9fc4-5896e8f143c7",
       "controlTitle": "CM-05(05) - Privilege Limitation for Production and Operation",
       "catalogId": 219,
@@ -1286,7 +1286,7 @@
     {
       "profileMappingId": 1116,
       "controlId": 1265,
-      "controlIdentifier": "CM-6",
+      "controlIdentifier": "CM-06",
       "controlGuid": "87a3e962-a54b-4cdd-bcad-9fd80a11d0c2",
       "controlTitle": "CM-06 - Configuration Settings",
       "catalogId": 219,
@@ -1297,7 +1297,7 @@
     {
       "profileMappingId": 1117,
       "controlId": 1266,
-      "controlIdentifier": "CM-6(1)",
+      "controlIdentifier": "CM-06(01)",
       "controlGuid": "3207bd5a-d9d3-454c-aafa-9b0357f6daad",
       "controlTitle": "CM-06(01) - Automated Management, Application, and Verification",
       "catalogId": 219,
@@ -1308,7 +1308,7 @@
     {
       "profileMappingId": 1118,
       "controlId": 1267,
-      "controlIdentifier": "CM-6(2)",
+      "controlIdentifier": "CM-06(02)",
       "controlGuid": "74e79a17-ad27-40cf-a14d-f3546e86dedb",
       "controlTitle": "CM-06(02) - Respond to Unauthorized Changes",
       "catalogId": 219,
@@ -1319,7 +1319,7 @@
     {
       "profileMappingId": 1119,
       "controlId": 1268,
-      "controlIdentifier": "CM-7",
+      "controlIdentifier": "CM-07",
       "controlGuid": "49d7e90f-3971-4ae8-909a-7e4a2aad5794",
       "controlTitle": "CM-07 - Least Functionality",
       "catalogId": 219,
@@ -1330,7 +1330,7 @@
     {
       "profileMappingId": 1120,
       "controlId": 1269,
-      "controlIdentifier": "CM-7(1)",
+      "controlIdentifier": "CM-07(01)",
       "controlGuid": "eb34987f-c8cd-4e3e-b6a5-973f96aeac2e",
       "controlTitle": "CM-07(01) - Periodic Review",
       "catalogId": 219,
@@ -1341,7 +1341,7 @@
     {
       "profileMappingId": 1121,
       "controlId": 1270,
-      "controlIdentifier": "CM-7(2)",
+      "controlIdentifier": "CM-07(02)",
       "controlGuid": "c0455cf6-43c4-4f95-94fe-a592e4f9c1f3",
       "controlTitle": "CM-07(02) - Prevent Program Execution",
       "catalogId": 219,
@@ -1352,7 +1352,7 @@
     {
       "profileMappingId": 1122,
       "controlId": 1273,
-      "controlIdentifier": "CM-7(5)",
+      "controlIdentifier": "CM-07(05)",
       "controlGuid": "9e4f0f4c-c8ab-475b-a6bf-30685ae55912",
       "controlTitle": "CM-07(05) - Authorized Software \u2014 Allow-by-exception",
       "catalogId": 219,
@@ -1363,7 +1363,7 @@
     {
       "profileMappingId": 1123,
       "controlId": 1278,
-      "controlIdentifier": "CM-8",
+      "controlIdentifier": "CM-08",
       "controlGuid": "fc5b5cf6-f04b-4c8f-88dd-e779cc2e26a0",
       "controlTitle": "CM-08 - System Component Inventory",
       "catalogId": 219,
@@ -1374,7 +1374,7 @@
     {
       "profileMappingId": 1124,
       "controlId": 1279,
-      "controlIdentifier": "CM-8(1)",
+      "controlIdentifier": "CM-08(01)",
       "controlGuid": "f80a079a-518a-48ef-9f59-7e344e9014c3",
       "controlTitle": "CM-08(01) - Updates During Installation and Removal",
       "catalogId": 219,
@@ -1385,7 +1385,7 @@
     {
       "profileMappingId": 1125,
       "controlId": 1280,
-      "controlIdentifier": "CM-8(2)",
+      "controlIdentifier": "CM-08(02)",
       "controlGuid": "69411732-f58f-4b75-88b3-88b9bc07eca7",
       "controlTitle": "CM-08(02) - Automated Maintenance",
       "catalogId": 219,
@@ -1396,7 +1396,7 @@
     {
       "profileMappingId": 1126,
       "controlId": 1281,
-      "controlIdentifier": "CM-8(3)",
+      "controlIdentifier": "CM-08(03)",
       "controlGuid": "3fb0c9bf-c684-44ce-aacd-8bade838c38b",
       "controlTitle": "CM-08(03) - Automated Unauthorized Component Detection",
       "catalogId": 219,
@@ -1407,7 +1407,7 @@
     {
       "profileMappingId": 1127,
       "controlId": 1282,
-      "controlIdentifier": "CM-8(4)",
+      "controlIdentifier": "CM-08(04)",
       "controlGuid": "cf22f7c9-bf9d-4e3a-98eb-c2bdf01db15a",
       "controlTitle": "CM-08(04) - Accountability Information",
       "catalogId": 219,
@@ -1418,7 +1418,7 @@
     {
       "profileMappingId": 1128,
       "controlId": 1287,
-      "controlIdentifier": "CM-9",
+      "controlIdentifier": "CM-09",
       "controlGuid": "4b3772de-f00e-4420-815a-5f650f1739a6",
       "controlTitle": "CM-09 - Configuration Management Plan",
       "catalogId": 219,
@@ -1462,7 +1462,7 @@
     {
       "profileMappingId": 1132,
       "controlId": 1295,
-      "controlIdentifier": "CM-12(1)",
+      "controlIdentifier": "CM-12(01)",
       "controlGuid": "6fc94dff-1a4a-4c95-9759-0a4c3949852b",
       "controlTitle": "CM-12(01) - Automated Tools to Support Information Location",
       "catalogId": 219,
@@ -1484,7 +1484,7 @@
     {
       "profileMappingId": 1134,
       "controlId": 1298,
-      "controlIdentifier": "CP-1",
+      "controlIdentifier": "CP-01",
       "controlGuid": "c99362ac-aa6b-4aec-b7e2-f37b6749e2a1",
       "controlTitle": "CP-01 - Policy and Procedures",
       "catalogId": 219,
@@ -1495,7 +1495,7 @@
     {
       "profileMappingId": 1135,
       "controlId": 1299,
-      "controlIdentifier": "CP-2",
+      "controlIdentifier": "CP-02",
       "controlGuid": "a4a4d89b-e035-4d49-96f2-7b0e38a157ba",
       "controlTitle": "CP-02 - Contingency Plan",
       "catalogId": 219,
@@ -1506,7 +1506,7 @@
     {
       "profileMappingId": 1136,
       "controlId": 1300,
-      "controlIdentifier": "CP-2(1)",
+      "controlIdentifier": "CP-02(01)",
       "controlGuid": "fbbdf406-eb64-4c82-80aa-032e277e3153",
       "controlTitle": "CP-02(01) - Coordinate with Related Plans",
       "catalogId": 219,
@@ -1517,7 +1517,7 @@
     {
       "profileMappingId": 1137,
       "controlId": 1301,
-      "controlIdentifier": "CP-2(2)",
+      "controlIdentifier": "CP-02(02)",
       "controlGuid": "bcb46cc7-4443-4b69-8d2a-81dc34575d01",
       "controlTitle": "CP-02(02) - Capacity Planning",
       "catalogId": 219,
@@ -1528,7 +1528,7 @@
     {
       "profileMappingId": 1138,
       "controlId": 1302,
-      "controlIdentifier": "CP-2(3)",
+      "controlIdentifier": "CP-02(03)",
       "controlGuid": "5d1b20ab-0a2b-4447-ae77-1d4666bdc06e",
       "controlTitle": "CP-02(03) - Resume Mission and Business Functions",
       "catalogId": 219,
@@ -1539,7 +1539,7 @@
     {
       "profileMappingId": 1139,
       "controlId": 1303,
-      "controlIdentifier": "CP-2(5)",
+      "controlIdentifier": "CP-02(05)",
       "controlGuid": "08662c0e-e0b0-44ec-88b0-e0fce313f6dc",
       "controlTitle": "CP-02(05) - Continue Mission and Business Functions",
       "catalogId": 219,
@@ -1550,7 +1550,7 @@
     {
       "profileMappingId": 1140,
       "controlId": 1306,
-      "controlIdentifier": "CP-2(8)",
+      "controlIdentifier": "CP-02(08)",
       "controlGuid": "a68ad06b-b20c-489e-9721-e353cb8b777d",
       "controlTitle": "CP-02(08) - Identify Critical Assets",
       "catalogId": 219,
@@ -1561,7 +1561,7 @@
     {
       "profileMappingId": 1141,
       "controlId": 1307,
-      "controlIdentifier": "CP-3",
+      "controlIdentifier": "CP-03",
       "controlGuid": "cd3e403c-cd7a-4e94-879f-f91273e1718f",
       "controlTitle": "CP-03 - Contingency Training",
       "catalogId": 219,
@@ -1572,7 +1572,7 @@
     {
       "profileMappingId": 1142,
       "controlId": 1308,
-      "controlIdentifier": "CP-3(1)",
+      "controlIdentifier": "CP-03(01)",
       "controlGuid": "32652b3c-6cde-4cd9-98ff-e0121182e013",
       "controlTitle": "CP-03(01) - Simulated Events",
       "catalogId": 219,
@@ -1583,7 +1583,7 @@
     {
       "profileMappingId": 1143,
       "controlId": 1310,
-      "controlIdentifier": "CP-4",
+      "controlIdentifier": "CP-04",
       "controlGuid": "e75b61b1-a3de-4ba2-bc71-2598bea0ee7b",
       "controlTitle": "CP-04 - Contingency Plan Testing",
       "catalogId": 219,
@@ -1594,7 +1594,7 @@
     {
       "profileMappingId": 1144,
       "controlId": 1311,
-      "controlIdentifier": "CP-4(1)",
+      "controlIdentifier": "CP-04(01)",
       "controlGuid": "6ff3d8cb-b52c-4803-90cc-5e34be9798d5",
       "controlTitle": "CP-04(01) - Coordinate with Related Plans",
       "catalogId": 219,
@@ -1605,7 +1605,7 @@
     {
       "profileMappingId": 1145,
       "controlId": 1312,
-      "controlIdentifier": "CP-4(2)",
+      "controlIdentifier": "CP-04(02)",
       "controlGuid": "fe69e6ec-0f9e-465a-9abb-da58a0831371",
       "controlTitle": "CP-04(02) - Alternate Processing Site",
       "catalogId": 219,
@@ -1616,7 +1616,7 @@
     {
       "profileMappingId": 1146,
       "controlId": 1316,
-      "controlIdentifier": "CP-6",
+      "controlIdentifier": "CP-06",
       "controlGuid": "c5cd9c89-7305-4a5d-8e08-9c0f82f08734",
       "controlTitle": "CP-06 - Alternate Storage Site",
       "catalogId": 219,
@@ -1627,7 +1627,7 @@
     {
       "profileMappingId": 1147,
       "controlId": 1317,
-      "controlIdentifier": "CP-6(1)",
+      "controlIdentifier": "CP-06(01)",
       "controlGuid": "ba7d127c-f6fd-4b88-b620-3740ceeb12c1",
       "controlTitle": "CP-06(01) - Separation from Primary Site",
       "catalogId": 219,
@@ -1638,7 +1638,7 @@
     {
       "profileMappingId": 1148,
       "controlId": 1318,
-      "controlIdentifier": "CP-6(2)",
+      "controlIdentifier": "CP-06(02)",
       "controlGuid": "62512d73-73a6-4e79-8387-209c8838a4ec",
       "controlTitle": "CP-06(02) - Recovery Time and Recovery Point Objectives",
       "catalogId": 219,
@@ -1649,7 +1649,7 @@
     {
       "profileMappingId": 1149,
       "controlId": 1319,
-      "controlIdentifier": "CP-6(3)",
+      "controlIdentifier": "CP-06(03)",
       "controlGuid": "ace94df6-43e0-4cff-8cc3-51d940b74ce5",
       "controlTitle": "CP-06(03) - Accessibility",
       "catalogId": 219,
@@ -1660,7 +1660,7 @@
     {
       "profileMappingId": 1150,
       "controlId": 1320,
-      "controlIdentifier": "CP-7",
+      "controlIdentifier": "CP-07",
       "controlGuid": "fb7287c9-7e91-46a4-b9b1-78ac3352f0b9",
       "controlTitle": "CP-07 - Alternate Processing Site",
       "catalogId": 219,
@@ -1671,7 +1671,7 @@
     {
       "profileMappingId": 1151,
       "controlId": 1321,
-      "controlIdentifier": "CP-7(1)",
+      "controlIdentifier": "CP-07(01)",
       "controlGuid": "1cde34bc-63dc-4893-9ae6-598cb3bbb50a",
       "controlTitle": "CP-07(01) - Separation from Primary Site",
       "catalogId": 219,
@@ -1682,7 +1682,7 @@
     {
       "profileMappingId": 1152,
       "controlId": 1322,
-      "controlIdentifier": "CP-7(2)",
+      "controlIdentifier": "CP-07(02)",
       "controlGuid": "851a5ae5-3759-4ba3-8eb4-d29172f43672",
       "controlTitle": "CP-07(02) - Accessibility",
       "catalogId": 219,
@@ -1693,7 +1693,7 @@
     {
       "profileMappingId": 1153,
       "controlId": 1323,
-      "controlIdentifier": "CP-7(3)",
+      "controlIdentifier": "CP-07(03)",
       "controlGuid": "ca51762f-2833-44c8-81a5-db3c7bfc3ca5",
       "controlTitle": "CP-07(03) - Priority of Service",
       "catalogId": 219,
@@ -1704,7 +1704,7 @@
     {
       "profileMappingId": 1154,
       "controlId": 1324,
-      "controlIdentifier": "CP-7(4)",
+      "controlIdentifier": "CP-07(04)",
       "controlGuid": "4debeefe-6cb3-48fa-9a43-e6a884119ada",
       "controlTitle": "CP-07(04) - Preparation for Use",
       "catalogId": 219,
@@ -1715,7 +1715,7 @@
     {
       "profileMappingId": 1155,
       "controlId": 1326,
-      "controlIdentifier": "CP-8",
+      "controlIdentifier": "CP-08",
       "controlGuid": "9ad9fb5e-58e3-49d9-8c37-0cd36d8e05ac",
       "controlTitle": "CP-08 - Telecommunications Services",
       "catalogId": 219,
@@ -1726,7 +1726,7 @@
     {
       "profileMappingId": 1156,
       "controlId": 1327,
-      "controlIdentifier": "CP-8(1)",
+      "controlIdentifier": "CP-08(01)",
       "controlGuid": "79422017-8664-49f6-99d4-29abd165a939",
       "controlTitle": "CP-08(01) - Priority of Service Provisions",
       "catalogId": 219,
@@ -1737,7 +1737,7 @@
     {
       "profileMappingId": 1157,
       "controlId": 1328,
-      "controlIdentifier": "CP-8(2)",
+      "controlIdentifier": "CP-08(02)",
       "controlGuid": "9fbd35b4-8232-4b05-8198-e1237ea6eeff",
       "controlTitle": "CP-08(02) - Single Points of Failure",
       "catalogId": 219,
@@ -1748,7 +1748,7 @@
     {
       "profileMappingId": 1158,
       "controlId": 1329,
-      "controlIdentifier": "CP-8(3)",
+      "controlIdentifier": "CP-08(03)",
       "controlGuid": "f3026469-a222-4a4b-9c7e-44073fbe85c5",
       "controlTitle": "CP-08(03) - Separation of Primary and Alternate Providers",
       "catalogId": 219,
@@ -1759,7 +1759,7 @@
     {
       "profileMappingId": 1159,
       "controlId": 1330,
-      "controlIdentifier": "CP-8(4)",
+      "controlIdentifier": "CP-08(04)",
       "controlGuid": "0867d7cf-10ae-4dc3-b9e3-7771f0dcdf28",
       "controlTitle": "CP-08(04) - Provider Contingency Plan",
       "catalogId": 219,
@@ -1770,7 +1770,7 @@
     {
       "profileMappingId": 1160,
       "controlId": 1332,
-      "controlIdentifier": "CP-9",
+      "controlIdentifier": "CP-09",
       "controlGuid": "b7478e2c-019c-4a2a-8971-3671fce61405",
       "controlTitle": "CP-09 - System Backup",
       "catalogId": 219,
@@ -1781,7 +1781,7 @@
     {
       "profileMappingId": 1161,
       "controlId": 1333,
-      "controlIdentifier": "CP-9(1)",
+      "controlIdentifier": "CP-09(01)",
       "controlGuid": "17d68176-cdb5-4624-90e2-5b1271af8279",
       "controlTitle": "CP-09(01) - Testing for Reliability and Integrity",
       "catalogId": 219,
@@ -1792,7 +1792,7 @@
     {
       "profileMappingId": 1162,
       "controlId": 1334,
-      "controlIdentifier": "CP-9(2)",
+      "controlIdentifier": "CP-09(02)",
       "controlGuid": "718502e5-ad2e-49f7-9425-939fef613946",
       "controlTitle": "CP-09(02) - Test Restoration Using Sampling",
       "catalogId": 219,
@@ -1803,7 +1803,7 @@
     {
       "profileMappingId": 1163,
       "controlId": 1335,
-      "controlIdentifier": "CP-9(3)",
+      "controlIdentifier": "CP-09(03)",
       "controlGuid": "c56a119b-e2bf-4932-9440-24f74b3aced7",
       "controlTitle": "CP-09(03) - Separate Storage for Critical Information",
       "catalogId": 219,
@@ -1814,7 +1814,7 @@
     {
       "profileMappingId": 1164,
       "controlId": 1336,
-      "controlIdentifier": "CP-9(5)",
+      "controlIdentifier": "CP-09(05)",
       "controlGuid": "a35b4ad5-85e8-4835-a818-68c4d6bae37d",
       "controlTitle": "CP-09(05) - Transfer to Alternate Storage Site",
       "catalogId": 219,
@@ -1825,7 +1825,7 @@
     {
       "profileMappingId": 1165,
       "controlId": 1339,
-      "controlIdentifier": "CP-9(8)",
+      "controlIdentifier": "CP-09(08)",
       "controlGuid": "2a24b63a-027e-4da1-a622-0e49740ee973",
       "controlTitle": "CP-09(08) - Cryptographic Protection",
       "catalogId": 219,
@@ -1847,7 +1847,7 @@
     {
       "profileMappingId": 1167,
       "controlId": 1341,
-      "controlIdentifier": "CP-10(2)",
+      "controlIdentifier": "CP-10(02)",
       "controlGuid": "bd863ffc-6fb3-4123-84d1-4503ed3c67b1",
       "controlTitle": "CP-10(02) - Transaction Recovery",
       "catalogId": 219,
@@ -1858,7 +1858,7 @@
     {
       "profileMappingId": 1168,
       "controlId": 1342,
-      "controlIdentifier": "CP-10(4)",
+      "controlIdentifier": "CP-10(04)",
       "controlGuid": "01be147c-ab19-4b78-b6e4-ac551230aba7",
       "controlTitle": "CP-10(04) - Restore Within Time Period",
       "catalogId": 219,
@@ -1869,7 +1869,7 @@
     {
       "profileMappingId": 1169,
       "controlId": 1347,
-      "controlIdentifier": "IA-1",
+      "controlIdentifier": "IA-01",
       "controlGuid": "6833d537-9494-4a3b-b816-c1a71f438b35",
       "controlTitle": "IA-01 - Policy and Procedures",
       "catalogId": 219,
@@ -1880,7 +1880,7 @@
     {
       "profileMappingId": 1170,
       "controlId": 1348,
-      "controlIdentifier": "IA-2",
+      "controlIdentifier": "IA-02",
       "controlGuid": "727123d4-c940-443a-a49c-edcb06ff506f",
       "controlTitle": "IA-02 - Identification and Authentication (Organizational Users)",
       "catalogId": 219,
@@ -1891,7 +1891,7 @@
     {
       "profileMappingId": 1171,
       "controlId": 1349,
-      "controlIdentifier": "IA-2(1)",
+      "controlIdentifier": "IA-02(01)",
       "controlGuid": "58c6cea9-2bc5-44df-b114-7363e51188a9",
       "controlTitle": "IA-02(01) - Multi-factor Authentication to Privileged Accounts",
       "catalogId": 219,
@@ -1902,7 +1902,7 @@
     {
       "profileMappingId": 1172,
       "controlId": 1350,
-      "controlIdentifier": "IA-2(2)",
+      "controlIdentifier": "IA-02(02)",
       "controlGuid": "b455977a-c603-4fb0-beb1-c6ea5521c80b",
       "controlTitle": "IA-02(02) - Multi-factor Authentication to Non-privileged Accounts",
       "catalogId": 219,
@@ -1913,7 +1913,7 @@
     {
       "profileMappingId": 1173,
       "controlId": 1351,
-      "controlIdentifier": "IA-2(5)",
+      "controlIdentifier": "IA-02(05)",
       "controlGuid": "2ce68d9d-6060-4b2b-bbe6-21bf783da83a",
       "controlTitle": "IA-02(05) - Individual Authentication with Group Authentication",
       "catalogId": 219,
@@ -1924,7 +1924,7 @@
     {
       "profileMappingId": 1174,
       "controlId": 1352,
-      "controlIdentifier": "IA-2(6)",
+      "controlIdentifier": "IA-02(06)",
       "controlGuid": "271f067e-c0c1-4eb5-aea4-b67a935c3076",
       "controlTitle": "IA-02(06) - Access to Accounts \u2014separate Device",
       "catalogId": 219,
@@ -1935,7 +1935,7 @@
     {
       "profileMappingId": 1175,
       "controlId": 1353,
-      "controlIdentifier": "IA-2(8)",
+      "controlIdentifier": "IA-02(08)",
       "controlGuid": "8e911475-3e5c-422c-82ac-aa9f7169b06f",
       "controlTitle": "IA-02(08) - Access to Accounts \u2014 Replay Resistant",
       "catalogId": 219,
@@ -1946,7 +1946,7 @@
     {
       "profileMappingId": 1176,
       "controlId": 1355,
-      "controlIdentifier": "IA-2(12)",
+      "controlIdentifier": "IA-02(12)",
       "controlGuid": "ab704c01-447e-451a-b12f-cdd79c7996ed",
       "controlTitle": "IA-02(12) - Acceptance of PIV Credentials",
       "catalogId": 219,
@@ -1957,7 +1957,7 @@
     {
       "profileMappingId": 1177,
       "controlId": 1357,
-      "controlIdentifier": "IA-3",
+      "controlIdentifier": "IA-03",
       "controlGuid": "36ea9214-b883-49d5-b026-13557f155b66",
       "controlTitle": "IA-03 - Device Identification and Authentication",
       "catalogId": 219,
@@ -1968,7 +1968,7 @@
     {
       "profileMappingId": 1178,
       "controlId": 1361,
-      "controlIdentifier": "IA-4",
+      "controlIdentifier": "IA-04",
       "controlGuid": "af430b9a-b144-44ee-936e-1f494e013198",
       "controlTitle": "IA-04 - Identifier Management",
       "catalogId": 219,
@@ -1979,7 +1979,7 @@
     {
       "profileMappingId": 1179,
       "controlId": 1363,
-      "controlIdentifier": "IA-4(4)",
+      "controlIdentifier": "IA-04(04)",
       "controlGuid": "a203c5bf-0a98-4382-8b7a-ecafdbae1a64",
       "controlTitle": "IA-04(04) - Identify User Status",
       "catalogId": 219,
@@ -1990,7 +1990,7 @@
     {
       "profileMappingId": 1180,
       "controlId": 1368,
-      "controlIdentifier": "IA-5",
+      "controlIdentifier": "IA-05",
       "controlGuid": "0b6d1e34-bfbf-40bd-ac06-4d22ff88cadd",
       "controlTitle": "IA-05 - Authenticator Management",
       "catalogId": 219,
@@ -2001,7 +2001,7 @@
     {
       "profileMappingId": 1181,
       "controlId": 1369,
-      "controlIdentifier": "IA-5(1)",
+      "controlIdentifier": "IA-05(01)",
       "controlGuid": "4b8c413b-bf88-46ba-9b35-60e0e8ea8b50",
       "controlTitle": "IA-05(01) - Password-based Authentication",
       "catalogId": 219,
@@ -2012,7 +2012,7 @@
     {
       "profileMappingId": 1182,
       "controlId": 1370,
-      "controlIdentifier": "IA-5(2)",
+      "controlIdentifier": "IA-05(02)",
       "controlGuid": "ed90d3b6-aa14-4827-9082-deae3e95d06a",
       "controlTitle": "IA-05(02) - Public Key-based Authentication",
       "catalogId": 219,
@@ -2023,7 +2023,7 @@
     {
       "profileMappingId": 1183,
       "controlId": 1372,
-      "controlIdentifier": "IA-5(6)",
+      "controlIdentifier": "IA-05(06)",
       "controlGuid": "8527e99e-1923-4b75-afea-422777edf264",
       "controlTitle": "IA-05(06) - Protection of Authenticators",
       "catalogId": 219,
@@ -2034,7 +2034,7 @@
     {
       "profileMappingId": 1184,
       "controlId": 1373,
-      "controlIdentifier": "IA-5(7)",
+      "controlIdentifier": "IA-05(07)",
       "controlGuid": "0f8a6e61-76f9-4925-88f6-60ce96451e6e",
       "controlTitle": "IA-05(07) - No Embedded Unencrypted Static Authenticators",
       "catalogId": 219,
@@ -2045,7 +2045,7 @@
     {
       "profileMappingId": 1185,
       "controlId": 1374,
-      "controlIdentifier": "IA-5(8)",
+      "controlIdentifier": "IA-05(08)",
       "controlGuid": "19afb602-562f-4042-8f4f-0cce91eb3c05",
       "controlTitle": "IA-05(08) - Multiple System Accounts",
       "catalogId": 219,
@@ -2056,7 +2056,7 @@
     {
       "profileMappingId": 1186,
       "controlId": 1378,
-      "controlIdentifier": "IA-5(13)",
+      "controlIdentifier": "IA-05(13)",
       "controlGuid": "6b425ad4-747e-473b-a34a-482f35653ef5",
       "controlTitle": "IA-05(13) - Expiration of Cached Authenticators",
       "catalogId": 219,
@@ -2067,7 +2067,7 @@
     {
       "profileMappingId": 1187,
       "controlId": 1384,
-      "controlIdentifier": "IA-6",
+      "controlIdentifier": "IA-06",
       "controlGuid": "3f64331a-f132-4334-8fc2-08bb67172388",
       "controlTitle": "IA-06 - Authentication Feedback",
       "catalogId": 219,
@@ -2078,7 +2078,7 @@
     {
       "profileMappingId": 1188,
       "controlId": 1385,
-      "controlIdentifier": "IA-7",
+      "controlIdentifier": "IA-07",
       "controlGuid": "9d85a19e-12cf-4afa-81e8-09e019b9cd5a",
       "controlTitle": "IA-07 - Cryptographic Module Authentication",
       "catalogId": 219,
@@ -2089,7 +2089,7 @@
     {
       "profileMappingId": 1189,
       "controlId": 1386,
-      "controlIdentifier": "IA-8",
+      "controlIdentifier": "IA-08",
       "controlGuid": "71ec994b-43df-4c04-bdfe-667ec3499276",
       "controlTitle": "IA-08 - Identification and Authentication (Non-organizational Users)",
       "catalogId": 219,
@@ -2100,7 +2100,7 @@
     {
       "profileMappingId": 1190,
       "controlId": 1387,
-      "controlIdentifier": "IA-8(1)",
+      "controlIdentifier": "IA-08(01)",
       "controlGuid": "159a4785-17a1-4dda-af3a-ae4bed2c76a7",
       "controlTitle": "IA-08(01) - Acceptance of PIV Credentials from Other Agencies",
       "catalogId": 219,
@@ -2111,7 +2111,7 @@
     {
       "profileMappingId": 1191,
       "controlId": 1388,
-      "controlIdentifier": "IA-8(2)",
+      "controlIdentifier": "IA-08(02)",
       "controlGuid": "4fbc4d01-cca3-4978-ac77-501998c85c26",
       "controlTitle": "IA-08(02) - Acceptance of External Authenticators",
       "catalogId": 219,
@@ -2122,7 +2122,7 @@
     {
       "profileMappingId": 1192,
       "controlId": 1389,
-      "controlIdentifier": "IA-8(4)",
+      "controlIdentifier": "IA-08(04)",
       "controlGuid": "66d3ae39-5dd1-4b46-bdfd-4990df52d116",
       "controlTitle": "IA-08(04) - Use of Defined Profiles",
       "catalogId": 219,
@@ -2155,7 +2155,7 @@
     {
       "profileMappingId": 1195,
       "controlId": 1397,
-      "controlIdentifier": "IA-12(2)",
+      "controlIdentifier": "IA-12(02)",
       "controlGuid": "0feda57c-0b17-482a-9152-34f64cd02cf8",
       "controlTitle": "IA-12(02) - Identity Evidence",
       "catalogId": 219,
@@ -2166,7 +2166,7 @@
     {
       "profileMappingId": 1196,
       "controlId": 1398,
-      "controlIdentifier": "IA-12(3)",
+      "controlIdentifier": "IA-12(03)",
       "controlGuid": "6073ed3d-8ded-40d0-a410-15206431c607",
       "controlTitle": "IA-12(03) - Identity Evidence Validation and Verification",
       "catalogId": 219,
@@ -2177,7 +2177,7 @@
     {
       "profileMappingId": 1197,
       "controlId": 1399,
-      "controlIdentifier": "IA-12(4)",
+      "controlIdentifier": "IA-12(04)",
       "controlGuid": "f969c6a7-bed1-476c-baab-6142d1d07886",
       "controlTitle": "IA-12(04) - In-person Validation and Verification",
       "catalogId": 219,
@@ -2188,7 +2188,7 @@
     {
       "profileMappingId": 1198,
       "controlId": 1400,
-      "controlIdentifier": "IA-12(5)",
+      "controlIdentifier": "IA-12(05)",
       "controlGuid": "ac4d5ef5-d9f6-4cfe-a249-a050b12ddad2",
       "controlTitle": "IA-12(05) - Address Confirmation",
       "catalogId": 219,
@@ -2199,7 +2199,7 @@
     {
       "profileMappingId": 1199,
       "controlId": 1406,
-      "controlIdentifier": "IR-1",
+      "controlIdentifier": "IR-01",
       "controlGuid": "6675a4f8-3f56-4aae-8d67-07b4c0304eb0",
       "controlTitle": "IR-01 - Policy and Procedures",
       "catalogId": 219,
@@ -2210,7 +2210,7 @@
     {
       "profileMappingId": 1200,
       "controlId": 1407,
-      "controlIdentifier": "IR-2",
+      "controlIdentifier": "IR-02",
       "controlGuid": "cb18b7d6-9274-4278-8bb5-213c086e4870",
       "controlTitle": "IR-02 - Incident Response Training",
       "catalogId": 219,
@@ -2221,7 +2221,7 @@
     {
       "profileMappingId": 1201,
       "controlId": 1408,
-      "controlIdentifier": "IR-2(1)",
+      "controlIdentifier": "IR-02(01)",
       "controlGuid": "866d31b7-6139-44dc-871c-be5fae79e3c3",
       "controlTitle": "IR-02(01) - Simulated Events",
       "catalogId": 219,
@@ -2232,7 +2232,7 @@
     {
       "profileMappingId": 1202,
       "controlId": 1409,
-      "controlIdentifier": "IR-2(2)",
+      "controlIdentifier": "IR-02(02)",
       "controlGuid": "7ef0ce9e-6c99-4b38-af47-a5c7b125bdcb",
       "controlTitle": "IR-02(02) - Automated Training Environments",
       "catalogId": 219,
@@ -2243,7 +2243,7 @@
     {
       "profileMappingId": 1203,
       "controlId": 1411,
-      "controlIdentifier": "IR-3",
+      "controlIdentifier": "IR-03",
       "controlGuid": "5b345da2-38ae-4203-8d6b-e61cf39c24fc",
       "controlTitle": "IR-03 - Incident Response Testing",
       "catalogId": 219,
@@ -2254,7 +2254,7 @@
     {
       "profileMappingId": 1204,
       "controlId": 1413,
-      "controlIdentifier": "IR-3(2)",
+      "controlIdentifier": "IR-03(02)",
       "controlGuid": "a04d3002-b499-481e-974f-17eacf83d5ef",
       "controlTitle": "IR-03(02) - Coordination with Related Plans",
       "catalogId": 219,
@@ -2265,7 +2265,7 @@
     {
       "profileMappingId": 1205,
       "controlId": 1415,
-      "controlIdentifier": "IR-4",
+      "controlIdentifier": "IR-04",
       "controlGuid": "4e657c54-1c6c-48c2-9099-0783f548d9a9",
       "controlTitle": "IR-04 - Incident Handling",
       "catalogId": 219,
@@ -2276,7 +2276,7 @@
     {
       "profileMappingId": 1206,
       "controlId": 1416,
-      "controlIdentifier": "IR-4(1)",
+      "controlIdentifier": "IR-04(01)",
       "controlGuid": "c4fdb33c-1eb4-4304-9c9e-4d6edd03bf4c",
       "controlTitle": "IR-04(01) - Automated Incident Handling Processes",
       "catalogId": 219,
@@ -2287,7 +2287,7 @@
     {
       "profileMappingId": 1207,
       "controlId": 1417,
-      "controlIdentifier": "IR-4(2)",
+      "controlIdentifier": "IR-04(02)",
       "controlGuid": "cd255dcf-5a6c-4543-9cef-67c3c38fc8e0",
       "controlTitle": "IR-04(02) - Dynamic Reconfiguration",
       "catalogId": 219,
@@ -2298,7 +2298,7 @@
     {
       "profileMappingId": 1208,
       "controlId": 1419,
-      "controlIdentifier": "IR-4(4)",
+      "controlIdentifier": "IR-04(04)",
       "controlGuid": "49173a95-fa3a-49c8-bc64-a9c7b37f3eae",
       "controlTitle": "IR-04(04) - Information Correlation",
       "catalogId": 219,
@@ -2309,7 +2309,7 @@
     {
       "profileMappingId": 1209,
       "controlId": 1421,
-      "controlIdentifier": "IR-4(6)",
+      "controlIdentifier": "IR-04(06)",
       "controlGuid": "957dd7d5-5f41-4910-82a3-05712629d28e",
       "controlTitle": "IR-04(06) - Insider Threats",
       "catalogId": 219,
@@ -2320,7 +2320,7 @@
     {
       "profileMappingId": 1210,
       "controlId": 1426,
-      "controlIdentifier": "IR-4(11)",
+      "controlIdentifier": "IR-04(11)",
       "controlGuid": "e9c560ac-42e2-45cd-93c2-4a0809a6670e",
       "controlTitle": "IR-04(11) - Integrated Incident Response Team",
       "catalogId": 219,
@@ -2331,7 +2331,7 @@
     {
       "profileMappingId": 1211,
       "controlId": 1431,
-      "controlIdentifier": "IR-5",
+      "controlIdentifier": "IR-05",
       "controlGuid": "6d4589c4-e3c8-4360-8268-228358918869",
       "controlTitle": "IR-05 - Incident Monitoring",
       "catalogId": 219,
@@ -2342,7 +2342,7 @@
     {
       "profileMappingId": 1212,
       "controlId": 1432,
-      "controlIdentifier": "IR-5(1)",
+      "controlIdentifier": "IR-05(01)",
       "controlGuid": "8fe416c1-d7a7-42ec-b7f2-f81ef638d3e0",
       "controlTitle": "IR-05(01) - Automated Tracking, Data Collection, and Analysis",
       "catalogId": 219,
@@ -2353,7 +2353,7 @@
     {
       "profileMappingId": 1213,
       "controlId": 1433,
-      "controlIdentifier": "IR-6",
+      "controlIdentifier": "IR-06",
       "controlGuid": "8ea40222-f455-429f-8f55-d0b23f51e2b1",
       "controlTitle": "IR-06 - Incident Reporting",
       "catalogId": 219,
@@ -2364,7 +2364,7 @@
     {
       "profileMappingId": 1214,
       "controlId": 1434,
-      "controlIdentifier": "IR-6(1)",
+      "controlIdentifier": "IR-06(01)",
       "controlGuid": "11738f29-de41-4e60-99f6-750cdebbd18b",
       "controlTitle": "IR-06(01) - Automated Reporting",
       "catalogId": 219,
@@ -2375,7 +2375,7 @@
     {
       "profileMappingId": 1215,
       "controlId": 1436,
-      "controlIdentifier": "IR-6(3)",
+      "controlIdentifier": "IR-06(03)",
       "controlGuid": "9e82198f-85f1-43d8-b557-5825efadc84d",
       "controlTitle": "IR-06(03) - Supply Chain Coordination",
       "catalogId": 219,
@@ -2386,7 +2386,7 @@
     {
       "profileMappingId": 1216,
       "controlId": 1437,
-      "controlIdentifier": "IR-7",
+      "controlIdentifier": "IR-07",
       "controlGuid": "2c80fe9b-4aca-44a8-bce0-11830c3dcdbd",
       "controlTitle": "IR-07 - Incident Response Assistance",
       "catalogId": 219,
@@ -2397,7 +2397,7 @@
     {
       "profileMappingId": 1217,
       "controlId": 1438,
-      "controlIdentifier": "IR-7(1)",
+      "controlIdentifier": "IR-07(01)",
       "controlGuid": "8998fb74-0c10-4ea0-992f-ae412adc63cf",
       "controlTitle": "IR-07(01) - Automation Support for Availability of Information and Support",
       "catalogId": 219,
@@ -2408,7 +2408,7 @@
     {
       "profileMappingId": 1218,
       "controlId": 1440,
-      "controlIdentifier": "IR-8",
+      "controlIdentifier": "IR-08",
       "controlGuid": "0421a7a0-f083-4322-8695-ed8890cf58a9",
       "controlTitle": "IR-08 - Incident Response Plan",
       "catalogId": 219,
@@ -2419,7 +2419,7 @@
     {
       "profileMappingId": 1219,
       "controlId": 1442,
-      "controlIdentifier": "IR-9",
+      "controlIdentifier": "IR-09",
       "controlGuid": "4849605a-4c71-4c66-82aa-5d3ae65e592f",
       "controlTitle": "IR-09 - Information Spillage Response",
       "catalogId": 219,
@@ -2430,7 +2430,7 @@
     {
       "profileMappingId": 1220,
       "controlId": 1443,
-      "controlIdentifier": "IR-9(2)",
+      "controlIdentifier": "IR-09(02)",
       "controlGuid": "3fe76baf-9d94-4bf0-886a-cff3c9705f2f",
       "controlTitle": "IR-09(02) - Training",
       "catalogId": 219,
@@ -2441,7 +2441,7 @@
     {
       "profileMappingId": 1221,
       "controlId": 1444,
-      "controlIdentifier": "IR-9(3)",
+      "controlIdentifier": "IR-09(03)",
       "controlGuid": "c8b8744b-1cef-4df3-8f55-c6dadf453c09",
       "controlTitle": "IR-09(03) - Post-spill Operations",
       "catalogId": 219,
@@ -2452,7 +2452,7 @@
     {
       "profileMappingId": 1222,
       "controlId": 1445,
-      "controlIdentifier": "IR-9(4)",
+      "controlIdentifier": "IR-09(04)",
       "controlGuid": "eb41e2b5-4227-49d2-8f6d-c4e2a47971c5",
       "controlTitle": "IR-09(04) - Exposure to Unauthorized Personnel",
       "catalogId": 219,
@@ -2463,7 +2463,7 @@
     {
       "profileMappingId": 1223,
       "controlId": 1446,
-      "controlIdentifier": "MA-1",
+      "controlIdentifier": "MA-01",
       "controlGuid": "84646c8a-4d37-448d-8cef-6be51c8b8f96",
       "controlTitle": "MA-01 - Policy and Procedures",
       "catalogId": 219,
@@ -2474,7 +2474,7 @@
     {
       "profileMappingId": 1224,
       "controlId": 1447,
-      "controlIdentifier": "MA-2",
+      "controlIdentifier": "MA-02",
       "controlGuid": "9ca51698-c7ac-43e0-9dc5-364f5a2b63b8",
       "controlTitle": "MA-02 - Controlled Maintenance",
       "catalogId": 219,
@@ -2485,7 +2485,7 @@
     {
       "profileMappingId": 1225,
       "controlId": 1448,
-      "controlIdentifier": "MA-2(2)",
+      "controlIdentifier": "MA-02(02)",
       "controlGuid": "b24de0c0-f7d5-4482-9b3d-569d51a7c111",
       "controlTitle": "MA-02(02) - Automated Maintenance Activities",
       "catalogId": 219,
@@ -2496,7 +2496,7 @@
     {
       "profileMappingId": 1226,
       "controlId": 1449,
-      "controlIdentifier": "MA-3",
+      "controlIdentifier": "MA-03",
       "controlGuid": "336e0536-a857-46b0-a53a-530b82f06f4c",
       "controlTitle": "MA-03 - Maintenance Tools",
       "catalogId": 219,
@@ -2507,7 +2507,7 @@
     {
       "profileMappingId": 1227,
       "controlId": 1450,
-      "controlIdentifier": "MA-3(1)",
+      "controlIdentifier": "MA-03(01)",
       "controlGuid": "f3c599f4-f658-4370-af78-fcf2aebb7842",
       "controlTitle": "MA-03(01) - Inspect Tools",
       "catalogId": 219,
@@ -2518,7 +2518,7 @@
     {
       "profileMappingId": 1228,
       "controlId": 1451,
-      "controlIdentifier": "MA-3(2)",
+      "controlIdentifier": "MA-03(02)",
       "controlGuid": "7b32275d-e8b5-4819-8329-3812a00c04ec",
       "controlTitle": "MA-03(02) - Inspect Media",
       "catalogId": 219,
@@ -2529,7 +2529,7 @@
     {
       "profileMappingId": 1229,
       "controlId": 1452,
-      "controlIdentifier": "MA-3(3)",
+      "controlIdentifier": "MA-03(03)",
       "controlGuid": "81c46d13-3a2d-48a4-8ed9-37e7e6ddf1bf",
       "controlTitle": "MA-03(03) - Prevent Unauthorized Removal",
       "catalogId": 219,
@@ -2540,7 +2540,7 @@
     {
       "profileMappingId": 1230,
       "controlId": 1456,
-      "controlIdentifier": "MA-4",
+      "controlIdentifier": "MA-04",
       "controlGuid": "6c3f6e7b-b6c7-4204-b11e-fc92a7f3e2d8",
       "controlTitle": "MA-04 - Nonlocal Maintenance",
       "catalogId": 219,
@@ -2551,7 +2551,7 @@
     {
       "profileMappingId": 1231,
       "controlId": 1458,
-      "controlIdentifier": "MA-4(3)",
+      "controlIdentifier": "MA-04(03)",
       "controlGuid": "fa0a71ae-7be6-4d5d-b975-baa74adc66e3",
       "controlTitle": "MA-04(03) - Comparable Security and Sanitization",
       "catalogId": 219,
@@ -2562,7 +2562,7 @@
     {
       "profileMappingId": 1232,
       "controlId": 1463,
-      "controlIdentifier": "MA-5",
+      "controlIdentifier": "MA-05",
       "controlGuid": "d0051cbd-49c5-4200-aeff-61fcbbd7d138",
       "controlTitle": "MA-05 - Maintenance Personnel",
       "catalogId": 219,
@@ -2573,7 +2573,7 @@
     {
       "profileMappingId": 1233,
       "controlId": 1464,
-      "controlIdentifier": "MA-5(1)",
+      "controlIdentifier": "MA-05(01)",
       "controlGuid": "85b1d914-5297-4242-bada-e367ebf92eeb",
       "controlTitle": "MA-05(01) - Individuals Without Appropriate Access",
       "catalogId": 219,
@@ -2584,7 +2584,7 @@
     {
       "profileMappingId": 1234,
       "controlId": 1468,
-      "controlIdentifier": "MA-5(5)",
+      "controlIdentifier": "MA-05(05)",
       "controlGuid": "638444de-2c6c-4ba2-8a1e-670d46bdfe31",
       "controlTitle": "MA-05(05) - Non-system Maintenance",
       "catalogId": 219,
@@ -2595,7 +2595,7 @@
     {
       "profileMappingId": 1235,
       "controlId": 1469,
-      "controlIdentifier": "MA-6",
+      "controlIdentifier": "MA-06",
       "controlGuid": "2c8abf4a-b04c-44e6-ada7-8e732a821683",
       "controlTitle": "MA-06 - Timely Maintenance",
       "catalogId": 219,
@@ -2606,7 +2606,7 @@
     {
       "profileMappingId": 1236,
       "controlId": 1474,
-      "controlIdentifier": "MP-1",
+      "controlIdentifier": "MP-01",
       "controlGuid": "4e3f9a9c-0f6d-41e9-928e-9f69f5656aec",
       "controlTitle": "MP-01 - Policy and Procedures",
       "catalogId": 219,
@@ -2617,7 +2617,7 @@
     {
       "profileMappingId": 1237,
       "controlId": 1475,
-      "controlIdentifier": "MP-2",
+      "controlIdentifier": "MP-02",
       "controlGuid": "40af7f13-012a-4cfb-89e2-218f26387cbe",
       "controlTitle": "MP-02 - Media Access",
       "catalogId": 219,
@@ -2628,7 +2628,7 @@
     {
       "profileMappingId": 1238,
       "controlId": 1476,
-      "controlIdentifier": "MP-3",
+      "controlIdentifier": "MP-03",
       "controlGuid": "5b5c9117-cad5-44e3-9ea3-9b5ea20f9f18",
       "controlTitle": "MP-03 - Media Marking",
       "catalogId": 219,
@@ -2639,7 +2639,7 @@
     {
       "profileMappingId": 1239,
       "controlId": 1477,
-      "controlIdentifier": "MP-4",
+      "controlIdentifier": "MP-04",
       "controlGuid": "90ef0cca-7cdd-4c6d-b7e6-83ed96060c0a",
       "controlTitle": "MP-04 - Media Storage",
       "catalogId": 219,
@@ -2650,7 +2650,7 @@
     {
       "profileMappingId": 1240,
       "controlId": 1479,
-      "controlIdentifier": "MP-5",
+      "controlIdentifier": "MP-05",
       "controlGuid": "88dcd5ab-d119-4e48-aca5-07971b5e5d03",
       "controlTitle": "MP-05 - Media Transport",
       "catalogId": 219,
@@ -2661,7 +2661,7 @@
     {
       "profileMappingId": 1241,
       "controlId": 1481,
-      "controlIdentifier": "MP-6",
+      "controlIdentifier": "MP-06",
       "controlGuid": "769cd64f-13ec-4b49-9fc6-6b6b75a84a0e",
       "controlTitle": "MP-06 - Media Sanitization",
       "catalogId": 219,
@@ -2672,7 +2672,7 @@
     {
       "profileMappingId": 1242,
       "controlId": 1482,
-      "controlIdentifier": "MP-6(1)",
+      "controlIdentifier": "MP-06(01)",
       "controlGuid": "4026905f-37d7-4571-904b-377d5f4f45b2",
       "controlTitle": "MP-06(01) - Review, Approve, Track, Document, and Verify",
       "catalogId": 219,
@@ -2683,7 +2683,7 @@
     {
       "profileMappingId": 1243,
       "controlId": 1483,
-      "controlIdentifier": "MP-6(2)",
+      "controlIdentifier": "MP-06(02)",
       "controlGuid": "51724225-6444-4294-a6c0-0af364b799ec",
       "controlTitle": "MP-06(02) - Equipment Testing",
       "catalogId": 219,
@@ -2694,7 +2694,7 @@
     {
       "profileMappingId": 1244,
       "controlId": 1484,
-      "controlIdentifier": "MP-6(3)",
+      "controlIdentifier": "MP-06(03)",
       "controlGuid": "da377d98-c2bc-47a7-92f9-479f88f3d4ee",
       "controlTitle": "MP-06(03) - Nondestructive Techniques",
       "catalogId": 219,
@@ -2705,7 +2705,7 @@
     {
       "profileMappingId": 1245,
       "controlId": 1487,
-      "controlIdentifier": "MP-7",
+      "controlIdentifier": "MP-07",
       "controlGuid": "14ae6492-44f4-4386-97e3-1887f3e7107a",
       "controlTitle": "MP-07 - Media Use",
       "catalogId": 219,
@@ -2716,7 +2716,7 @@
     {
       "profileMappingId": 1246,
       "controlId": 1494,
-      "controlIdentifier": "PE-1",
+      "controlIdentifier": "PE-01",
       "controlGuid": "92c43e19-5e4b-4fcc-bb0e-864feb7c34e5",
       "controlTitle": "PE-01 - Policy and Procedures",
       "catalogId": 219,
@@ -2727,7 +2727,7 @@
     {
       "profileMappingId": 1247,
       "controlId": 1495,
-      "controlIdentifier": "PE-2",
+      "controlIdentifier": "PE-02",
       "controlGuid": "fd9bffea-451f-42bd-ac6c-2b16d54f7fb5",
       "controlTitle": "PE-02 - Physical Access Authorizations",
       "catalogId": 219,
@@ -2738,7 +2738,7 @@
     {
       "profileMappingId": 1248,
       "controlId": 1499,
-      "controlIdentifier": "PE-3",
+      "controlIdentifier": "PE-03",
       "controlGuid": "4ac456d3-278a-41a7-ae19-1315f1c68399",
       "controlTitle": "PE-03 - Physical Access Control",
       "catalogId": 219,
@@ -2749,7 +2749,7 @@
     {
       "profileMappingId": 1249,
       "controlId": 1500,
-      "controlIdentifier": "PE-3(1)",
+      "controlIdentifier": "PE-03(01)",
       "controlGuid": "ed54888c-efd7-4853-ac0a-a1a05cdd2cd2",
       "controlTitle": "PE-03(01) - System Access",
       "catalogId": 219,
@@ -2760,7 +2760,7 @@
     {
       "profileMappingId": 1250,
       "controlId": 1507,
-      "controlIdentifier": "PE-4",
+      "controlIdentifier": "PE-04",
       "controlGuid": "c994a95b-84fb-451e-8bcc-ec6baac6383e",
       "controlTitle": "PE-04 - Access Control for Transmission",
       "catalogId": 219,
@@ -2771,7 +2771,7 @@
     {
       "profileMappingId": 1251,
       "controlId": 1508,
-      "controlIdentifier": "PE-5",
+      "controlIdentifier": "PE-05",
       "controlGuid": "98f5964a-88e6-4d28-90be-6a9f2e98f39f",
       "controlTitle": "PE-05 - Access Control for Output Devices",
       "catalogId": 219,
@@ -2782,7 +2782,7 @@
     {
       "profileMappingId": 1252,
       "controlId": 1510,
-      "controlIdentifier": "PE-6",
+      "controlIdentifier": "PE-06",
       "controlGuid": "25d60a1d-58a7-4301-9658-0ea24f18c5a2",
       "controlTitle": "PE-06 - Monitoring Physical Access",
       "catalogId": 219,
@@ -2793,7 +2793,7 @@
     {
       "profileMappingId": 1253,
       "controlId": 1511,
-      "controlIdentifier": "PE-6(1)",
+      "controlIdentifier": "PE-06(01)",
       "controlGuid": "f8e2c8ff-d7b7-45e0-bfb6-80ddbe798b05",
       "controlTitle": "PE-06(01) - Intrusion Alarms and Surveillance Equipment",
       "catalogId": 219,
@@ -2804,7 +2804,7 @@
     {
       "profileMappingId": 1254,
       "controlId": 1514,
-      "controlIdentifier": "PE-6(4)",
+      "controlIdentifier": "PE-06(04)",
       "controlGuid": "52bd4064-884d-4512-af9e-6f6a31e96d79",
       "controlTitle": "PE-06(04) - Monitoring Physical Access to Systems",
       "catalogId": 219,
@@ -2815,7 +2815,7 @@
     {
       "profileMappingId": 1255,
       "controlId": 1515,
-      "controlIdentifier": "PE-8",
+      "controlIdentifier": "PE-08",
       "controlGuid": "e1e42aa8-5755-469a-ba93-0a336c3164b8",
       "controlTitle": "PE-08 - Visitor Access Records",
       "catalogId": 219,
@@ -2826,7 +2826,7 @@
     {
       "profileMappingId": 1256,
       "controlId": 1516,
-      "controlIdentifier": "PE-8(1)",
+      "controlIdentifier": "PE-08(01)",
       "controlGuid": "69c7cd34-82c4-4057-b314-af1b5296d150",
       "controlTitle": "PE-08(01) - Automated Records Maintenance and Review",
       "catalogId": 219,
@@ -2837,7 +2837,7 @@
     {
       "profileMappingId": 1257,
       "controlId": 1518,
-      "controlIdentifier": "PE-9",
+      "controlIdentifier": "PE-09",
       "controlGuid": "db6966ee-8a13-491d-b21a-0775f48e1e72",
       "controlTitle": "PE-09 - Power Equipment and Cabling",
       "catalogId": 219,
@@ -2870,7 +2870,7 @@
     {
       "profileMappingId": 1260,
       "controlId": 1523,
-      "controlIdentifier": "PE-11(1)",
+      "controlIdentifier": "PE-11(01)",
       "controlGuid": "7f2c06e8-e468-4603-ad4a-bccb880c8640",
       "controlTitle": "PE-11(01) - Alternate Power Supply \u2014 Minimal Operational Capability",
       "catalogId": 219,
@@ -2903,7 +2903,7 @@
     {
       "profileMappingId": 1263,
       "controlId": 1528,
-      "controlIdentifier": "PE-13(1)",
+      "controlIdentifier": "PE-13(01)",
       "controlGuid": "36b9d584-2494-4330-81e3-3bd0201acc0e",
       "controlTitle": "PE-13(01) - Detection Systems \u2014 Automatic Activation and Notification",
       "catalogId": 219,
@@ -2914,7 +2914,7 @@
     {
       "profileMappingId": 1264,
       "controlId": 1529,
-      "controlIdentifier": "PE-13(2)",
+      "controlIdentifier": "PE-13(02)",
       "controlGuid": "73d4f6d0-4ae4-43f4-a447-50367b156b9b",
       "controlTitle": "PE-13(02) - Suppression Systems \u2014 Automatic Activation and Notification",
       "catalogId": 219,
@@ -2936,7 +2936,7 @@
     {
       "profileMappingId": 1266,
       "controlId": 1533,
-      "controlIdentifier": "PE-14(2)",
+      "controlIdentifier": "PE-14(02)",
       "controlGuid": "781350bb-5d27-45e9-9034-bba6f7fb6b76",
       "controlTitle": "PE-14(02) - Monitoring with Alarms and Notifications",
       "catalogId": 219,
@@ -2958,7 +2958,7 @@
     {
       "profileMappingId": 1268,
       "controlId": 1535,
-      "controlIdentifier": "PE-15(1)",
+      "controlIdentifier": "PE-15(01)",
       "controlGuid": "af6b6c4c-f814-41a7-bb3f-71c91decbab3",
       "controlTitle": "PE-15(01) - Automation Support",
       "catalogId": 219,
@@ -3002,7 +3002,7 @@
     {
       "profileMappingId": 1272,
       "controlId": 1545,
-      "controlIdentifier": "PL-1",
+      "controlIdentifier": "PL-01",
       "controlGuid": "2b7348ea-2dcd-4bad-8c0c-1e261184b6f6",
       "controlTitle": "PL-01 - Policy and Procedures",
       "catalogId": 219,
@@ -3013,7 +3013,7 @@
     {
       "profileMappingId": 1273,
       "controlId": 1546,
-      "controlIdentifier": "PL-2",
+      "controlIdentifier": "PL-02",
       "controlGuid": "77129fbd-6e64-4340-a434-5db0a88256e7",
       "controlTitle": "PL-02 - System Security and Privacy Plans",
       "catalogId": 219,
@@ -3024,7 +3024,7 @@
     {
       "profileMappingId": 1274,
       "controlId": 1547,
-      "controlIdentifier": "PL-4",
+      "controlIdentifier": "PL-04",
       "controlGuid": "455a447f-efb9-48f8-a35b-f31a0c06f855",
       "controlTitle": "PL-04 - Rules of Behavior",
       "catalogId": 219,
@@ -3035,7 +3035,7 @@
     {
       "profileMappingId": 1275,
       "controlId": 1548,
-      "controlIdentifier": "PL-4(1)",
+      "controlIdentifier": "PL-04(01)",
       "controlGuid": "cc51c505-1b63-413d-b099-ce9b774f7a1f",
       "controlTitle": "PL-04(01) - Social Media and External Site/Application Usage Restrictions",
       "catalogId": 219,
@@ -3046,7 +3046,7 @@
     {
       "profileMappingId": 1276,
       "controlId": 1550,
-      "controlIdentifier": "PL-8",
+      "controlIdentifier": "PL-08",
       "controlGuid": "f640d550-7181-417f-93b2-bd0a18e9d7e0",
       "controlTitle": "PL-08 - Security and Privacy Architectures",
       "catalogId": 219,
@@ -3079,7 +3079,7 @@
     {
       "profileMappingId": 1279,
       "controlId": 1593,
-      "controlIdentifier": "PS-1",
+      "controlIdentifier": "PS-01",
       "controlGuid": "c382ab1f-dd3f-4d79-b34b-b84a48b26223",
       "controlTitle": "PS-01 - Policy and Procedures",
       "catalogId": 219,
@@ -3090,7 +3090,7 @@
     {
       "profileMappingId": 1280,
       "controlId": 1594,
-      "controlIdentifier": "PS-2",
+      "controlIdentifier": "PS-02",
       "controlGuid": "68218e46-8318-4ee7-80c0-373c5ea13673",
       "controlTitle": "PS-02 - Position Risk Designation",
       "catalogId": 219,
@@ -3101,7 +3101,7 @@
     {
       "profileMappingId": 1281,
       "controlId": 1595,
-      "controlIdentifier": "PS-3",
+      "controlIdentifier": "PS-03",
       "controlGuid": "fc9ad759-04da-4efe-8099-c3e5bea2a3c1",
       "controlTitle": "PS-03 - Personnel Screening",
       "catalogId": 219,
@@ -3112,7 +3112,7 @@
     {
       "profileMappingId": 1282,
       "controlId": 1598,
-      "controlIdentifier": "PS-3(3)",
+      "controlIdentifier": "PS-03(03)",
       "controlGuid": "545659d9-cac0-48ed-8ba2-cf10b0bbb2b2",
       "controlTitle": "PS-03(03) - Information Requiring Special Protective Measures",
       "catalogId": 219,
@@ -3123,7 +3123,7 @@
     {
       "profileMappingId": 1283,
       "controlId": 1599,
-      "controlIdentifier": "PS-3(4)",
+      "controlIdentifier": "PS-03(04)",
       "controlGuid": "743e9488-f584-4cb5-8cd4-b8627f42938a",
       "controlTitle": "PS-03(04) - Citizenship Requirements",
       "catalogId": 219,
@@ -3134,7 +3134,7 @@
     {
       "profileMappingId": 1284,
       "controlId": 1600,
-      "controlIdentifier": "PS-4",
+      "controlIdentifier": "PS-04",
       "controlGuid": "f94dc1c7-005e-4771-bf5b-0c404ae01a63",
       "controlTitle": "PS-04 - Personnel Termination",
       "catalogId": 219,
@@ -3145,7 +3145,7 @@
     {
       "profileMappingId": 1285,
       "controlId": 1602,
-      "controlIdentifier": "PS-4(2)",
+      "controlIdentifier": "PS-04(02)",
       "controlGuid": "dc609ef9-e5ef-4ab8-b55a-213f80a6a8e5",
       "controlTitle": "PS-04(02) - Automated Actions",
       "catalogId": 219,
@@ -3156,7 +3156,7 @@
     {
       "profileMappingId": 1286,
       "controlId": 1603,
-      "controlIdentifier": "PS-5",
+      "controlIdentifier": "PS-05",
       "controlGuid": "a77f7718-f41c-4ac3-8db1-59e5ef181ad5",
       "controlTitle": "PS-05 - Personnel Transfer",
       "catalogId": 219,
@@ -3167,7 +3167,7 @@
     {
       "profileMappingId": 1287,
       "controlId": 1604,
-      "controlIdentifier": "PS-6",
+      "controlIdentifier": "PS-06",
       "controlGuid": "937cf374-416f-4fd7-b644-e4d37150cbc9",
       "controlTitle": "PS-06 - Access Agreements",
       "catalogId": 219,
@@ -3178,7 +3178,7 @@
     {
       "profileMappingId": 1288,
       "controlId": 1607,
-      "controlIdentifier": "PS-7",
+      "controlIdentifier": "PS-07",
       "controlGuid": "420c2165-0de5-4f47-83d6-b59dc1e9d459",
       "controlTitle": "PS-07 - External Personnel Security",
       "catalogId": 219,
@@ -3189,7 +3189,7 @@
     {
       "profileMappingId": 1289,
       "controlId": 1608,
-      "controlIdentifier": "PS-8",
+      "controlIdentifier": "PS-08",
       "controlGuid": "c021551e-8e31-4393-8f47-75706912d152",
       "controlTitle": "PS-08 - Personnel Sanctions",
       "catalogId": 219,
@@ -3200,7 +3200,7 @@
     {
       "profileMappingId": 1290,
       "controlId": 1609,
-      "controlIdentifier": "PS-9",
+      "controlIdentifier": "PS-09",
       "controlGuid": "6d1521d7-1403-4bc7-a516-d09e62d78c09",
       "controlTitle": "PS-09 - Position Descriptions",
       "catalogId": 219,
@@ -3211,7 +3211,7 @@
     {
       "profileMappingId": 1291,
       "controlId": 1631,
-      "controlIdentifier": "RA-1",
+      "controlIdentifier": "RA-01",
       "controlGuid": "8c17ff74-0b2b-4b41-9d3b-538e7b2f23d7",
       "controlTitle": "RA-01 - Policy and Procedures",
       "catalogId": 219,
@@ -3222,7 +3222,7 @@
     {
       "profileMappingId": 1292,
       "controlId": 1632,
-      "controlIdentifier": "RA-2",
+      "controlIdentifier": "RA-02",
       "controlGuid": "62a4f6b5-df2e-4d7b-a5d4-7ae43aca678b",
       "controlTitle": "RA-02 - Security Categorization",
       "catalogId": 219,
@@ -3233,7 +3233,7 @@
     {
       "profileMappingId": 1293,
       "controlId": 1634,
-      "controlIdentifier": "RA-3",
+      "controlIdentifier": "RA-03",
       "controlGuid": "30090800-5a56-40ed-8808-3e51adb3b6d7",
       "controlTitle": "RA-03 - Risk Assessment",
       "catalogId": 219,
@@ -3244,7 +3244,7 @@
     {
       "profileMappingId": 1294,
       "controlId": 1635,
-      "controlIdentifier": "RA-3(1)",
+      "controlIdentifier": "RA-03(01)",
       "controlGuid": "aab49b5f-aa3b-4258-964c-e2bdb906adca",
       "controlTitle": "RA-03(01) - Supply Chain Risk Assessment",
       "catalogId": 219,
@@ -3255,7 +3255,7 @@
     {
       "profileMappingId": 1295,
       "controlId": 1639,
-      "controlIdentifier": "RA-5",
+      "controlIdentifier": "RA-05",
       "controlGuid": "6e6518c6-1c44-41bf-b383-6c2b77505e7a",
       "controlTitle": "RA-05 - Vulnerability Monitoring and Scanning",
       "catalogId": 219,
@@ -3266,7 +3266,7 @@
     {
       "profileMappingId": 1296,
       "controlId": 1640,
-      "controlIdentifier": "RA-5(2)",
+      "controlIdentifier": "RA-05(02)",
       "controlGuid": "0750b25b-66fd-4ef5-b0bc-8c39d063fa7e",
       "controlTitle": "RA-05(02) - Update Vulnerabilities to Be Scanned",
       "catalogId": 219,
@@ -3277,7 +3277,7 @@
     {
       "profileMappingId": 1297,
       "controlId": 1641,
-      "controlIdentifier": "RA-5(3)",
+      "controlIdentifier": "RA-05(03)",
       "controlGuid": "13dc30a7-5be8-4ccf-a263-25360e51e0e8",
       "controlTitle": "RA-05(03) - Breadth and Depth of Coverage",
       "catalogId": 219,
@@ -3288,7 +3288,7 @@
     {
       "profileMappingId": 1298,
       "controlId": 1642,
-      "controlIdentifier": "RA-5(4)",
+      "controlIdentifier": "RA-05(04)",
       "controlGuid": "632e3681-7bbe-4f31-bf93-97f3f2c0fe53",
       "controlTitle": "RA-05(04) - Discoverable Information",
       "catalogId": 219,
@@ -3299,7 +3299,7 @@
     {
       "profileMappingId": 1299,
       "controlId": 1643,
-      "controlIdentifier": "RA-5(5)",
+      "controlIdentifier": "RA-05(05)",
       "controlGuid": "bee2ba88-908c-4974-9405-6a530b7cac11",
       "controlTitle": "RA-05(05) - Privileged Access",
       "catalogId": 219,
@@ -3310,7 +3310,7 @@
     {
       "profileMappingId": 1300,
       "controlId": 1645,
-      "controlIdentifier": "RA-5(8)",
+      "controlIdentifier": "RA-05(08)",
       "controlGuid": "87761b22-dd6e-41bf-b80e-8c975eafd4f1",
       "controlTitle": "RA-05(08) - Review Historic Audit Logs",
       "catalogId": 219,
@@ -3321,7 +3321,7 @@
     {
       "profileMappingId": 1301,
       "controlId": 1647,
-      "controlIdentifier": "RA-5(11)",
+      "controlIdentifier": "RA-05(11)",
       "controlGuid": "6e8b8a0b-1537-4e2c-99c9-0cd774370e26",
       "controlTitle": "RA-05(11) - Public Disclosure Program",
       "catalogId": 219,
@@ -3332,7 +3332,7 @@
     {
       "profileMappingId": 1302,
       "controlId": 1649,
-      "controlIdentifier": "RA-7",
+      "controlIdentifier": "RA-07",
       "controlGuid": "175be4a4-2772-4c93-ac25-f8862b30125d",
       "controlTitle": "RA-07 - Risk Response",
       "catalogId": 219,
@@ -3343,7 +3343,7 @@
     {
       "profileMappingId": 1303,
       "controlId": 1651,
-      "controlIdentifier": "RA-9",
+      "controlIdentifier": "RA-09",
       "controlGuid": "65f01b25-e21b-4979-b0e0-03522c854dd0",
       "controlTitle": "RA-09 - Criticality Analysis",
       "catalogId": 219,
@@ -3354,7 +3354,7 @@
     {
       "profileMappingId": 1304,
       "controlId": 1653,
-      "controlIdentifier": "SA-1",
+      "controlIdentifier": "SA-01",
       "controlGuid": "a3ce72cd-33ce-4a90-9c69-20169a64ca98",
       "controlTitle": "SA-01 - Policy and Procedures",
       "catalogId": 219,
@@ -3365,7 +3365,7 @@
     {
       "profileMappingId": 1305,
       "controlId": 1654,
-      "controlIdentifier": "SA-2",
+      "controlIdentifier": "SA-02",
       "controlGuid": "9ae1cad8-0bda-493c-81d7-45775e94f0eb",
       "controlTitle": "SA-02 - Allocation of Resources",
       "catalogId": 219,
@@ -3376,7 +3376,7 @@
     {
       "profileMappingId": 1306,
       "controlId": 1655,
-      "controlIdentifier": "SA-3",
+      "controlIdentifier": "SA-03",
       "controlGuid": "500eabe3-cdf1-4a89-add5-72294a88fadb",
       "controlTitle": "SA-03 - System Development Life Cycle",
       "catalogId": 219,
@@ -3387,7 +3387,7 @@
     {
       "profileMappingId": 1307,
       "controlId": 1659,
-      "controlIdentifier": "SA-4",
+      "controlIdentifier": "SA-04",
       "controlGuid": "dd056465-b7d3-4a16-a27d-a783c5ba551e",
       "controlTitle": "SA-04 - Acquisition Process",
       "catalogId": 219,
@@ -3398,7 +3398,7 @@
     {
       "profileMappingId": 1308,
       "controlId": 1660,
-      "controlIdentifier": "SA-4(1)",
+      "controlIdentifier": "SA-04(01)",
       "controlGuid": "595f7aae-d254-45f1-8cf2-5744c3cb5da3",
       "controlTitle": "SA-04(01) - Functional Properties of Controls",
       "catalogId": 219,
@@ -3409,7 +3409,7 @@
     {
       "profileMappingId": 1309,
       "controlId": 1661,
-      "controlIdentifier": "SA-4(2)",
+      "controlIdentifier": "SA-04(02)",
       "controlGuid": "8e216c85-78f8-4a5b-8a79-d364882abdfd",
       "controlTitle": "SA-04(02) - Design and Implementation Information for Controls",
       "catalogId": 219,
@@ -3420,7 +3420,7 @@
     {
       "profileMappingId": 1310,
       "controlId": 1663,
-      "controlIdentifier": "SA-4(5)",
+      "controlIdentifier": "SA-04(05)",
       "controlGuid": "8c32d88d-a78d-48c2-80ab-d87fc0132417",
       "controlTitle": "SA-04(05) - System, Component, and Service Configurations",
       "catalogId": 219,
@@ -3431,7 +3431,7 @@
     {
       "profileMappingId": 1311,
       "controlId": 1667,
-      "controlIdentifier": "SA-4(9)",
+      "controlIdentifier": "SA-04(09)",
       "controlGuid": "dac31a4d-e632-43e3-bf85-b6cc77fe53f9",
       "controlTitle": "SA-04(09) - Functions, Ports, Protocols, and Services in Use",
       "catalogId": 219,
@@ -3442,7 +3442,7 @@
     {
       "profileMappingId": 1312,
       "controlId": 1668,
-      "controlIdentifier": "SA-4(10)",
+      "controlIdentifier": "SA-04(10)",
       "controlGuid": "c22ae7a9-f18c-4c20-8ed7-46ab1cc76652",
       "controlTitle": "SA-04(10) - Use of Approved PIV Products",
       "catalogId": 219,
@@ -3453,7 +3453,7 @@
     {
       "profileMappingId": 1313,
       "controlId": 1671,
-      "controlIdentifier": "SA-5",
+      "controlIdentifier": "SA-05",
       "controlGuid": "939c4750-0b8d-4669-9fa5-11c00da5988a",
       "controlTitle": "SA-05 - System Documentation",
       "catalogId": 219,
@@ -3464,7 +3464,7 @@
     {
       "profileMappingId": 1314,
       "controlId": 1672,
-      "controlIdentifier": "SA-8",
+      "controlIdentifier": "SA-08",
       "controlGuid": "bcf3e7f0-07b1-41b7-8b95-23a581f65874",
       "controlTitle": "SA-08 - Security and Privacy Engineering Principles",
       "catalogId": 219,
@@ -3475,7 +3475,7 @@
     {
       "profileMappingId": 1315,
       "controlId": 1706,
-      "controlIdentifier": "SA-9",
+      "controlIdentifier": "SA-09",
       "controlGuid": "3abb251e-8f28-42c3-b064-611c0fc074ab",
       "controlTitle": "SA-09 - External System Services",
       "catalogId": 219,
@@ -3486,7 +3486,7 @@
     {
       "profileMappingId": 1316,
       "controlId": 1707,
-      "controlIdentifier": "SA-9(1)",
+      "controlIdentifier": "SA-09(01)",
       "controlGuid": "bca8fd25-8dca-4b9d-9b06-3cbfca04c52a",
       "controlTitle": "SA-09(01) - Risk Assessments and Organizational Approvals",
       "catalogId": 219,
@@ -3497,7 +3497,7 @@
     {
       "profileMappingId": 1317,
       "controlId": 1708,
-      "controlIdentifier": "SA-9(2)",
+      "controlIdentifier": "SA-09(02)",
       "controlGuid": "2d3db2d9-f533-47e9-a4ef-45a65b6ade03",
       "controlTitle": "SA-09(02) - Identification of Functions, Ports, Protocols, and Services",
       "catalogId": 219,
@@ -3508,7 +3508,7 @@
     {
       "profileMappingId": 1318,
       "controlId": 1709,
-      "controlIdentifier": "SA-9(3)",
+      "controlIdentifier": "SA-09(03)",
       "controlGuid": "8c001d74-a406-4cd0-aa0b-645d670406e2",
       "controlTitle": "SA-09(03) - Establish and Maintain Trust Relationship with Providers",
       "catalogId": 219,
@@ -3519,7 +3519,7 @@
     {
       "profileMappingId": 1319,
       "controlId": 1711,
-      "controlIdentifier": "SA-9(5)",
+      "controlIdentifier": "SA-09(05)",
       "controlGuid": "43d13d8f-6a47-47e5-8b23-0cf98b3cac95",
       "controlTitle": "SA-09(05) - Processing, Storage, and Service Location",
       "catalogId": 219,
@@ -3530,7 +3530,7 @@
     {
       "profileMappingId": 1320,
       "controlId": 1712,
-      "controlIdentifier": "SA-9(6)",
+      "controlIdentifier": "SA-09(06)",
       "controlGuid": "b4447727-af84-44dd-9e19-cc8a6069b48b",
       "controlTitle": "SA-09(06) - Organization-controlled Cryptographic Keys",
       "catalogId": 219,
@@ -3541,7 +3541,7 @@
     {
       "profileMappingId": 1321,
       "controlId": 1713,
-      "controlIdentifier": "SA-9(7)",
+      "controlIdentifier": "SA-09(07)",
       "controlGuid": "6a1632fa-4abd-499f-9534-d391b7aa3cc5",
       "controlTitle": "SA-09(07) - Organization-controlled Integrity Checking",
       "catalogId": 219,
@@ -3552,7 +3552,7 @@
     {
       "profileMappingId": 1322,
       "controlId": 1714,
-      "controlIdentifier": "SA-9(8)",
+      "controlIdentifier": "SA-09(08)",
       "controlGuid": "aeb5db50-ccac-4a6e-8ef1-cbd6e48bf357",
       "controlTitle": "SA-09(08) - Processing and Storage Location \u2014 U.S. Jurisdiction",
       "catalogId": 219,
@@ -3585,7 +3585,7 @@
     {
       "profileMappingId": 1325,
       "controlId": 1724,
-      "controlIdentifier": "SA-11(1)",
+      "controlIdentifier": "SA-11(01)",
       "controlGuid": "7ade8f5d-e639-4ac7-8cae-ed4f487d93a7",
       "controlTitle": "SA-11(01) - Static Code Analysis",
       "catalogId": 219,
@@ -3596,7 +3596,7 @@
     {
       "profileMappingId": 1326,
       "controlId": 1725,
-      "controlIdentifier": "SA-11(2)",
+      "controlIdentifier": "SA-11(02)",
       "controlGuid": "284978e9-7f6f-49e0-9906-ac1d5f66c72c",
       "controlTitle": "SA-11(02) - Threat Modeling and Vulnerability Analyses",
       "catalogId": 219,
@@ -3618,7 +3618,7 @@
     {
       "profileMappingId": 1328,
       "controlId": 1736,
-      "controlIdentifier": "SA-15(3)",
+      "controlIdentifier": "SA-15(03)",
       "controlGuid": "aef073ef-1914-4a88-abbf-99c7ab372c7f",
       "controlTitle": "SA-15(03) - Criticality Analysis",
       "catalogId": 219,
@@ -3673,7 +3673,7 @@
     {
       "profileMappingId": 1333,
       "controlId": 1761,
-      "controlIdentifier": "SC-1",
+      "controlIdentifier": "SC-01",
       "controlGuid": "817798ab-5cbf-409e-ac49-f87713ac76b6",
       "controlTitle": "SC-01 - Policy and Procedures",
       "catalogId": 219,
@@ -3684,7 +3684,7 @@
     {
       "profileMappingId": 1334,
       "controlId": 1762,
-      "controlIdentifier": "SC-2",
+      "controlIdentifier": "SC-02",
       "controlGuid": "05daaada-159b-402c-9c0f-322bacf51595",
       "controlTitle": "SC-02 - Separation of System and User Functionality",
       "catalogId": 219,
@@ -3695,7 +3695,7 @@
     {
       "profileMappingId": 1335,
       "controlId": 1765,
-      "controlIdentifier": "SC-3",
+      "controlIdentifier": "SC-03",
       "controlGuid": "e799afbf-ce56-4238-8898-d45a456a5e73",
       "controlTitle": "SC-03 - Security Function Isolation",
       "catalogId": 219,
@@ -3706,7 +3706,7 @@
     {
       "profileMappingId": 1336,
       "controlId": 1771,
-      "controlIdentifier": "SC-4",
+      "controlIdentifier": "SC-04",
       "controlGuid": "9afdb3b5-e49b-476e-97a0-5474927c6e3a",
       "controlTitle": "SC-04 - Information in Shared System Resources",
       "catalogId": 219,
@@ -3717,7 +3717,7 @@
     {
       "profileMappingId": 1337,
       "controlId": 1773,
-      "controlIdentifier": "SC-5",
+      "controlIdentifier": "SC-05",
       "controlGuid": "a2770e9a-2797-4a5a-aee5-ccf770255404",
       "controlTitle": "SC-05 - Denial-of-service Protection",
       "catalogId": 219,
@@ -3728,7 +3728,7 @@
     {
       "profileMappingId": 1338,
       "controlId": 1778,
-      "controlIdentifier": "SC-7",
+      "controlIdentifier": "SC-07",
       "controlGuid": "342a9616-962a-425d-be97-57e34193e4b9",
       "controlTitle": "SC-07 - Boundary Protection",
       "catalogId": 219,
@@ -3739,7 +3739,7 @@
     {
       "profileMappingId": 1339,
       "controlId": 1779,
-      "controlIdentifier": "SC-7(3)",
+      "controlIdentifier": "SC-07(03)",
       "controlGuid": "f11fc298-c19e-4c6d-9a8c-42d308916406",
       "controlTitle": "SC-07(03) - Access Points",
       "catalogId": 219,
@@ -3750,7 +3750,7 @@
     {
       "profileMappingId": 1340,
       "controlId": 1780,
-      "controlIdentifier": "SC-7(4)",
+      "controlIdentifier": "SC-07(04)",
       "controlGuid": "91784c61-0e3e-4228-be97-6e80e8bd7782",
       "controlTitle": "SC-07(04) - External Telecommunications Services",
       "catalogId": 219,
@@ -3761,7 +3761,7 @@
     {
       "profileMappingId": 1341,
       "controlId": 1781,
-      "controlIdentifier": "SC-7(5)",
+      "controlIdentifier": "SC-07(05)",
       "controlGuid": "a28df9b9-96e8-41ce-b68c-078b93253932",
       "controlTitle": "SC-07(05) - Deny by Default \u2014 Allow by Exception",
       "catalogId": 219,
@@ -3772,7 +3772,7 @@
     {
       "profileMappingId": 1342,
       "controlId": 1782,
-      "controlIdentifier": "SC-7(7)",
+      "controlIdentifier": "SC-07(07)",
       "controlGuid": "65406ec1-0aa9-48b6-8ec7-6e6df0d5f280",
       "controlTitle": "SC-07(07) - Split Tunneling for Remote Devices",
       "catalogId": 219,
@@ -3783,7 +3783,7 @@
     {
       "profileMappingId": 1343,
       "controlId": 1783,
-      "controlIdentifier": "SC-7(8)",
+      "controlIdentifier": "SC-07(08)",
       "controlGuid": "489b01e1-ffbd-4f8b-9906-d5ad5786c185",
       "controlTitle": "SC-07(08) - Route Traffic to Authenticated Proxy Servers",
       "catalogId": 219,
@@ -3794,7 +3794,7 @@
     {
       "profileMappingId": 1344,
       "controlId": 1785,
-      "controlIdentifier": "SC-7(10)",
+      "controlIdentifier": "SC-07(10)",
       "controlGuid": "e3d7fde3-2841-4252-bfc5-62d2a8771995",
       "controlTitle": "SC-07(10) - Prevent Exfiltration",
       "catalogId": 219,
@@ -3805,7 +3805,7 @@
     {
       "profileMappingId": 1345,
       "controlId": 1787,
-      "controlIdentifier": "SC-7(12)",
+      "controlIdentifier": "SC-07(12)",
       "controlGuid": "bd502bc1-4a0b-41e2-81c2-8f975c38c130",
       "controlTitle": "SC-07(12) - Host-based Protection",
       "catalogId": 219,
@@ -3816,7 +3816,7 @@
     {
       "profileMappingId": 1346,
       "controlId": 1793,
-      "controlIdentifier": "SC-7(18)",
+      "controlIdentifier": "SC-07(18)",
       "controlGuid": "7d054049-32aa-4573-9b29-7c3a225675da",
       "controlTitle": "SC-07(18) - Fail Secure",
       "catalogId": 219,
@@ -3827,7 +3827,7 @@
     {
       "profileMappingId": 1347,
       "controlId": 1795,
-      "controlIdentifier": "SC-7(20)",
+      "controlIdentifier": "SC-07(20)",
       "controlGuid": "9dcb7f6c-3237-43ca-a32b-71c34f88887f",
       "controlTitle": "SC-07(20) - Dynamic Isolation and Segregation",
       "catalogId": 219,
@@ -3838,7 +3838,7 @@
     {
       "profileMappingId": 1348,
       "controlId": 1796,
-      "controlIdentifier": "SC-7(21)",
+      "controlIdentifier": "SC-07(21)",
       "controlGuid": "f7a68061-e2d8-44a0-817d-f45df674b142",
       "controlTitle": "SC-07(21) - Isolation of System Components",
       "catalogId": 219,
@@ -3849,7 +3849,7 @@
     {
       "profileMappingId": 1349,
       "controlId": 1805,
-      "controlIdentifier": "SC-8",
+      "controlIdentifier": "SC-08",
       "controlGuid": "5c421de4-bb43-4467-ac62-47625dcbfd60",
       "controlTitle": "SC-08 - Transmission Confidentiality and Integrity",
       "catalogId": 219,
@@ -3860,7 +3860,7 @@
     {
       "profileMappingId": 1350,
       "controlId": 1806,
-      "controlIdentifier": "SC-8(1)",
+      "controlIdentifier": "SC-08(01)",
       "controlGuid": "da803c8e-53e6-49bf-abfd-fc50ece41e21",
       "controlTitle": "SC-08(01) - Cryptographic Protection",
       "catalogId": 219,
@@ -3893,7 +3893,7 @@
     {
       "profileMappingId": 1353,
       "controlId": 1815,
-      "controlIdentifier": "SC-12(1)",
+      "controlIdentifier": "SC-12(01)",
       "controlGuid": "58d2fd84-6e7e-4f1e-ae11-4d12381aa104",
       "controlTitle": "SC-12(01) - Availability",
       "catalogId": 219,
@@ -3904,7 +3904,7 @@
     {
       "profileMappingId": 1354,
       "controlId": 1818,
-      "controlIdentifier": "SC-12(6)",
+      "controlIdentifier": "SC-12(06)",
       "controlGuid": "307eda88-4e95-44c0-9661-706b89074c1e",
       "controlTitle": "SC-12(06) - Physical Control of Keys",
       "catalogId": 219,
@@ -3959,7 +3959,7 @@
     {
       "profileMappingId": 1359,
       "controlId": 1831,
-      "controlIdentifier": "SC-18(2)",
+      "controlIdentifier": "SC-18(02)",
       "controlGuid": "1ebbb100-71a5-4c9a-b7a8-f8b773611346",
       "controlTitle": "SC-18(02) - Acquisition, Development, and Use",
       "catalogId": 219,
@@ -4036,7 +4036,7 @@
     {
       "profileMappingId": 1366,
       "controlId": 1848,
-      "controlIdentifier": "SC-28(1)",
+      "controlIdentifier": "SC-28(01)",
       "controlGuid": "c327c086-bd30-44fb-9cb8-39b124a4fba4",
       "controlTitle": "SC-28(01) - Cryptographic Protection",
       "catalogId": 219,
@@ -4069,7 +4069,7 @@
     {
       "profileMappingId": 1369,
       "controlId": 1891,
-      "controlIdentifier": "SC-45(1)",
+      "controlIdentifier": "SC-45(01)",
       "controlGuid": "7e6bcf40-f4ce-4efe-b40c-f50521c9770e",
       "controlTitle": "SC-45(01) - Synchronization with Authoritative Time Source",
       "catalogId": 219,
@@ -4091,7 +4091,7 @@
     {
       "profileMappingId": 1371,
       "controlId": 1900,
-      "controlIdentifier": "SI-1",
+      "controlIdentifier": "SI-01",
       "controlGuid": "bbbcc9b2-8ca9-4b64-befe-02b3ee9fafcc",
       "controlTitle": "SI-01 - Policy and Procedures",
       "catalogId": 219,
@@ -4102,7 +4102,7 @@
     {
       "profileMappingId": 1372,
       "controlId": 1901,
-      "controlIdentifier": "SI-2",
+      "controlIdentifier": "SI-02",
       "controlGuid": "8d08f229-024a-4656-a9c9-03d3ff817160",
       "controlTitle": "SI-02 - Flaw Remediation",
       "catalogId": 219,
@@ -4113,7 +4113,7 @@
     {
       "profileMappingId": 1373,
       "controlId": 1902,
-      "controlIdentifier": "SI-2(2)",
+      "controlIdentifier": "SI-02(02)",
       "controlGuid": "62ffe393-1009-4824-bc6e-ced53eb0cea5",
       "controlTitle": "SI-02(02) - Automated Flaw Remediation Status",
       "catalogId": 219,
@@ -4124,7 +4124,7 @@
     {
       "profileMappingId": 1374,
       "controlId": 1903,
-      "controlIdentifier": "SI-2(3)",
+      "controlIdentifier": "SI-02(03)",
       "controlGuid": "6496d55a-8820-4202-96d9-ef41f41aceee",
       "controlTitle": "SI-02(03) - Time to Remediate Flaws and Benchmarks for Corrective Actions",
       "catalogId": 219,
@@ -4135,7 +4135,7 @@
     {
       "profileMappingId": 1375,
       "controlId": 1908,
-      "controlIdentifier": "SI-3",
+      "controlIdentifier": "SI-03",
       "controlGuid": "0e1061ca-dd80-4014-88ea-ec0c14e49001",
       "controlTitle": "SI-03 - Malicious Code Protection",
       "catalogId": 219,
@@ -4146,7 +4146,7 @@
     {
       "profileMappingId": 1376,
       "controlId": 1913,
-      "controlIdentifier": "SI-4",
+      "controlIdentifier": "SI-04",
       "controlGuid": "8428300b-00bf-457c-aebf-be8ec3c501be",
       "controlTitle": "SI-04 - System Monitoring",
       "catalogId": 219,
@@ -4157,7 +4157,7 @@
     {
       "profileMappingId": 1377,
       "controlId": 1914,
-      "controlIdentifier": "SI-4(1)",
+      "controlIdentifier": "SI-04(01)",
       "controlGuid": "b5900a33-df91-42a3-acaf-99afbba747db",
       "controlTitle": "SI-04(01) - System-wide Intrusion Detection System",
       "catalogId": 219,
@@ -4168,7 +4168,7 @@
     {
       "profileMappingId": 1378,
       "controlId": 1915,
-      "controlIdentifier": "SI-4(2)",
+      "controlIdentifier": "SI-04(02)",
       "controlGuid": "ff91f047-4a69-4994-b857-77190463f2d0",
       "controlTitle": "SI-04(02) - Automated Tools and Mechanisms for Real-time Analysis",
       "catalogId": 219,
@@ -4179,7 +4179,7 @@
     {
       "profileMappingId": 1379,
       "controlId": 1917,
-      "controlIdentifier": "SI-4(4)",
+      "controlIdentifier": "SI-04(04)",
       "controlGuid": "16c5203b-14bb-48e4-bd8d-0b8c142afdb6",
       "controlTitle": "SI-04(04) - Inbound and Outbound Communications Traffic",
       "catalogId": 219,
@@ -4190,7 +4190,7 @@
     {
       "profileMappingId": 1380,
       "controlId": 1918,
-      "controlIdentifier": "SI-4(5)",
+      "controlIdentifier": "SI-04(05)",
       "controlGuid": "1f0e69b9-c3be-4ef2-bc97-934099778987",
       "controlTitle": "SI-04(05) - System-generated Alerts",
       "catalogId": 219,
@@ -4201,7 +4201,7 @@
     {
       "profileMappingId": 1381,
       "controlId": 1921,
-      "controlIdentifier": "SI-4(10)",
+      "controlIdentifier": "SI-04(10)",
       "controlGuid": "f21169ea-518c-46a9-979e-71f90e56994f",
       "controlTitle": "SI-04(10) - Visibility of Encrypted Communications",
       "catalogId": 219,
@@ -4212,7 +4212,7 @@
     {
       "profileMappingId": 1382,
       "controlId": 1922,
-      "controlIdentifier": "SI-4(11)",
+      "controlIdentifier": "SI-04(11)",
       "controlGuid": "4c8d6a3a-2d85-4777-bbb4-18a5847c5e34",
       "controlTitle": "SI-04(11) - Analyze Communications Traffic Anomalies",
       "catalogId": 219,
@@ -4223,7 +4223,7 @@
     {
       "profileMappingId": 1383,
       "controlId": 1923,
-      "controlIdentifier": "SI-4(12)",
+      "controlIdentifier": "SI-04(12)",
       "controlGuid": "5b9d963c-dc32-4cad-aa04-353a91db859e",
       "controlTitle": "SI-04(12) - Automated Organization-generated Alerts",
       "catalogId": 219,
@@ -4234,7 +4234,7 @@
     {
       "profileMappingId": 1384,
       "controlId": 1925,
-      "controlIdentifier": "SI-4(14)",
+      "controlIdentifier": "SI-04(14)",
       "controlGuid": "5a9c44f5-ea2a-43a7-91e2-964203cf8ebe",
       "controlTitle": "SI-04(14) - Wireless Intrusion Detection",
       "catalogId": 219,
@@ -4245,7 +4245,7 @@
     {
       "profileMappingId": 1385,
       "controlId": 1927,
-      "controlIdentifier": "SI-4(16)",
+      "controlIdentifier": "SI-04(16)",
       "controlGuid": "7b94b8f2-38e6-4904-a829-fb4f2a107b49",
       "controlTitle": "SI-04(16) - Correlate Monitoring Information",
       "catalogId": 219,
@@ -4256,7 +4256,7 @@
     {
       "profileMappingId": 1386,
       "controlId": 1929,
-      "controlIdentifier": "SI-4(18)",
+      "controlIdentifier": "SI-04(18)",
       "controlGuid": "3362e9a3-8959-4cdd-b5a4-8f38416aca18",
       "controlTitle": "SI-04(18) - Analyze Traffic and Covert Exfiltration",
       "catalogId": 219,
@@ -4267,7 +4267,7 @@
     {
       "profileMappingId": 1387,
       "controlId": 1930,
-      "controlIdentifier": "SI-4(19)",
+      "controlIdentifier": "SI-04(19)",
       "controlGuid": "9a4f3281-3e3c-43d0-a64b-554585ce0c97",
       "controlTitle": "SI-04(19) - Risk for Individuals",
       "catalogId": 219,
@@ -4278,7 +4278,7 @@
     {
       "profileMappingId": 1388,
       "controlId": 1931,
-      "controlIdentifier": "SI-4(20)",
+      "controlIdentifier": "SI-04(20)",
       "controlGuid": "d2861fce-3975-4f8a-9480-28ffb3b30fb0",
       "controlTitle": "SI-04(20) - Privileged Users",
       "catalogId": 219,
@@ -4289,7 +4289,7 @@
     {
       "profileMappingId": 1389,
       "controlId": 1933,
-      "controlIdentifier": "SI-4(22)",
+      "controlIdentifier": "SI-04(22)",
       "controlGuid": "049ebb43-cf46-45ae-8d6a-43bb3bf02a14",
       "controlTitle": "SI-04(22) - Unauthorized Network Services",
       "catalogId": 219,
@@ -4300,7 +4300,7 @@
     {
       "profileMappingId": 1390,
       "controlId": 1934,
-      "controlIdentifier": "SI-4(23)",
+      "controlIdentifier": "SI-04(23)",
       "controlGuid": "55593be5-779e-4e85-a562-27721f837a12",
       "controlTitle": "SI-04(23) - Host-based Devices",
       "catalogId": 219,
@@ -4311,7 +4311,7 @@
     {
       "profileMappingId": 1391,
       "controlId": 1937,
-      "controlIdentifier": "SI-5",
+      "controlIdentifier": "SI-05",
       "controlGuid": "d97a922f-c1d9-4793-849f-0d7469bd851b",
       "controlTitle": "SI-05 - Security Alerts, Advisories, and Directives",
       "catalogId": 219,
@@ -4322,7 +4322,7 @@
     {
       "profileMappingId": 1392,
       "controlId": 1938,
-      "controlIdentifier": "SI-5(1)",
+      "controlIdentifier": "SI-05(01)",
       "controlGuid": "4e899ee8-a379-4657-a393-02b967eac7cc",
       "controlTitle": "SI-05(01) - Automated Alerts and Advisories",
       "catalogId": 219,
@@ -4333,7 +4333,7 @@
     {
       "profileMappingId": 1393,
       "controlId": 1939,
-      "controlIdentifier": "SI-6",
+      "controlIdentifier": "SI-06",
       "controlGuid": "52005d22-ba2a-40e4-99af-70c199a4c15e",
       "controlTitle": "SI-06 - Security and Privacy Function Verification",
       "catalogId": 219,
@@ -4344,7 +4344,7 @@
     {
       "profileMappingId": 1394,
       "controlId": 1942,
-      "controlIdentifier": "SI-7",
+      "controlIdentifier": "SI-07",
       "controlGuid": "d73a8df7-a045-49fd-a17f-17c6ac968f8f",
       "controlTitle": "SI-07 - Software, Firmware, and Information Integrity",
       "catalogId": 219,
@@ -4355,7 +4355,7 @@
     {
       "profileMappingId": 1395,
       "controlId": 1943,
-      "controlIdentifier": "SI-7(1)",
+      "controlIdentifier": "SI-07(01)",
       "controlGuid": "78323e18-7ead-4b51-88c5-7caa3f68665c",
       "controlTitle": "SI-07(01) - Integrity Checks",
       "catalogId": 219,
@@ -4366,7 +4366,7 @@
     {
       "profileMappingId": 1396,
       "controlId": 1944,
-      "controlIdentifier": "SI-7(2)",
+      "controlIdentifier": "SI-07(02)",
       "controlGuid": "782ff674-c58f-4b41-9fdc-505767407f87",
       "controlTitle": "SI-07(02) - Automated Notifications of Integrity Violations",
       "catalogId": 219,
@@ -4377,7 +4377,7 @@
     {
       "profileMappingId": 1397,
       "controlId": 1946,
-      "controlIdentifier": "SI-7(5)",
+      "controlIdentifier": "SI-07(05)",
       "controlGuid": "4052d9a6-e773-48a7-a1f0-d2b2a88ff842",
       "controlTitle": "SI-07(05) - Automated Response to Integrity Violations",
       "catalogId": 219,
@@ -4388,7 +4388,7 @@
     {
       "profileMappingId": 1398,
       "controlId": 1948,
-      "controlIdentifier": "SI-7(7)",
+      "controlIdentifier": "SI-07(07)",
       "controlGuid": "730c7c6a-e788-48f5-ab61-5e64e5b7570d",
       "controlTitle": "SI-07(07) - Integration of Detection and Response",
       "catalogId": 219,
@@ -4399,7 +4399,7 @@
     {
       "profileMappingId": 1399,
       "controlId": 1953,
-      "controlIdentifier": "SI-7(15)",
+      "controlIdentifier": "SI-07(15)",
       "controlGuid": "c9fd2d7a-d4f3-4753-9bdb-8ea40592e0ba",
       "controlTitle": "SI-07(15) - Code Authentication",
       "catalogId": 219,
@@ -4410,7 +4410,7 @@
     {
       "profileMappingId": 1400,
       "controlId": 1956,
-      "controlIdentifier": "SI-8",
+      "controlIdentifier": "SI-08",
       "controlGuid": "896761d0-a90e-4449-bde4-0d0251a55904",
       "controlTitle": "SI-08 - Spam Protection",
       "catalogId": 219,
@@ -4421,7 +4421,7 @@
     {
       "profileMappingId": 1401,
       "controlId": 1957,
-      "controlIdentifier": "SI-8(2)",
+      "controlIdentifier": "SI-08(02)",
       "controlGuid": "51a0ced6-ce51-47a3-acdc-199eb77f608d",
       "controlTitle": "SI-08(02) - Automatic Updates",
       "catalogId": 219,
@@ -4476,7 +4476,7 @@
     {
       "profileMappingId": 1406,
       "controlId": 2002,
-      "controlIdentifier": "SR-1",
+      "controlIdentifier": "SR-01",
       "controlGuid": "c30b8948-3f5d-4b2e-925a-06e502f765a6",
       "controlTitle": "SR-01 - Policy and Procedures",
       "catalogId": 219,
@@ -4487,7 +4487,7 @@
     {
       "profileMappingId": 1407,
       "controlId": 2003,
-      "controlIdentifier": "SR-2",
+      "controlIdentifier": "SR-02",
       "controlGuid": "fcee7e4f-0e6f-41be-b875-5316cd492acb",
       "controlTitle": "SR-02 - Supply Chain Risk Management Plan",
       "catalogId": 219,
@@ -4498,7 +4498,7 @@
     {
       "profileMappingId": 1408,
       "controlId": 2004,
-      "controlIdentifier": "SR-2(1)",
+      "controlIdentifier": "SR-02(01)",
       "controlGuid": "0a546822-7679-4dc8-8a1e-1faf20c04a81",
       "controlTitle": "SR-02(01) - Establish SCRM Team",
       "catalogId": 219,
@@ -4509,7 +4509,7 @@
     {
       "profileMappingId": 1409,
       "controlId": 2005,
-      "controlIdentifier": "SR-3",
+      "controlIdentifier": "SR-03",
       "controlGuid": "eeb0f548-af58-4156-bbba-f7c19a0b39be",
       "controlTitle": "SR-03 - Supply Chain Controls and Processes",
       "catalogId": 219,
@@ -4520,7 +4520,7 @@
     {
       "profileMappingId": 1410,
       "controlId": 2014,
-      "controlIdentifier": "SR-5",
+      "controlIdentifier": "SR-05",
       "controlGuid": "35baddd4-45e7-4ccb-aea2-4290fec619db",
       "controlTitle": "SR-05 - Acquisition Strategies, Tools, and Methods",
       "catalogId": 219,
@@ -4531,7 +4531,7 @@
     {
       "profileMappingId": 1411,
       "controlId": 2017,
-      "controlIdentifier": "SR-6",
+      "controlIdentifier": "SR-06",
       "controlGuid": "87368ca1-9049-4a00-a3ea-24a431a44d0d",
       "controlTitle": "SR-06 - Supplier Assessments and Reviews",
       "catalogId": 219,
@@ -4542,7 +4542,7 @@
     {
       "profileMappingId": 1412,
       "controlId": 2020,
-      "controlIdentifier": "SR-8",
+      "controlIdentifier": "SR-08",
       "controlGuid": "0cec82c1-655b-45a1-91d7-356ad1158f28",
       "controlTitle": "SR-08 - Notification Agreements",
       "catalogId": 219,
@@ -4553,7 +4553,7 @@
     {
       "profileMappingId": 1413,
       "controlId": 2021,
-      "controlIdentifier": "SR-9",
+      "controlIdentifier": "SR-09",
       "controlGuid": "3f7a192f-bc70-4336-9676-cbfccc3bddde",
       "controlTitle": "SR-09 - Tamper Resistance and Detection",
       "catalogId": 219,
@@ -4564,7 +4564,7 @@
     {
       "profileMappingId": 1414,
       "controlId": 2022,
-      "controlIdentifier": "SR-9(1)",
+      "controlIdentifier": "SR-09(01)",
       "controlGuid": "43331a35-726f-4aad-b74f-7c90f7ca62d7",
       "controlTitle": "SR-09(01) - Multiple Stages of System Development Life Cycle",
       "catalogId": 219,
@@ -4597,7 +4597,7 @@
     {
       "profileMappingId": 1417,
       "controlId": 2025,
-      "controlIdentifier": "SR-11(1)",
+      "controlIdentifier": "SR-11(01)",
       "controlGuid": "5048cbea-48a5-46f4-a2f4-b5f30f0856d5",
       "controlTitle": "SR-11(01) - Anti-counterfeit Training",
       "catalogId": 219,
@@ -4608,7 +4608,7 @@
     {
       "profileMappingId": 1418,
       "controlId": 2026,
-      "controlIdentifier": "SR-11(2)",
+      "controlIdentifier": "SR-11(02)",
       "controlGuid": "4e7ec85f-ddb5-4bcc-a062-151112a92e8a",
       "controlTitle": "SR-11(02) - Configuration Control for Component Service and Repair",
       "catalogId": 219,
@@ -4628,6 +4628,6 @@
       "catalogUrl": "https://cybersecurityks.osd.mil/dodcs/ControlsandAuthorization/securitycontrols/"
     }
   ],
-  "exportDate": "2026-05-13T19:45:55.6606020Z",
+  "exportDate": "2026-05-13T20:15:25.280829Z",
   "exportVersion": 1.0
 }
