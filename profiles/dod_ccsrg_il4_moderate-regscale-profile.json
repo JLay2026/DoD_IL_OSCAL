@@ -1,1688 +1,1693 @@
 {
-  "$comment": "RegScale API-import payload generated to match oscal_profile_to_regscale.py. Three sections mirror the script's POST bodies: 1) `profile` -> POST /api/profiles; 2) `profileMappings` -> POST /api/profileMapping/batchCreate (resolve controlIdentifier to integer controlID against your tenant catalog before posting; profileID is the id returned by step 1); 3) `catalogTemplate` -> POST /api/catalog-templates (null if OSCAL profile has no modify.set-parameters).",
+  "$comment": "RegScale API-import payload generated to match oscal_profile_to_regscale.py. Three sections mirror the script's POST bodies: 1) `profile` -> POST /api/profiles; 2) `profileMappings` -> POST /api/profileMapping/batchCreate (replace profileID with the id returned by step 1; controlID is the DoW catalog's RegScale integer controlId, ready to post directly against catalogId=219); 3) `catalogTemplate` -> POST /api/catalog-templates (null if OSCAL profile has no modify.set-parameters).",
   "profile": {
-    "name": "DoD IL4 Moderate",
+    "name": "DoD CCSRG IL4 Moderate",
     "profileOwnerId": "a16d5e01-a6e9-4bf8-a25b-612900ddffbe",
     "category": "Moderate",
-    "isPublic": true
+    "isPublic": false
   },
   "profileMappings": [
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1015,
       "controlIdentifier": "AC-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1016,
       "controlIdentifier": "AC-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1017,
       "controlIdentifier": "AC-02(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1018,
       "controlIdentifier": "AC-02(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1019,
       "controlIdentifier": "AC-02(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1020,
       "controlIdentifier": "AC-02(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1021,
       "controlIdentifier": "AC-02(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1023,
       "controlIdentifier": "AC-02(07)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1025,
       "controlIdentifier": "AC-02(09)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1027,
       "controlIdentifier": "AC-02(12)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1028,
       "controlIdentifier": "AC-02(13)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1029,
       "controlIdentifier": "AC-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1043,
       "controlIdentifier": "AC-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1062,
       "controlIdentifier": "AC-04(21)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1074,
       "controlIdentifier": "AC-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1075,
       "controlIdentifier": "AC-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1076,
       "controlIdentifier": "AC-06(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1077,
       "controlIdentifier": "AC-06(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1080,
       "controlIdentifier": "AC-06(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1082,
       "controlIdentifier": "AC-06(07)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1084,
       "controlIdentifier": "AC-06(09)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1085,
       "controlIdentifier": "AC-06(10)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1086,
       "controlIdentifier": "AC-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1090,
       "controlIdentifier": "AC-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1097,
       "controlIdentifier": "AC-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1098,
       "controlIdentifier": "AC-11(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1099,
       "controlIdentifier": "AC-12"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1103,
       "controlIdentifier": "AC-14"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1115,
       "controlIdentifier": "AC-17"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1116,
       "controlIdentifier": "AC-17(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1117,
       "controlIdentifier": "AC-17(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1118,
       "controlIdentifier": "AC-17(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1119,
       "controlIdentifier": "AC-17(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1123,
       "controlIdentifier": "AC-18"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1124,
       "controlIdentifier": "AC-18(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1125,
       "controlIdentifier": "AC-18(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1128,
       "controlIdentifier": "AC-19"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1130,
       "controlIdentifier": "AC-19(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1131,
       "controlIdentifier": "AC-20"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1132,
       "controlIdentifier": "AC-20(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1133,
       "controlIdentifier": "AC-20(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1137,
       "controlIdentifier": "AC-21"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1140,
       "controlIdentifier": "AC-22"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1146,
       "controlIdentifier": "AT-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1147,
       "controlIdentifier": "AT-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1149,
       "controlIdentifier": "AT-02(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1150,
       "controlIdentifier": "AT-02(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1154,
       "controlIdentifier": "AT-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1159,
       "controlIdentifier": "AT-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1161,
       "controlIdentifier": "AU-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1162,
       "controlIdentifier": "AU-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1163,
       "controlIdentifier": "AU-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1164,
       "controlIdentifier": "AU-03(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1166,
       "controlIdentifier": "AU-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1168,
       "controlIdentifier": "AU-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1169,
       "controlIdentifier": "AU-05(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1174,
       "controlIdentifier": "AU-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1175,
       "controlIdentifier": "AU-06(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1176,
       "controlIdentifier": "AU-06(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1183,
       "controlIdentifier": "AU-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1184,
       "controlIdentifier": "AU-07(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1185,
       "controlIdentifier": "AU-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1186,
       "controlIdentifier": "AU-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1190,
       "controlIdentifier": "AU-09(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1199,
       "controlIdentifier": "AU-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1201,
       "controlIdentifier": "AU-12"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1217,
       "controlIdentifier": "CA-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1218,
       "controlIdentifier": "CA-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1219,
       "controlIdentifier": "CA-02(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1221,
       "controlIdentifier": "CA-02(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1222,
       "controlIdentifier": "CA-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1225,
       "controlIdentifier": "CA-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1227,
       "controlIdentifier": "CA-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1230,
       "controlIdentifier": "CA-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1231,
       "controlIdentifier": "CA-07(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1233,
       "controlIdentifier": "CA-07(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1236,
       "controlIdentifier": "CA-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1237,
       "controlIdentifier": "CA-08(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1238,
       "controlIdentifier": "CA-08(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1240,
       "controlIdentifier": "CA-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1242,
       "controlIdentifier": "CM-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1243,
       "controlIdentifier": "CM-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1244,
       "controlIdentifier": "CM-02(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1245,
       "controlIdentifier": "CM-02(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1247,
       "controlIdentifier": "CM-02(07)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1248,
       "controlIdentifier": "CM-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1250,
       "controlIdentifier": "CM-03(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1252,
       "controlIdentifier": "CM-03(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1257,
       "controlIdentifier": "CM-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1259,
       "controlIdentifier": "CM-04(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1260,
       "controlIdentifier": "CM-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1261,
       "controlIdentifier": "CM-05(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1263,
       "controlIdentifier": "CM-05(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1265,
       "controlIdentifier": "CM-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1266,
       "controlIdentifier": "CM-06(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1268,
       "controlIdentifier": "CM-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1269,
       "controlIdentifier": "CM-07(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1270,
       "controlIdentifier": "CM-07(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1273,
       "controlIdentifier": "CM-07(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1278,
       "controlIdentifier": "CM-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1279,
       "controlIdentifier": "CM-08(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1281,
       "controlIdentifier": "CM-08(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1287,
       "controlIdentifier": "CM-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1289,
       "controlIdentifier": "CM-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1291,
       "controlIdentifier": "CM-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1294,
       "controlIdentifier": "CM-12"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1295,
       "controlIdentifier": "CM-12(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1298,
       "controlIdentifier": "CP-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1299,
       "controlIdentifier": "CP-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1300,
       "controlIdentifier": "CP-02(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1302,
       "controlIdentifier": "CP-02(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1306,
       "controlIdentifier": "CP-02(08)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1307,
       "controlIdentifier": "CP-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1310,
       "controlIdentifier": "CP-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1311,
       "controlIdentifier": "CP-04(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1316,
       "controlIdentifier": "CP-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1317,
       "controlIdentifier": "CP-06(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1319,
       "controlIdentifier": "CP-06(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1320,
       "controlIdentifier": "CP-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1321,
       "controlIdentifier": "CP-07(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1322,
       "controlIdentifier": "CP-07(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1323,
       "controlIdentifier": "CP-07(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1326,
       "controlIdentifier": "CP-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1327,
       "controlIdentifier": "CP-08(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1328,
       "controlIdentifier": "CP-08(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1332,
       "controlIdentifier": "CP-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1333,
       "controlIdentifier": "CP-09(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1339,
       "controlIdentifier": "CP-09(08)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1340,
       "controlIdentifier": "CP-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1341,
       "controlIdentifier": "CP-10(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1347,
       "controlIdentifier": "IA-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1348,
       "controlIdentifier": "IA-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1349,
       "controlIdentifier": "IA-02(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1350,
       "controlIdentifier": "IA-02(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1351,
       "controlIdentifier": "IA-02(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1352,
       "controlIdentifier": "IA-02(06)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1353,
       "controlIdentifier": "IA-02(08)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1355,
       "controlIdentifier": "IA-02(12)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1357,
       "controlIdentifier": "IA-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1361,
       "controlIdentifier": "IA-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1363,
       "controlIdentifier": "IA-04(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1368,
       "controlIdentifier": "IA-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1369,
       "controlIdentifier": "IA-05(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1370,
       "controlIdentifier": "IA-05(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1372,
       "controlIdentifier": "IA-05(06)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1373,
       "controlIdentifier": "IA-05(07)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1384,
       "controlIdentifier": "IA-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1385,
       "controlIdentifier": "IA-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1386,
       "controlIdentifier": "IA-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1387,
       "controlIdentifier": "IA-08(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1388,
       "controlIdentifier": "IA-08(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1389,
       "controlIdentifier": "IA-08(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1394,
       "controlIdentifier": "IA-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1395,
       "controlIdentifier": "IA-12"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1397,
       "controlIdentifier": "IA-12(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1398,
       "controlIdentifier": "IA-12(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1400,
       "controlIdentifier": "IA-12(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1406,
       "controlIdentifier": "IR-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1407,
       "controlIdentifier": "IR-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1411,
       "controlIdentifier": "IR-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1413,
       "controlIdentifier": "IR-03(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1415,
       "controlIdentifier": "IR-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1416,
       "controlIdentifier": "IR-04(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1431,
       "controlIdentifier": "IR-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1433,
       "controlIdentifier": "IR-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1434,
       "controlIdentifier": "IR-06(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1436,
       "controlIdentifier": "IR-06(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1437,
       "controlIdentifier": "IR-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1438,
       "controlIdentifier": "IR-07(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1440,
       "controlIdentifier": "IR-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1442,
       "controlIdentifier": "IR-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1443,
       "controlIdentifier": "IR-09(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1444,
       "controlIdentifier": "IR-09(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1445,
       "controlIdentifier": "IR-09(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1446,
       "controlIdentifier": "MA-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1447,
       "controlIdentifier": "MA-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1449,
       "controlIdentifier": "MA-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1450,
       "controlIdentifier": "MA-03(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1451,
       "controlIdentifier": "MA-03(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1452,
       "controlIdentifier": "MA-03(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1456,
       "controlIdentifier": "MA-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1463,
       "controlIdentifier": "MA-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1464,
       "controlIdentifier": "MA-05(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1468,
       "controlIdentifier": "MA-05(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1469,
       "controlIdentifier": "MA-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1474,
       "controlIdentifier": "MP-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1475,
       "controlIdentifier": "MP-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1476,
       "controlIdentifier": "MP-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1477,
       "controlIdentifier": "MP-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1479,
       "controlIdentifier": "MP-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1481,
       "controlIdentifier": "MP-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1487,
       "controlIdentifier": "MP-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1494,
       "controlIdentifier": "PE-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1495,
       "controlIdentifier": "PE-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1499,
       "controlIdentifier": "PE-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1507,
       "controlIdentifier": "PE-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1508,
       "controlIdentifier": "PE-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1510,
       "controlIdentifier": "PE-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1511,
       "controlIdentifier": "PE-06(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1515,
       "controlIdentifier": "PE-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1518,
       "controlIdentifier": "PE-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1521,
       "controlIdentifier": "PE-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1522,
       "controlIdentifier": "PE-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1525,
       "controlIdentifier": "PE-12"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1527,
       "controlIdentifier": "PE-13"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1528,
       "controlIdentifier": "PE-13(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1529,
       "controlIdentifier": "PE-13(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1531,
       "controlIdentifier": "PE-14"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1534,
       "controlIdentifier": "PE-15"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1536,
       "controlIdentifier": "PE-16"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1537,
       "controlIdentifier": "PE-17"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1545,
       "controlIdentifier": "PL-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1546,
       "controlIdentifier": "PL-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1547,
       "controlIdentifier": "PL-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1548,
       "controlIdentifier": "PL-04(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1550,
       "controlIdentifier": "PL-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1554,
       "controlIdentifier": "PL-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1555,
       "controlIdentifier": "PL-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1593,
       "controlIdentifier": "PS-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1594,
       "controlIdentifier": "PS-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1595,
       "controlIdentifier": "PS-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1598,
       "controlIdentifier": "PS-03(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1599,
       "controlIdentifier": "PS-03(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1600,
       "controlIdentifier": "PS-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1603,
       "controlIdentifier": "PS-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1604,
       "controlIdentifier": "PS-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1607,
       "controlIdentifier": "PS-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1608,
       "controlIdentifier": "PS-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1609,
       "controlIdentifier": "PS-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1631,
       "controlIdentifier": "RA-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1632,
       "controlIdentifier": "RA-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1634,
       "controlIdentifier": "RA-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1635,
       "controlIdentifier": "RA-03(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1639,
       "controlIdentifier": "RA-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1640,
       "controlIdentifier": "RA-05(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1641,
       "controlIdentifier": "RA-05(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1643,
       "controlIdentifier": "RA-05(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1647,
       "controlIdentifier": "RA-05(11)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1649,
       "controlIdentifier": "RA-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1651,
       "controlIdentifier": "RA-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1653,
       "controlIdentifier": "SA-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1654,
       "controlIdentifier": "SA-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1655,
       "controlIdentifier": "SA-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1659,
       "controlIdentifier": "SA-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1660,
       "controlIdentifier": "SA-04(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1661,
       "controlIdentifier": "SA-04(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1663,
       "controlIdentifier": "SA-04(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1667,
       "controlIdentifier": "SA-04(09)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1668,
       "controlIdentifier": "SA-04(10)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1671,
       "controlIdentifier": "SA-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1672,
       "controlIdentifier": "SA-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1706,
       "controlIdentifier": "SA-09"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1707,
       "controlIdentifier": "SA-09(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1708,
       "controlIdentifier": "SA-09(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1709,
       "controlIdentifier": "SA-09(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1711,
       "controlIdentifier": "SA-09(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1712,
       "controlIdentifier": "SA-09(06)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1713,
       "controlIdentifier": "SA-09(07)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1714,
       "controlIdentifier": "SA-09(08)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1715,
       "controlIdentifier": "SA-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1723,
       "controlIdentifier": "SA-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1724,
       "controlIdentifier": "SA-11(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1725,
       "controlIdentifier": "SA-11(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1733,
       "controlIdentifier": "SA-15"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1736,
       "controlIdentifier": "SA-15(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1758,
       "controlIdentifier": "SA-22"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1761,
       "controlIdentifier": "SC-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1762,
       "controlIdentifier": "SC-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1771,
       "controlIdentifier": "SC-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1773,
       "controlIdentifier": "SC-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1778,
       "controlIdentifier": "SC-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1779,
       "controlIdentifier": "SC-07(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1780,
       "controlIdentifier": "SC-07(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1781,
       "controlIdentifier": "SC-07(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1782,
       "controlIdentifier": "SC-07(07)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1783,
       "controlIdentifier": "SC-07(08)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1787,
       "controlIdentifier": "SC-07(12)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1793,
       "controlIdentifier": "SC-07(18)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1805,
       "controlIdentifier": "SC-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1806,
       "controlIdentifier": "SC-08(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1811,
       "controlIdentifier": "SC-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1814,
       "controlIdentifier": "SC-12"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1818,
       "controlIdentifier": "SC-12(06)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1819,
       "controlIdentifier": "SC-13"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1820,
       "controlIdentifier": "SC-15"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1828,
       "controlIdentifier": "SC-17"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1829,
       "controlIdentifier": "SC-18"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1831,
       "controlIdentifier": "SC-18(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1835,
       "controlIdentifier": "SC-20"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1837,
       "controlIdentifier": "SC-21"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1838,
       "controlIdentifier": "SC-22"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1839,
       "controlIdentifier": "SC-23"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1843,
       "controlIdentifier": "SC-24"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1847,
       "controlIdentifier": "SC-28"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1848,
       "controlIdentifier": "SC-28(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1874,
       "controlIdentifier": "SC-39"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1890,
       "controlIdentifier": "SC-45"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1891,
       "controlIdentifier": "SC-45(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1893,
       "controlIdentifier": "SC-46"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1900,
       "controlIdentifier": "SI-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1901,
       "controlIdentifier": "SI-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1902,
       "controlIdentifier": "SI-02(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1903,
       "controlIdentifier": "SI-02(03)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1908,
       "controlIdentifier": "SI-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1913,
       "controlIdentifier": "SI-04"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1914,
       "controlIdentifier": "SI-04(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1915,
       "controlIdentifier": "SI-04(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1917,
       "controlIdentifier": "SI-04(04)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1918,
       "controlIdentifier": "SI-04(05)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1927,
       "controlIdentifier": "SI-04(16)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1929,
       "controlIdentifier": "SI-04(18)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1934,
       "controlIdentifier": "SI-04(23)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1937,
       "controlIdentifier": "SI-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1939,
       "controlIdentifier": "SI-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1942,
       "controlIdentifier": "SI-07"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1943,
       "controlIdentifier": "SI-07(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1948,
       "controlIdentifier": "SI-07(07)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1956,
       "controlIdentifier": "SI-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1957,
       "controlIdentifier": "SI-08(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1959,
       "controlIdentifier": "SI-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1966,
       "controlIdentifier": "SI-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1967,
       "controlIdentifier": "SI-12"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 1981,
       "controlIdentifier": "SI-16"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2002,
       "controlIdentifier": "SR-01"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2003,
       "controlIdentifier": "SR-02"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2004,
       "controlIdentifier": "SR-02(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2005,
       "controlIdentifier": "SR-03"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2014,
       "controlIdentifier": "SR-05"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2017,
       "controlIdentifier": "SR-06"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2020,
       "controlIdentifier": "SR-08"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2023,
       "controlIdentifier": "SR-10"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2024,
       "controlIdentifier": "SR-11"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2025,
       "controlIdentifier": "SR-11(01)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2026,
       "controlIdentifier": "SR-11(02)"
     },
     {
       "profileID": "<resolved-at-import>",
-      "controlID": "<resolved-at-import>",
+      "controlID": 2028,
       "controlIdentifier": "SR-12"
     }
   ],
   "catalogTemplate": null,
-  "controlCount": 335
+  "controlCount": 335,
+  "catalog": {
+    "catalogId": 219,
+    "catalogGuid": "476dbabf-f394-4375-8ddd-0a13f34c2f82",
+    "catalogTitle": "DoW - NIST 800-53 - Rev 5 (CNSSI 1253)"
+  }
 }
